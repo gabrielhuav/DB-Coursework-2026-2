@@ -61,3 +61,29 @@ Plataforma web tipo red social enfocada en lectores, donde los usuarios pueden r
 Código Fuente Backend: [Repositorio Backend](https://github.com/Diegocstln/booksnexus-back)
 Código Fuente Frontend: [Repositorio Frontend](https://github.com/Diegocstln/mi-proyecto-bd)
 Demo en Vivo: [Booksnexus Web](https://diegocstln.github.io/mi-proyecto-bd/)
+
+# Proyecto 2: BiblioTech (Gestión de Biblioteca ESCOM)
+
+Plataforma web enfocada en la comunidad universitaria (alumnos y profesores), diseñada para facilitar la administración del catálogo de libros. Permite a los usuarios explorar millones de ejemplares en la red global mediante una API externa y gestionar solicitudes de préstamos físicos del acervo local.
+
+### 🛠️ Tecnologías Implementadas
+
+* **Base de Datos / Backend:** PostgreSQL (Supabase) y Supabase Auth
+* **Consumo de Datos:** Open Library API REST
+* **Frontend:** HTML5, CSS3 avanzado (Flexbox/Grid, variables CSS) y JavaScript vanilla (Fetch API, DOM dinámico)
+* **Despliegue:** GitHub Pages
+
+### ✨ Funcionalidades principales
+
+* Registro e inicio de sesión seguro y validado para alumnos y profesores (utilizando boleta o número de empleado).
+* Búsqueda y exploración de libros globales y en tendencia (Ciencias e Ingeniería) en tiempo real.
+* Visualización dedicada del acervo físico local disponible en la biblioteca.
+* Sistema interactivo para la solicitud de préstamos de ejemplares físicos con cálculo automático de fechas de devolución (7 días).
+* Paginación dinámica y renderizado de tarjetas de catálogo sin recargar la página.
+* Interfaz completamente responsiva con soporte integrado para Modo Claro / Modo Oscuro.
+* Sistema de internacionalización (i18n) para cambiar el idioma de la interfaz (Español, Inglés, Francés).
+
+### 🔗 Enlaces
+
+* **Código Fuente:** [Repositorio en GitHub](https://github.com/xsuik33/xsuik33.github.io)
+* **Demo en Vivo:** [BiblioTech Web](https://xsuik33.github.io)
