@@ -131,6 +131,7 @@ Plataforma web para la gestión integral de un refugio de animales, donde los us
 src="https://github.com/user-attachments/assets/a7156165-26d1-42fd-be91-c1a9f80dbd53" alt="Historial" width="400"/> |
 
 </details>
+
 ### 🔗 Enlaces
 
 - **Código Fuente:** [Repositorio en GitHub](https://github.com/JOKERKORIO/patitas-api)
