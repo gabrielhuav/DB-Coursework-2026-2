@@ -101,7 +101,7 @@ Sistema web integral para la gestión de una cafetería artesanal ubicada en Ref
 - **Demo en Vivo:** [DestinyCafe Web](https://perlasantos.github.io/DestinyCafe/)
 
 ---
-## Proyecto 10: Patitas Felices (Refugio de Animales)
+## Proyecto 3: Patitas Felices (Refugio de Animales)
 
 Plataforma web para la gestión integral de un refugio de animales, donde los usuarios pueden registrarse, buscar mascotas disponibles, enviar solicitudes de adopción y>
 
