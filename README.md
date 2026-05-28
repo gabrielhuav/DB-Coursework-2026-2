@@ -139,4 +139,28 @@ src="https://github.com/user-attachments/assets/a7156165-26d1-42fd-be91-c1a9f80d
 - **Demo en Vivo (GitHub Pages):** [Patitas Felices Web](https://jokerkorio.github.io/patitas-api/#)
 
 
+## Proyecto 50: Patitas Sanas - Veterinaria 
+Sistema web para una clínica veterinaria enfocado en realizar citas en línea, control de invetarios, 
+manejo de personal e informacion sobre los servicios proporcionados.
 
+### 🛠️ Tecnologías
+* *Backend:* Node.js y BaaS (Supabase)
+* *Base de Datos:* Supabase (PostgreSQL)
+* *Frontend:* HTML, CSS, JavaScript, React.js con Vite
+* *Despliegue:* Vercel y GitHub pages
+
+### ✨ Funcionalidades principales
+* Registro e inicio de sesión de usuarios.
+* Portal de clientes interactivo para gestionar perfiles e historial de mascotas.
+* Agendamiento automatizado de citas médicas por especialidad y horario en tiempo real.
+* Panel administrativo interno para el control de la agenda y expedientes.
+
+<details>
+<summary>🖼️ Ver capturas de pantalla</summary>
+| <img loading="lazy" src="https://github.com/Jaely19/Patitas-Sanas/blob/main/pantallap.png" alt="Vista principal de Veterinaria" width="800"/> | |
+| <img loading="lazy" src="https://github.com/Jaely19/Patitas-Sanas/blob/main/sevicios.png" alt="servicios" width="400"/> |
+</details>
+
+### 🔗 Enlaces
+Código Fuente: [Repositorio GitHub](https://github.com/Jaely19/Patitas-Sanas)
+Demo en Vivo: [Patitas Sanas Web](https://patitas-sanas.vercel.app)
