@@ -29,15 +29,35 @@ git push origin main
 
 6. Abre un Pull Request desde tu fork hacia `gabrielhuav/DB-Coursework-2026-2` (base: `main`).
 
-Recomendaciones para el PR:
+## Proyecto 1: Booksnexus (Red social de libros)
+Plataforma web tipo red social enfocada en lectores, donde los usuarios pueden registrarse, compartir reseñas, publicar opiniones sobre libros, seguir a otros usuarios y descubrir nuevas lecturas mediante interacción social.
 
-- Título sugerido: `Add <nombre corto del proyecto>`
-- En la descripción incluye:
-	- Nombre completo y matrícula
-	- Resumen del proyecto (2–3 líneas)
-	- Pasos para ejecutar y comprobar la entrega
-	- Notas sobre requisitos especiales (puertos, credenciales de prueba, etc.)
-- Mantén todos los archivos del proyecto dentro de tu carpeta. No modifiques carpetas de otros estudiantes ni archivos globales.
+### 🛠️ Tecnologías
+* *Backend:* Node.js con Express.js
+* *Base de Datos:* PostgreSQL (Supabase)
+* *Frontend:* HTML, CSS y JavaScript vanilla (Fetch API)
+* *Despliegue:* Render y GitHub pages
 
-Plantilla breve para la descripción del PR:
+<details>
+<summary>🖼️ Ver capturas de pantalla</summary>
 
+| | |
+|---|---|
+| <img loading="lazy" src="URL_IMAGEN_1" alt="Vista principal de Booksnexus" width="800"/> | |
+| <img loading="lazy" src="URL_IMAGEN_2" alt="Perfil de usuario" width="400"/> | <img loading="lazy" src="URL_IMAGEN_3" alt="Timeline de publicaciones" width="400"/> |
+| <img loading="lazy" src="URL_IMAGEN_4" alt="Gestión de libros y reseñas" width="800"/> | |
+</details>
+
+### ✨ Funcionalidades principales
+* Registro e inicio de sesión de usuarios
+* Publicación de reseñas y opiniones de libros
+* Sistema de seguidores y seguidos
+* Timeline con publicaciones de usuarios seguidos
+* Gestión de libros favoritos
+* Persistencia de datos mediante PostgreSQL
+* API REST para comunicación entre frontend y backend
+
+### 🔗 Enlaces
+Código Fuente Backend: [Repositorio Backend](https://github.com/Diegocstln/booksnexus-back)
+Código Fuente Frontend: [Repositorio Frontend](https://github.com/Diegocstln/mi-proyecto-bd)
+Demo en Vivo: [Booksnexus Web](https://diegocstln.github.io/mi-proyecto-bd/)
