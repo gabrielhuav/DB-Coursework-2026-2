@@ -319,11 +319,15 @@ backend/
 ```
  
 ---
+<<<<<<< HEAD
+>>>>>>> 6fc4c1d600fb47cba285b6a2be75fb171c0b2eda
+=======
 >>>>>>> 6fc4c1d600fb47cba285b6a2be75fb171c0b2eda
 
 <details>
 <summary>🖼️ Ver capturas de pantalla</summary>
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 | | |
 |---|---|
@@ -352,6 +356,8 @@ src="https://github.com/xsuik33/xsuik33.github.io/blob/main/Section.png" alt="Vi
 
 >>>>>>> 2d6b17956a0d96f9a0ea0b6ad4bb635c5bd9d9be
 =======
+=======
+>>>>>>> 6fc4c1d600fb47cba285b6a2be75fb171c0b2eda
 ## Capturas de pantalla
 
 | |
@@ -506,6 +512,7 @@ Para ingresar al sistema con privilegios totales de administrador y evaluar el f
 * **Código Fuente:** [Repositorio Notaría 105](https://github.com/s06008525-max/notaria-105)
 * **Demo en Vivo:** [notaria105](http://roberto.notario@notaria105.com)
   
+<<<<<<< HEAD
 
 ## Proyecto 11: BiblioTech (Gestión de Biblioteca ESCOM)
 
@@ -545,3 +552,5 @@ src="https://github.com/xsuik33/xsuik33.github.io/blob/main/Section.png" alt="Vi
 * **Código Fuente:** [Repositorio en GitHub](https://github.com/xsuik33/xsuik33.github.io)
 * **Demo en Vivo:** [BiblioTech Web](https://xsuik33.github.io)
 ---
+=======
+>>>>>>> 6fc4c1d600fb47cba285b6a2be75fb171c0b2eda
