@@ -411,7 +411,7 @@ Código Fuente: [Repositorio GitHub](https://github.com/Jaely19/Patitas-Sanas)
 Demo en Vivo: [Patitas Sanas Web](https://patitas-sanas.vercel.app)
 
 <<<<<<< HEAD
-## Proyecto 8: Data Warehouse CDMX - Consumo de Agua y Clima
+## Proyecto 10: Data Warehouse CDMX - Consumo de Agua y Clima
 
 Proyecto de Data Warehouse implementado para analizar la correlación entre el consumo de agua y las condiciones climáticas en la Ciudad de México durante 2019. Integra datos de SACMEX y Open-Meteo utilizando un modelo de base de datos en estrella.
 
