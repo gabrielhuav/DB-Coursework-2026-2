@@ -431,8 +431,8 @@ Sistema web full-stack para la gestión de una tienda o cadena de sucursales, co
 
 <details>
 <summary>🖼️ Ver capturas de pantalla</summary>
-| <img loading="lazy" src="https://github.com/scynara09-hue/Scynara-Backend/blob/main/principal.png" alt="Vista principal" width="800"/> | |
-| <img loading="lazy" src="https://github.com/scynara09-hue/Scynara-Backend/blob/main/servicios.png alt="servicios" width="400"/> |
+<img width="1289" height="815" alt="principal" src="https://github.com/user-attachments/assets/4e0a99b5-fb40-44ab-9d35-57668798aaf8" />
+<img width="1289" height="815" alt="servicios" src="https://github.com/user-attachments/assets/4d0ae50e-22b0-4823-833f-0e30a2db2174" />
 </details>
 
 Código Fuente: Frontend [Repositorio](https://github.com/scynara09-hue/Scynara-Frontend)
