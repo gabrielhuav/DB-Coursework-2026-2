@@ -409,3 +409,33 @@ manejo de personal e informacion sobre los servicios proporcionados.
 ### 🔗 Enlaces
 Código Fuente: [Repositorio GitHub](https://github.com/Jaely19/Patitas-Sanas)
 Demo en Vivo: [Patitas Sanas Web](https://patitas-sanas.vercel.app)
+
+
+## Proyecto 77: Scynara - Sistema de Gestión para Comercio Minorista
+Sistema web full-stack para la gestión de una tienda o cadena de sucursales, con control de inventario, proveedores, productos, ventas, clientes y usuarios/empleados.
+
+### 🛠️ Tecnologías
+* Frontend: React 19, Vite, React Router DOM, Axios
+* Backend: Node.js, Express 5
+* Base de datos: MySQL 
+* Autenticación: JWT, hashing con argon2
+* Validación: Zod
+* Despliegue: Railway y Vercel
+
+### ✨ Funcionalidades principales
+
+* Autenticación y gestión de usuarios
+* Gestión de proveedores
+* Gestión de productos / inventario
+* Gestión de ventas
+* Dashboard y reportes
+
+<details>
+<summary>🖼️ Ver capturas de pantalla</summary>
+| <img loading="lazy" src="https://github.com/scynara09-hue/Scynara-Backend/blob/main/principal.png" alt="Vista principal" width="800"/> | |
+| <img loading="lazy" src="https://github.com/scynara09-hue/Scynara-Backend/blob/main/servicios.png alt="servicios" width="400"/> |
+</details>
+
+Código Fuente: Frontend [Repositorio](https://github.com/scynara09-hue/Scynara-Frontend)
+Código Fuente: Backend [Repositorio](https://github.com/scynara09-hue/Scynara-Backend)
+Demo en Vivo: [Página Web](https://scynara-frontend-nuv4w7vem-niv-s-projects2.vercel.app/)
