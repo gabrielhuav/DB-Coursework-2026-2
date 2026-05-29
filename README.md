@@ -443,6 +443,70 @@ Demo en Vivo: [Patitas Sanas Web](https://patitas-sanas.vercel.app)
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Proyecto 8: Scynara - Sistema de Gestión para Comercio Minorista
+Sistema web full-stack para la gestión de una tienda o cadena de sucursales, con control de inventario, proveedores, productos, ventas, clientes y usuarios/empleados.
+
+### 🛠️ Tecnologías
+* Frontend: React 19, Vite, React Router DOM, Axios
+* Backend: Node.js, Express 5
+* Base de datos: MySQL 
+* Autenticación: JWT, hashing con argon2
+* Validación: Zod
+* Despliegue: Railway y Vercel
+
+### ✨ Funcionalidades principales
+
+* Autenticación y gestión de usuarios
+* Gestión de proveedores
+* Gestión de productos / inventario
+* Gestión de ventas
+
+<details>
+<summary>🖼️ Ver capturas de pantalla</summary>
+<img width="1289" height="815" alt="principal" src="https://github.com/user-attachments/assets/4e0a99b5-fb40-44ab-9d35-57668798aaf8" />
+<img width="1289" height="815" alt="servicios" src="https://github.com/user-attachments/assets/4d0ae50e-22b0-4823-833f-0e30a2db2174" />
+</details>
+
+Código Fuente: Frontend [Repositorio](https://github.com/scynara09-hue/Scynara-Frontend)
+Código Fuente: Backend [Repositorio](https://github.com/scynara09-hue/Scynara-Backend)
+Demo en Vivo: [Página Web](https://scynara-frontend-nuv4w7vem-niv-s-projects2.vercel.app/)
+  
+  
+  
+  
+ 
+
 ## Proyecto 10: Notaría 105 (Sistema Integral de Gestión Notarial)
 Plataforma web segura diseñada específicamente para la **Notaría Pública 105** en la Ciudad de México. Este proyecto nace para resolver la necesidad de modernizar el flujo de trabajo notarial, eliminando el papeleo físico, previniendo la pérdida de documentos y centralizando la información en un entorno digital seguro bajo principios de auditoría estricta.
  
@@ -480,35 +544,4 @@ Para ingresar al sistema con privilegios totales de administrador y evaluar el f
 🔗 Enlaces
 * **Código Fuente:** [Repositorio Notaría 105](https://github.com/s06008525-max/notaria-105)
 * **Demo en Vivo:** [notaria105](http://roberto.notario@notaria105.com)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  
