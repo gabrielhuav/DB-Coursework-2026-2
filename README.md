@@ -411,69 +411,6 @@ Código Fuente: [Repositorio GitHub](https://github.com/Jaely19/Patitas-Sanas)
 Demo en Vivo: [Patitas Sanas Web](https://patitas-sanas.vercel.app)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Proyecto 8: Scynara - Sistema de Gestión para Comercio Minorista
 Sistema web full-stack para la gestión de una tienda o cadena de sucursales, con control de inventario, proveedores, productos, ventas, clientes y usuarios/empleados.
 
@@ -502,10 +439,6 @@ Código Fuente: Frontend [Repositorio](https://github.com/scynara09-hue/Scynara-
 Código Fuente: Backend [Repositorio](https://github.com/scynara09-hue/Scynara-Backend)
 Demo en Vivo: [Página Web](https://scynara-frontend-nuv4w7vem-niv-s-projects2.vercel.app/)
   
-  
-  
-  
- 
 
 ## Proyecto 10: Notaría 105 (Sistema Integral de Gestión Notarial)
 Plataforma web segura diseñada específicamente para la **Notaría Pública 105** en la Ciudad de México. Este proyecto nace para resolver la necesidad de modernizar el flujo de trabajo notarial, eliminando el papeleo físico, previniendo la pérdida de documentos y centralizando la información en un entorno digital seguro bajo principios de auditoría estricta.
