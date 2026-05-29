@@ -411,7 +411,7 @@ Código Fuente: [Repositorio GitHub](https://github.com/Jaely19/Patitas-Sanas)
 Demo en Vivo: [Patitas Sanas Web](https://patitas-sanas.vercel.app)
 
 
-## Proyecto 77: Scynara - Sistema de Gestión para Comercio Minorista
+## Proyecto 8: Scynara - Sistema de Gestión para Comercio Minorista
 Sistema web full-stack para la gestión de una tienda o cadena de sucursales, con control de inventario, proveedores, productos, ventas, clientes y usuarios/empleados.
 
 ### 🛠️ Tecnologías
