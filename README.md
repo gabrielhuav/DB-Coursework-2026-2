@@ -428,7 +428,6 @@ Sistema web full-stack para la gestión de una tienda o cadena de sucursales, co
 * Gestión de proveedores
 * Gestión de productos / inventario
 * Gestión de ventas
-* Dashboard y reportes
 
 <details>
 <summary>🖼️ Ver capturas de pantalla</summary>
