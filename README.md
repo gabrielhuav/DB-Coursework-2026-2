@@ -409,3 +409,21 @@ manejo de personal e informacion sobre los servicios proporcionados.
 ### 🔗 Enlaces
 Código Fuente: [Repositorio GitHub](https://github.com/Jaely19/Patitas-Sanas)
 Demo en Vivo: [Patitas Sanas Web](https://patitas-sanas.vercel.app)
+
+## Proyecto 8: Data Warehouse CDMX - Consumo de Agua y Clima
+
+Proyecto de Data Warehouse implementado para analizar la correlación entre el consumo de agua y las condiciones climáticas en la Ciudad de México durante 2019. Integra datos de SACMEX y Open-Meteo utilizando un modelo de base de datos en estrella.
+
+### 🛠️ Tecnologías
+* **Base de Datos:** PostgreSQL 16
+* **Infraestructura:** Docker y Docker Compose
+* **Procesamiento de Datos:** Scripts SQL puro (DDL y procesos ETL)
+
+### ✨ Funcionalidades principales
+* Diseño de base de datos analítica con modelo de estrella (tablas de hechos y dimensiones como tiempo, ubicación e índice de desarrollo).
+* Pipeline ETL automatizado mediante scripts SQL para la extracción, transformación y carga desde archivos CSV.
+* Entorno de despliegue completamente "containerizado" y reproducible.
+* Consultas analíticas complejas para el cálculo de correlaciones bimestrales.
+
+### 🔗 Enlaces
+* **Código Fuente:** [Repositorio en GitHub](https://github.com/omarpulidom/data_warehouse_cdmx/)
