@@ -343,3 +343,42 @@ backend/
 
 
 ---
+
+
+## Proyecto 6: VinylVibes(Venta de vinilos)
+Plataforma web de venta de discos de vinilo, donde los usuarios pueden buscar entre millones de álbumes, ver información detallada de cada disco incluyendo portada, historia y video, y realizar compras. El catálogo se alimenta en tiempo real desde Discogs y se enriquece automáticamente con datos de MusicBrainz y Last.fm.
+
+### Tecnologías
+* **Backend:** Node.js con Express.js
+* **Base de Datos:** PostgreSQL (Neon)
+* **Frontend:** HTML, CSS y JavaScript vanilla
+* **Despliegue:** Render y GitHub Pages
+* **APIs externas:** Discogs, MusicBrainz, Last.fm, YouTube, Cover Art Archive
+
+<details>
+<summary>Ver capturas de pantalla</summary>
+
+| | |
+|---|---|
+| <img loading="lazy" src="https://github.com/user-attachments/assets/1ad4d892-9777-4b9b-8305-ebe85305cfd8" alt="Página principal de VinylVibes" width="800"/> | |
+| <img loading="lazy" src="https://github.com/user-attachments/assets/4ef93b08-d50d-46b7-9491-7cd907dcb663" alt="Búsqueda de discos" width="400"/> 
+| <img loading="lazy" src="https://github.com/user-attachments/assets/d25a3a1b-95c4-42bd-ba2c-5e856abe432c"" alt="Detalles del Disco" width="800"/> | |
+| <img loading="lazy" src="https://github.com/user-attachments/assets/85bc9a9c-7fed-48f3-bfd0-0ccc9d24ad4c
+" alt="Datos de envío" width="800"/> | |
+
+</details>
+
+### Funcionalidades principales
+* Búsqueda en tiempo real contra la API de Discogs
+* Portadas obtenidas automáticamente desde MusicBrainz y Last.fm
+* Historia de cada álbum desde Last.fm o MusicBrainz en cascada
+* Video del álbum embebido desde YouTube
+* API REST para comunicación entre frontend y backend
+* Sistema de caché en PostgreSQL para optimizar consultas repetidas
+* Registro e inicio de sesión de usuarios
+* Carrito de compras y gestión de pedidos
+
+### 🔗 Enlaces
+Código Fuente Backend: [Repositorio Backend](https://github.com/akibanks/api-tienda-vinilos)
+Código Fuente Frontend: [Repositorio Frontend](https://github.com/akibanks/tienda_musica_web)
+Demo en Vivo: [VinylVibes](https://akibanks.github.io/tienda_musica_web/)
