@@ -618,3 +618,25 @@ consulta
 Password:
 rdBg2yGGGR
 </details>
+
+
+## Proyecto XII PAPIROSSO (papeleria)
+
+**Integrantes:** [Rodríguez Martínez José y Rosales Juarez Alexis]
+**GitHub:** https://github.com/jorvsk2007/jorvsk2007.github.io.git
+**LandingPage:** https://jorvsk2007.github.io/
+
+### Descripción del Proceso de Normalización
+Mediante nuestro proyecto buscamos implementar una automatizacion para cobros, registro de mercancias y clientes así como trabajadores mediante un portal web para agilizar el tiempo de una venta y reducir el consumo de papel y errores matemáticos.
+Con esto buscamos lograr que nuestra papeleria (papirosso) tenga un mejor control de su mercancia así como sus ventas y agregar la funcionalidad de que los clientes más frecuentes puedan acceder a una página exclusiva para realizar sus pedidos y recogerlos directo en la sucursal fisica.
+
+## Imagenes del proyecto 
+<img width="1878" height="1113" alt="2026-05-29_18-44-20" loading="lazy" src="https://github.com/user-attachments/assets/a5274b5a-6fc6-487d-95c1-1d2ac9a4ff66" />
+<img width="1878" height="1113" alt="2026-05-29_18-45-33" loading="lazy" src="https://github.com/user-attachments/assets/d343cac2-0641-4376-ab42-b0d4a228c538" />
+<img width="1878" height="1113" alt="2026-05-29_18-45-48" loading="lazy" src="https://github.com/user-attachments/assets/8c64a28e-acfe-4c02-a4b0-6d8ed89c6b83" />
+<img width="1878" height="1113" alt="2026-05-29_18-46-30" loading="lazy" src="https://github.com/user-attachments/assets/e037140c-ba22-4ca6-9f1a-cefd6bae8700" />
+<img width="1878" height="1113" alt="2026-05-29_18-46-42" loading="lazy" src="https://github.com/user-attachments/assets/e77cea9c-bc48-4035-9995-e5ffaa957f16" />
+<img width="1878" height="1113" alt="2026-05-29_18-46-45" loading="lazy" src="https://github.com/user-attachments/assets/c647bef8-3bb6-4ec3-b36e-a5950cd41182" />
+<img width="1878" height="1113" alt="2026-05-29_18-46-48" loading="lazy" src="https://github.com/user-attachments/assets/604236f6-f7ea-4f1e-a5c8-e8819e5d81fd" />
+<img width="1878" height="1113" alt="2026-05-29_18-46-51" loading="lazy" src="https://github.com/user-attachments/assets/feb1e79c-ff4d-48c0-8113-8e008a1c88f7" />
+<img width="1" height="1" alt="2026-05-29_18-46-54" loading="lazy" src="https://github.com/user-attachments/assets/6e231d2b-f8a8-43d7-978e-c0854b1aeb4c" />
