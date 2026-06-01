@@ -656,9 +656,9 @@ Sistema web de reservas para la Academia De Barbería The Hipster (Lindavista, C
 
 | | |
 |---|---|
-| <img loading="lazy" src="barber-cerdas/img/01-landing.png" alt="Página principal de Academia The Hipster" width="400"/> | <img loading="lazy" src="barber-cerdas/img/02-servicios.png" alt="Catálogo de servicios" width="400"/> |
-| <img loading="lazy" src="barber-cerdas/img/03-equipo.png" alt="Equipo de barberos" width="400"/> | <img loading="lazy" src="barber-cerdas/img/04-ubicacion.png" alt="Ubicación y sucursales" width="400"/> |
-| <img loading="lazy" src="barber-cerdas/img/05-login.png" alt="Inicio de sesión y registro" width="400"/> | <img loading="lazy" src="barber-cerdas/img/06-agendar.png" alt="Wizard para agendar cita" width="400"/> |
+| <img loading="lazy" src="https://raw.githubusercontent.com/StrlgE26/Barberia/main/barber-cerdas/img/01-landing.png" alt="Página principal de Academia The Hipster" width="400"/> | <img loading="lazy" src="https://raw.githubusercontent.com/StrlgE26/Barberia/main/barber-cerdas/img/02-servicios.png" alt="Catálogo de servicios" width="400"/> |
+| <img loading="lazy" src="https://raw.githubusercontent.com/StrlgE26/Barberia/main/barber-cerdas/img/03-equipo.png" alt="Equipo de barberos" width="400"/> | <img loading="lazy" src="https://raw.githubusercontent.com/StrlgE26/Barberia/main/barber-cerdas/img/04-ubicacion.png" alt="Ubicación y sucursales" width="400"/> |
+| <img loading="lazy" src="https://raw.githubusercontent.com/StrlgE26/Barberia/main/barber-cerdas/img/05-login.png" alt="Inicio de sesión y registro" width="400"/> | <img loading="lazy" src="https://raw.githubusercontent.com/StrlgE26/Barberia/main/barber-cerdas/img/06-agendar.png" alt="Wizard para agendar cita" width="400"/> |
 </details>
 
 ### ✨ Funcionalidades principales
