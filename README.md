@@ -401,7 +401,6 @@ Sistema web desarrollado para modernizar y optimizar la administración de una c
 
 ##  Funcionalidades principales
 
-=======
 * Gestión de productos
 * Gestión de clientes
 * Gestión de proveedores
@@ -478,3 +477,81 @@ Para solucionar este problema, se desarrolló una plataforma web conectada a una
 ### 🔗 Enlaces
 Código Fuente: [Repositorio](https://github.com/sofi-14/gitfin)
 Página web: [PáginaWeb](https://sofi-14.github.io/gitfin/)
+
+### 🔗 Enlaces
+* **Código Fuente:** [Repositorio en GitHub](https://github.com/DerekArenas/kafra-dashboard)
+* **Demo en Vivo (Github Pages):** [Pagina Distribuidora Kafra](https://derekarenas.github.io/kafra-dashboard/)
+
+<details>
+<summary>🖼️ Login para consulta</summary>
+User:
+consulta
+Password:
+rdBg2yGGGR
+</details>
+
+
+## Proyecto XII PAPIROSSO (papeleria)
+
+**Integrantes:** [Rodríguez Martínez José y Rosales Juarez Alexis]
+**GitHub:** https://github.com/jorvsk2007/jorvsk2007.github.io.git
+**LandingPage:** https://jorvsk2007.github.io/
+
+### Descripción del Proceso de Normalización
+Mediante nuestro proyecto buscamos implementar una automatizacion para cobros, registro de mercancias y clientes así como trabajadores mediante un portal web para agilizar el tiempo de una venta y reducir el consumo de papel y errores matemáticos.
+Con esto buscamos lograr que nuestra papeleria (papirosso) tenga un mejor control de su mercancia así como sus ventas y agregar la funcionalidad de que los clientes más frecuentes puedan acceder a una página exclusiva para realizar sus pedidos y recogerlos directo en la sucursal fisica.
+
+## Imagenes del proyecto 
+<img loading="lazy" src="https://github.com/jorvsk2007/jorvsk2007.github.io/blob/main/imagenesRepoGeneral/2026-05-29_18-44-20.png">
+<img loading="lazy" src="https://github.com/jorvsk2007/jorvsk2007.github.io/blob/main/imagenesRepoGeneral/2026-05-29_18-45-33.png">
+<img loading="lazy" src="https://github.com/jorvsk2007/jorvsk2007.github.io/blob/main/imagenesRepoGeneral/2026-05-29_18-45-48.png">
+<img loading="lazy" src="https://github.com/jorvsk2007/jorvsk2007.github.io/blob/main/imagenesRepoGeneral/2026-05-29_18-46-30.png">
+<img loading="lazy" src="https://github.com/jorvsk2007/jorvsk2007.github.io/blob/main/imagenesRepoGeneral/2026-05-29_18-46-42.png">
+<img loading="lazy" src="https://github.com/jorvsk2007/jorvsk2007.github.io/blob/main/imagenesRepoGeneral/2026-05-29_18-46-45.png">
+<img loading="lazy" src="https://github.com/jorvsk2007/jorvsk2007.github.io/blob/main/imagenesRepoGeneral/2026-05-29_18-46-48.png">
+<img loading="lazy" src="https://github.com/jorvsk2007/jorvsk2007.github.io/blob/main/imagenesRepoGeneral/2026-05-29_18-46-51.png">
+<img loading="lazy" src="https://github.com/jorvsk2007/jorvsk2007.github.io/blob/main/imagenesRepoGeneral/2026-05-29_18-46-54.png">
+
+
+# Proyecto 21: Carnicería Camacho (Sistema de Gestión de Carnicería)
+
+Sistema web desarrollado para modernizar y optimizar la administración de una carnicería mediante una página web conectada a una base de datos en Supabase. El sistema permite gestionar productos, clientes, proveedores y ventas en tiempo real mediante operaciones CRUD.
+
+##  Tecnologías
+
+* **Base de Datos:** PostgreSQL (Supabase)
+* **Frontend:** HTML y JavaScript
+* **Backend:** Supabase API REST y funciones SQL
+* **Despliegue:** GitHub Pages
+
+##  Funcionalidades principales
+
+* Gestión de productos
+* Gestión de clientes
+* Gestión de proveedores
+* Registro de ventas
+* Operaciones CRUD completas
+* Cálculo automático de impuesto y total
+* Conexión en tiempo real con Supabase
+* Seguridad mediante RLS y Policies
+
+##  Seguridad
+
+* Uso de anon public key
+* Protección mediante Row Level Security (RLS)
+* Policies para controlar lectura, inserción, actualización y eliminación de datos
+
+## 🔗 Conexión de la aplicación
+
+Página web : https://ivanrvillegas10-dev.github.io/carniceria/
+
+Repositorio : https://github.com/ivanrvillegas10-dev/carniceria
+
+<h3>Login</h3>
+<img src="https://github.com/user-attachments/assets/35ec3b13-3e45-430f-b918-a2746ce77ecf" alt="Login" width="800"/>
+
+<h3>Página principal</h3>
+<img src="https://github.com/user-attachments/assets/288cf883-9485-49e2-8df8-5de2ba3c2fbd" alt="Página principal" width="800"/>
+
+<h3>Productos</h3>
+<img src="https://github.com/user-attachments/assets/cf3d4ac4-8aa1-4345-84a8-298096fb80af" alt="Productos" width="800"/>
