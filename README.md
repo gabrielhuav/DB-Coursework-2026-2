@@ -29,34 +29,20 @@ git push origin main
 
 6. Abre un Pull Request desde tu fork hacia `gabrielhuav/DB-Coursework-2026-2` (base: `main`).
 
-## Proyecto 1: Booksnexus (Red social de libros)
-Plataforma web tipo red social enfocada en lectores, donde los usuarios pueden registrarse, compartir reseñas, publicar opiniones sobre libros, seguir a otros usuarios y descubrir nuevas lecturas mediante interacción social.
+# 🥩 Proyecto: Carnicería Camacho (Sistema de Gestión de Carnicería)
 
-### 🛠️ Tecnologías
-* *Backend:* Node.js con Express.js
-* *Base de Datos:* PostgreSQL (Supabase)
-* *Frontend:* HTML, CSS y JavaScript vanilla (Fetch API)
-* *Despliegue:* Render y GitHub pages
+Sistema web desarrollado para modernizar y optimizar la administración de una carnicería mediante una página web conectada a una base de datos en Supabase. El sistema permite gestionar productos, clientes, proveedores y ventas en tiempo real mediante operaciones CRUD.
 
-<details>
-<summary>🖼️ Ver capturas de pantalla</summary>
+##  Tecnologías
 
-| | |
-|---|---|
-| <img loading="lazy" src="URL_IMAGEN_1" alt="Vista principal de Booksnexus" width="800"/> | |
-| <img loading="lazy" src="URL_IMAGEN_2" alt="Perfil de usuario" width="400"/> | <img loading="lazy" src="URL_IMAGEN_3" alt="Timeline de publicaciones" width="400"/> |
-| <img loading="lazy" src="URL_IMAGEN_4" alt="Gestión de libros y reseñas" width="800"/> | |
-</details>
+* **Base de Datos:** PostgreSQL (Supabase)
+* **Frontend:** HTML y JavaScript
+* **Backend:** Supabase API REST y funciones SQL
+* **Despliegue:** GitHub Pages
 
-### ✨ Funcionalidades principales
-* Registro e inicio de sesión de usuarios
-* Publicación de reseñas y opiniones de libros
-* Sistema de seguidores y seguidos
-* Timeline con publicaciones de usuarios seguidos
-* Gestión de libros favoritos
-* Persistencia de datos mediante PostgreSQL
-* API REST para comunicación entre frontend y backend
+##  Funcionalidades principales
 
+<<<<<<< HEAD
 ### 🔗 Enlaces
 Código Fuente Backend: [Repositorio Backend](https://github.com/Diegocstln/booksnexus-back)
 Código Fuente Frontend: [Repositorio Frontend](https://github.com/Diegocstln/mi-proyecto-bd)
@@ -655,6 +641,8 @@ Sistema web desarrollado para modernizar y optimizar la administración de una c
 
 ##  Funcionalidades principales
 
+=======
+>>>>>>> c45203a9dc9dde7a8858063076913abc0603e90b
 * Gestión de productos
 * Gestión de clientes
 * Gestión de proveedores
@@ -674,4 +662,17 @@ Sistema web desarrollado para modernizar y optimizar la administración de una c
 
 Página web : https://ivanrvillegas10-dev.github.io/carniceria/
 
+<<<<<<< HEAD
 Repositorio : https://github.com/ivanrvillegas10-dev/carniceria
+=======
+Repositorio : https://github.com/ivanrvillegas10-dev/carniceria
+
+<h3>Login</h3>
+<img src="https://github.com/user-attachments/assets/35ec3b13-3e45-430f-b918-a2746ce77ecf" alt="Login" width="800"/>
+
+<h3>Página principal</h3>
+<img src="https://github.com/user-attachments/assets/288cf883-9485-49e2-8df8-5de2ba3c2fbd" alt="Página principal" width="800"/>
+
+<h3>Productos</h3>
+<img src="https://github.com/user-attachments/assets/cf3d4ac4-8aa1-4345-84a8-298096fb80af" alt="Productos" width="800"/>
+>>>>>>> c45203a9dc9dde7a8858063076913abc0603e90b
