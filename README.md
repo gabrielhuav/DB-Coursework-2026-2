@@ -52,9 +52,9 @@ https://github.com/itzelnavarrete/ferreteria-TICO
 
 ![Formulario](img/captura_formulario.png)
 
-## Estadísticas y búsqueda
+## Ventas
 
-![Estadísticas](img/captura_estadisticas.png)
+![Ventas](img/capturas_ventas.png)
 
 ---
 
