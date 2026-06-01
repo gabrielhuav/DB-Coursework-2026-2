@@ -435,7 +435,7 @@ Repositorio : https://github.com/ivanrvillegas10-dev/carniceria
 
 
 
-## Proyecto 13: Huellitas
+## Proyecto 22: Huellitas
 
 Huellitas es una fundación enfocada en brindar un hogar y mejores oportunidades a animales en situación de abandono. Con el desarrollo de una página web, se mejoró significativamente la presencia digital de la fundación, ya que anteriormente únicamente operaba de manera presencial y sin publicidad en línea.
 
