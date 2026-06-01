@@ -29,7 +29,17 @@ git push origin main
 
 6. Abre un Pull Request desde tu fork hacia `gabrielhuav/DB-Coursework-2026-2` (base: `main`).
 
+## Proyecto 1: Booksnexus (Red social de libros)
+Plataforma web tipo red social enfocada en lectores, donde los usuarios pueden registrarse, compartir reseñas, publicar opiniones sobre libros, seguir a otros usuarios y descubrir nuevas lecturas mediante interacción social.
 
+### 🛠️ Tecnologías
+* *Backend:* Node.js con Express.js
+* *Base de Datos:* PostgreSQL (Supabase)
+* *Frontend:* HTML, CSS y JavaScript vanilla (Fetch API)
+* *Despliegue:* Render y GitHub pages
+
+<details>
+<summary>🖼️ Ver capturas de pantalla</summary>
 
 ##  Funcionalidades principales
 
