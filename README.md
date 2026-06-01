@@ -642,3 +642,36 @@ Con esto buscamos lograr que nuestra papeleria (papirosso) tenga un mejor contro
 <img loading="lazy" src="https://github.com/jorvsk2007/jorvsk2007.github.io/blob/main/imagenesRepoGeneral/2026-05-29_18-46-54.png">
 
 
+# Proyecto 21: Carnicería Camacho (Sistema de Gestión de Carnicería)
+
+Sistema web desarrollado para modernizar y optimizar la administración de una carnicería mediante una página web conectada a una base de datos en Supabase. El sistema permite gestionar productos, clientes, proveedores y ventas en tiempo real mediante operaciones CRUD.
+
+##  Tecnologías
+
+* **Base de Datos:** PostgreSQL (Supabase)
+* **Frontend:** HTML y JavaScript
+* **Backend:** Supabase API REST y funciones SQL
+* **Despliegue:** GitHub Pages
+
+##  Funcionalidades principales
+
+* Gestión de productos
+* Gestión de clientes
+* Gestión de proveedores
+* Registro de ventas
+* Operaciones CRUD completas
+* Cálculo automático de impuesto y total
+* Conexión en tiempo real con Supabase
+* Seguridad mediante RLS y Policies
+
+##  Seguridad
+
+* Uso de anon public key
+* Protección mediante Row Level Security (RLS)
+* Policies para controlar lectura, inserción, actualización y eliminación de datos
+
+## 🔗 Conexión de la aplicación
+
+Página web : https://ivanrvillegas10-dev.github.io/carniceria/
+
+Repositorio : https://github.com/ivanrvillegas10-dev/carniceria
