@@ -480,6 +480,10 @@ manejo de personal e informacion sobre los servicios proporcionados.
 | <img loading="lazy" src="https://github.com/Jaely19/Patitas-Sanas/blob/main/sevicios.png" alt="servicios" width="400"/> |
 </details>
 
+### Usuarios:
+*Usuario de Prueba: Correo: Prueba1@gmail.com Contraseña: 123456789
+*Admin: Correo: admin@gmail.com Contraseña: Admin2026
+
 ### 🔗 Enlaces
 Código Fuente: [Repositorio GitHub](https://github.com/Jaely19/Patitas-Sanas)
 Demo en Vivo: [Patitas Sanas Web](https://patitas-sanas.vercel.app)
