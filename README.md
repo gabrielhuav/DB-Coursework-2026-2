@@ -711,7 +711,7 @@ Con esto buscamos lograr que nuestra papeleria (papirosso) tenga un mejor contro
 
 ---
 
-# Proyecto 7: BiblioTech (Gestión de Biblioteca ESCOM)
+# Proyecto 33: BiblioTech (Gestión de Biblioteca ESCOM)
 
 Plataforma web enfocada en la comunidad universitaria (alumnos y profesores), diseñada para facilitar la administración del catálogo de libros. Permite a los usuarios explorar millones de ejemplares en la red global mediante una API externa y gestionar solicitudes de préstamos físicos del acervo local.
 
