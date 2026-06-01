@@ -29,17 +29,9 @@ git push origin main
 
 6. Abre un Pull Request desde tu fork hacia `gabrielhuav/DB-Coursework-2026-2` (base: `main`).
 
-## Proyecto 1: Booksnexus (Red social de libros)
-Plataforma web tipo red social enfocada en lectores, donde los usuarios pueden registrarse, compartir reseñas, publicar opiniones sobre libros, seguir a otros usuarios y descubrir nuevas lecturas mediante interacción social.
 
-### 🛠️ Tecnologías
-* *Backend:* Node.js con Express.js
-* *Base de Datos:* PostgreSQL (Supabase)
-* *Frontend:* HTML, CSS y JavaScript vanilla (Fetch API)
-* *Despliegue:* Render y GitHub pages
 
-<details>
-<summary>🖼️ Ver capturas de pantalla</summary>
+##  Funcionalidades principales
 
 | | |
 |---|---|
@@ -479,6 +471,10 @@ manejo de personal e informacion sobre los servicios proporcionados.
 | <img loading="lazy" src="https://github.com/Jaely19/Patitas-Sanas/blob/main/sevicios.png" alt="servicios" width="400"/> |
 </details>
 
+### Usuarios:
+*Usuario de Prueba: Correo: Prueba1@gmail.com Contraseña: 123456789
+*Admin: Correo: admin@gmail.com Contraseña: Admin2026
+
 ### 🔗 Enlaces
 Código Fuente: [Repositorio GitHub](https://github.com/Jaely19/Patitas-Sanas)
 Demo en Vivo: [Patitas Sanas Web](https://patitas-sanas.vercel.app)
@@ -675,3 +671,47 @@ Sistema web de reservas para la Academia De Barbería The Hipster (Lindavista, C
 ### 🔗 Enlaces
 Código Fuente: [Repositorio del proyecto](https://github.com/StrlgE26/Barberia)
 Demo en Vivo: [Barber Cerdas](https://www.koddesolutions.com/)
+
+# Proyecto 21: Carnicería Camacho (Sistema de Gestión de Carnicería)
+
+Sistema web desarrollado para modernizar y optimizar la administración de una carnicería mediante una página web conectada a una base de datos en Supabase. El sistema permite gestionar productos, clientes, proveedores y ventas en tiempo real mediante operaciones CRUD.
+
+##  Tecnologías
+
+* **Base de Datos:** PostgreSQL (Supabase)
+* **Frontend:** HTML y JavaScript
+* **Backend:** Supabase API REST y funciones SQL
+* **Despliegue:** GitHub Pages
+
+##  Funcionalidades principales
+
+
+* Gestión de productos
+* Gestión de clientes
+* Gestión de proveedores
+* Registro de ventas
+* Operaciones CRUD completas
+* Cálculo automático de impuesto y total
+* Conexión en tiempo real con Supabase
+* Seguridad mediante RLS y Policies
+
+##  Seguridad
+
+* Uso de anon public key
+* Protección mediante Row Level Security (RLS)
+* Policies para controlar lectura, inserción, actualización y eliminación de datos
+
+## 🔗 Conexión de la aplicación
+
+Página web : https://ivanrvillegas10-dev.github.io/carniceria/
+
+Repositorio : https://github.com/ivanrvillegas10-dev/carniceria
+
+<h3>Login</h3>
+<img src="https://github.com/user-attachments/assets/35ec3b13-3e45-430f-b918-a2746ce77ecf" alt="Login" width="800"/>
+
+<h3>Página principal</h3>
+<img src="https://github.com/user-attachments/assets/288cf883-9485-49e2-8df8-5de2ba3c2fbd" alt="Página principal" width="800"/>
+
+<h3>Productos</h3>
+<img src="https://github.com/user-attachments/assets/cf3d4ac4-8aa1-4345-84a8-298096fb80af" alt="Productos" width="800"/>
