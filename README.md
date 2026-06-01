@@ -1,7 +1,4 @@
-<img width="1600" height="1068" alt="captura_inventario" src="https://github.com/user-attachments/assets/e0353579-6c93-48d3-9808-852378772e38" />
-<img width="1600" height="1068" alt="captura_inicio" src="https://github.com/user-attachments/assets/e85709c9-fa1c-40fe-8851-922d6c3d2d75" />
-<img width="1600" height="756" alt="capturas_ventas" src="https://github.com/user-attachments/assets/d69f4142-6dc7-4d0a-9747-6969b6e60f3d" />
-<img width="1600" height="779" alt="captura_formulario" src="https://github.com/user-attachments/assets/edf6f49b-4463-4dcb-a9aa-d3c264ee403d" />
+
 # 🔧 Ferretería Tico — Sistema Web de Inventario
 
 ## 👥 Integrantes
