@@ -752,3 +752,45 @@ Sistema web para el agendado y gestión de citas medicas en un hospital
 ##🔗 Enlaces del Proyecto
 Código Fuente: [Repositorio Github] (https://github.com/warinsanomachine/Sistema-de-citas.git)
 Demo en Vivo: [Sistema Medico] (http://sistemamedico.sp1.br.saveincloud.net.br/main.jsp)
+
+## Proyecto 21: Carnicería Camacho (Sistema de Gestión de Carnicería)
+
+Sistema web desarrollado para modernizar y optimizar la administración de una carnicería mediante una página web conectada a una base de datos en Supabase. El sistema permite gestionar productos, clientes, proveedores y ventas en tiempo real mediante operaciones CRUD.
+
+##  Tecnologías
+
+* **Base de Datos:** PostgreSQL (Supabase)
+* **Frontend:** HTML y JavaScript
+* **Backend:** Supabase API REST y funciones SQL
+* **Despliegue:** GitHub Pages
+
+##  Funcionalidades principales
+
+* Gestión de productos
+* Gestión de clientes
+* Gestión de proveedores
+* Registro de ventas
+* Operaciones CRUD completas
+* Cálculo automático de impuesto y total
+* Conexión en tiempo real con Supabase
+* Seguridad mediante RLS y Policies
+
+##  Seguridad
+
+* Uso de anon public key
+* Protección mediante Row Level Security (RLS)
+* Policies para controlar lectura, inserción, actualización y eliminación de datos
+
+## 🔗 Conexión de la aplicación
+
+Página web : https://ivanrvillegas10-dev.github.io/carniceria/
+
+Repositorio : https://github.com/ivanrvillegas10-dev/carniceria
+
+IMAGENES 
+
+<img src="https://github.com/user-attachments/assets/35ec3b13-3e45-430f-b918-a2746ce77ecf" alt="Imagen 1" width="800"/>
+
+<img src="https://github.com/user-attachments/assets/288cf883-9485-49e2-8df8-5de2ba3c2fbd" alt="Imagen 2" width="800"/>
+
+<img src="https://github.com/user-attachments/assets/cf3d4ac4-8aa1-4345-84a8-298096fb80af" alt="Imagen 3" width="800"/>
