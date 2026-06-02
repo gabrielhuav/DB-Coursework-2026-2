@@ -687,3 +687,34 @@ Para solucionar este problema, se desarrolló una plataforma web conectada a una
 ### 🔗 Enlaces
 Código Fuente: [Repositorio](https://github.com/sofi-14/gitfin)
 Página web: [PáginaWeb](https://sofi-14.github.io/gitfin/)
+
+
+##😷 Proyecto 99x: Sistema de Agendado de citas medicas
+Sistema web para el agendado y gestión de citas medicas en un hospital
+
+#🛠️ Tecnologías
+- Backend: Java, Apache Netbeans
+- Base de Datos: PostgreSQL 
+- Frontend: HTML, CSS (Bootstrap 5) y JavaScript vanilla (Fetch API)
+- Despliegue: Save in cloud
+
+##📢 Funciones Principales
+- Permitir a pacientes agendar citas medicas con base en la situación por la que se necesita agendar la cita, la fecha y la hora.
+- Gestión de médicos, situaciones de cita, especialidades y consultorios desde un menú de administrador
+- Visualización de las citas de cada médico desde una sesión personal para cada doctor
+- Escritura de receta médica para cada cita agendada en el sistema
+
+##👨‍👩‍👧‍👦 Integrantes del equipo
+- Flores Vargas Augusto Hazel
+- Hernandez Zuñiga Andrea Veronica
+- Linares Medina Fernando Agustin
+- Angeles Salinas Daniel Alejandro
+
+<img loading="lazy" width="1800" height="724" alt="Captura de pantalla 2026-05-28 192656" src="https://github.com/user-attachments/assets/7e617b84-42e8-49f9-8907-274c34e515bd" />
+<img loading="lazy" width="1190" height="736" alt="Captura de pantalla 2026-05-28 193621" src="https://github.com/user-attachments/assets/cfd6fdaf-692a-43a2-83fd-e357257a4117" />
+<img loading="lazy" width="1874" height="666" alt="Captura de pantalla 2026-05-28 193641" src="https://github.com/user-attachments/assets/c40df635-46ac-4868-8750-0b76bc2a32ce" />
+
+
+##🔗 Enlaces del Proyecto
+Código Fuente: [Repositorio Github] (https://github.com/warinsanomachine/Sistema-de-citas.git)
+Demo en Vivo: [Sistema Medico] (http://sistemamedico.sp1.br.saveincloud.net.br/main.jsp)
