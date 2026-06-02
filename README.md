@@ -752,3 +752,42 @@ Sistema web para el agendado y gestión de citas medicas en un hospital
 ##🔗 Enlaces del Proyecto
 Código Fuente: [Repositorio Github] (https://github.com/warinsanomachine/Sistema-de-citas.git)
 Demo en Vivo: [Sistema Medico] (http://sistemamedico.sp1.br.saveincloud.net.br/main.jsp)
+
+## Proyecto 23: Payapp+
+Payapp es un sistema gestor de servicios financieros que ayuda al cliente a tener una mejor gestion de sus finanzas, asi como tambien ofrece distintas opciones que se adecuan a las necesidades del cliente.
+
+## 🛠️ Tecnologías
+  - Backend:
+  Node.js con Express.js para manejar las rutas y controladores.
+  Configuración en server.js para levantar el servidor.
+  - Base de datos:
+  PostgreSQL, gestionada mediante conexión desde Node.js.
+  Variables de entorno en el archivo .env para credenciales y configuración.
+  - Frontend:
+  Carpeta frontend con HTML, CSS y JavaScript.
+  Posible uso de librerías como Bootstrap para estilos.
+
+## ⚙️ Funciones principales
+  Registro e inicio de sesión de usuarios
+  Manejo de cuentas con autenticación segura.
+  Uso de variables de entorno para credenciales.
+  Gestión de pagos
+  Creación de transacciones entre usuarios.
+  Control de montos, fechas y estados de pago.
+  Administración de usuarios
+  Alta, baja y modificación de perfiles.
+  Validación de datos antes de guardar en la base de datos.
+
+## 👨‍👩‍👧‍👦 Integrantes
+  - Acosta Davila Omar Esau
+  - Bernal Cruz Hector Daniel
+  - Campos Blancas Vanessa
+
+## SS de Funcionamiento
+  - <img loading="lazy" width="1800" height="724" alt="Dashboard Admin" src="https://github.com/iiTzDaany/PayApp/blob/main/Imagenes%20Prueba/Dashboard_Admin.png" />|
+  - <img loading="lazy" width="1800" height="724" alt="Dashboard User" src="https://github.com/iiTzDaany/PayApp/blob/main/Imagenes%20Prueba/Dashboard_Usuario.png" />|
+  - <img loading="lazy" width="1800" height="724" alt="Dashboard login" src="https://github.com/iiTzDaany/PayApp/blob/main/Imagenes%20Prueba/Inicio_de_Sesion.png" />|
+
+## 🔗 Enlaces del Proyecto
+  - Código Fuente: [Repositorio Github]: https://github.com/iiTzDaany/PayApp/tree/main
+  - Demo en vivo: [Payapp]: https://iitzdaany.github.io/PayApp/
