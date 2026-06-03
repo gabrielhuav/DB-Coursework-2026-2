@@ -216,11 +216,6 @@ El sistema está dividido en secciones interactivas que se actualizan de forma a
 Código Fuente: [Repositorio](https://github.com/aeiou520814-del/abc)
 Demo en Vivo: [Página Web](https://aeiou520814-del.github.io/abc/)
 
-
-
-
-=======
-
 ---
 
 ## Proyecto 5: Sistema de Información — Dirección de Obras Públicas de Temascaltepec
@@ -586,7 +581,7 @@ rdBg2yGGGR
 </details>
 
 
-## Proyecto XII PAPIROSSO (papeleria)
+## Proyecto 13 PAPIROSSO (papeleria)
 
 **Integrantes:** [Rodríguez Martínez José y Rosales Juarez Alexis]
 **GitHub:** https://github.com/jorvsk2007/jorvsk2007.github.io.git
@@ -611,7 +606,7 @@ Con esto buscamos lograr que nuestra papeleria (papirosso) tenga un mejor contro
   
 </details>
 
-## Proyecto 22: Huellitas
+## Proyecto 14: Huellitas
 
 Huellitas es una fundación enfocada en brindar un hogar y mejores oportunidades a animales en situación de abandono. Con el desarrollo de una página web, se mejoró significativamente la presencia digital de la fundación, ya que anteriormente únicamente operaba de manera presencial y sin publicidad en línea.
 
@@ -656,7 +651,7 @@ Código Fuente: [Repositorio](https://github.com/sofi-14/gitfin)
 Página web: [PáginaWeb](https://sofi-14.github.io/gitfin/)
 
 
-## 😷 Proyecto 99x: Sistema de Agendado de citas medicas
+## 😷 Proyecto 15: Sistema de Agendado de citas medicas
 Sistema web para el agendado y gestión de citas medicas en un hospital
 
 #🛠️ Tecnologías
@@ -691,7 +686,7 @@ Sistema web para el agendado y gestión de citas medicas en un hospital
 Código Fuente: [Repositorio Github] (https://github.com/warinsanomachine/Sistema-de-citas.git)
 Demo en Vivo: [Sistema Medico] (http://sistemamedico.sp1.br.saveincloud.net.br/main.jsp)
 
-## Proyecto 23: Payapp+
+## Proyecto 16: Payapp+
 Payapp es un sistema gestor de servicios financieros que ayuda al cliente a tener una mejor gestion de sus finanzas, asi como tambien ofrece distintas opciones que se adecuan a las necesidades del cliente.
 
 ## 🛠️ Tecnologías
@@ -730,7 +725,7 @@ Payapp es un sistema gestor de servicios financieros que ayuda al cliente a tene
   - Código Fuente: [Repositorio Github]: https://github.com/iiTzDaany/PayApp/tree/main
   - Demo en vivo: [Payapp]: https://iitzdaany.github.io/PayApp/
 
-# Proyecto 35: MANTRA — Red social de eventos
+# Proyecto 17: MANTRA — Red social de eventos
 
 MANTRA es una plataforma web tipo red social enfocada en la publicación, descubrimiento e interacción alrededor de eventos. El sistema permite que los usuarios se registren según su rol: asistidor u organizador. Los asistidores pueden descubrir eventos, confirmar asistencia, comentar, dejar reseñas, seguir organizadores, agregar amigos y usar chat. Los organizadores pueden publicar eventos con imágenes promocionales, administrar sus eventos y consultar métricas básicas.
 
@@ -791,3 +786,59 @@ https://github.com/JULIO-MILAN/mantra-backend
 
 **Demo en vivo:**
 https://mantra-backend-24g1.onrender.com/
+
+## Proyecto 18: Compañía de Danza — App de administración
+
+Aplicación de laboratorio para administrar integrantes, bailes, presentaciones, cuadros, observaciones e inventario. El sistema fue desarrollado con HTML, CSS y JavaScript puro, y se conecta a una base de datos Postgres en Supabase mediante una función RPC para ejecutar consultas SQL.
+
+### Tecnologías utilizadas
+
+- **Frontend:** HTML, CSS y JavaScript vanilla
+- **Base de datos:** PostgreSQL
+- **Backend / servicio:** Supabase (RPC `exec_sql`)
+- **Despliegue:** Vercel
+
+### Funcionalidades principales
+
+- Inicio de sesión y manejo de sesión
+- Administración de integrantes
+- Administración de bailes
+- Administración de participaciones
+- Administración de presentaciones
+- Administración de cuadros
+- Registro de observaciones
+- Control de inventario
+- Registro de acciones en `audit_log`
+
+### Credenciales de prueba
+
+- **Usuario:** `admin@compania.pe`
+- **Contraseña:** `Password123!`
+
+<details>
+<summary>🟩 Ver capturas de pantalla</summary>
+
+<img loading="lazy" src="https://github.com/user-attachments/assets/363efd33-a4d3-4cf6-97e7-a35b43497171" width="250"/>
+<img loading="lazy" src="https://github.com/user-attachments/assets/c4aee3e2-8a28-4906-9400-feac535b7141" width="250"/>
+<img loading="lazy" src="https://github.com/user-attachments/assets/fc762a02-3e1a-4d5c-9de4-f1178b10ce7b" width="250"/>
+<img loading="lazy" src="https://github.com/user-attachments/assets/af3c6509-8157-4619-9a3a-d8a113c06d70" width="250"/>
+<img loading="lazy" src="https://github.com/user-attachments/assets/7378958f-3876-4075-b04b-90825dcd9b75" width="250"/>
+<img loading="lazy" src="https://github.com/user-attachments/assets/58e7743c-a6a3-4aa7-b168-dd08d3a32c0d" width="250"/>
+<img loading="lazy" src="https://github.com/user-attachments/assets/9a030f63-0a62-4cfc-ae01-8ae3d38098b0" width="250"/>
+<img loading="lazy" src="https://github.com/user-attachments/assets/f0af967b-bfe0-4a75-ae00-80274589655d" width="250"/>
+<img loading="lazy" src="https://github.com/user-attachments/assets/2d9f5ff7-55c1-4589-8e12-a128cab3034b" width="250"/>
+<img loading="lazy" src="https://github.com/user-attachments/assets/b793270e-cb81-4a01-83d4-ff4c52be6100" width="250"/>
+<img loading="lazy" src="https://github.com/user-attachments/assets/11ed698a-0f9a-4503-a2fb-ef28f67efc59" width="250"/>
+<img loading="lazy" src="https://github.com/user-attachments/assets/28d6b6fc-926d-415d-876c-1e707d01428e" width="250"/>
+<img loading="lazy" src="https://github.com/user-attachments/assets/f6883df6-df7a-4239-a2cc-4827b2852a14" width="250"/>
+<img loading="lazy" src="https://github.com/user-attachments/assets/479ee716-06a3-4289-96e6-64cd79370ffc" width="250"/>
+<img loading="lazy" src="https://github.com/user-attachments/assets/a24e48e4-e359-43eb-b05f-0743b73c6fd8" width="250"/>
+<img loading="lazy" src="https://github.com/user-attachments/assets/b8f00a17-7c83-488f-ba9a-4ffb939ca4c6" width="250"/>
+<img loading="lazy" src="https://github.com/user-attachments/assets/4bfd1f76-c667-4ea8-bce0-81dcf075295e" width="250"/>
+
+</details>
+
+### Enlaces
+
+- **Código Fuente:** [Repositorio en GitHub](https://github.com/avril1699/Grupo-Jaltepec-BD/tree/4e0f75d7a63f13784b874eaa521d3e8103a8dce5/Downloads/danza-app)
+- **Demo en Vivo (Vercel):** [Ver proyecto](https://grupo-jaltepec-bd.vercel.app/)
