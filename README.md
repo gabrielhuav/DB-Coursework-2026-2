@@ -216,77 +216,7 @@ El sistema está dividido en secciones interactivas que se actualizan de forma a
 Código Fuente: [Repositorio](https://github.com/aeiou520814-del/abc)
 Demo en Vivo: [Página Web](https://aeiou520814-del.github.io/abc/)
 
-# Proyecto 15: MANTRA — Red social de eventos
 
-MANTRA es una plataforma web tipo red social enfocada en la publicación, descubrimiento e interacción alrededor de eventos. El sistema permite que los usuarios se registren según su rol: asistidor u organizador. Los asistidores pueden descubrir eventos, confirmar asistencia, comentar, dejar reseñas, seguir organizadores, agregar amigos y usar chat. Los organizadores pueden publicar eventos con imágenes promocionales, administrar sus eventos y consultar métricas básicas.
-
-## 🛠️ Tecnologías implementadas
-
-**Backend:** Node.js con Express.js
-**Base de Datos:** PostgreSQL en Render
-**Frontend:** HTML, CSS y JavaScript 
-**Almacenamiento de imágenes:** Cloudinary
-**Despliegue:** Render
-**Control de versiones:** Git y GitHub
-
-## ✨ Funcionalidades principales
-
-* Registro e inicio de sesión de usuarios.
-* Manejo de roles: asistidor, organizador y owner.
-* Publicación de eventos por organizadores.
-* Subida de imágenes promocionales usando Cloudinary.
-* Feed de eventos para usuarios asistentes.
-* Confirmación de asistencia a eventos.
-* Sistema de reseñas y calificaciones.
-* Comentarios en eventos.
-* Seguimiento de organizadores.
-* Perfil de usuario con foto, biografía e intereses.
-* Comunidad tipo red social con publicaciones, imágenes y likes.
-* Solicitudes de amistad entre usuarios.
-* Notificaciones.
-* Logros de usuario.
-* Chat básico entre amigos.
-* Dashboard de organizador con métricas.
-* Persistencia de datos mediante PostgreSQL.
-* API REST para comunicación entre frontend y backend.
-
-
-## ✨ Iniciar sesion
- Organizador: user5@example.com , contraseña: Julio121086
- Usuario: milan.ewok@gmail.com, contraseña : Julio121086
-## 🖼️ Capturas de pantalla
-
-### Landing page
-
-<img src="./capturas/landing.png" alt="Landing page de MANTRA" loading="lazy" width="700">
-
-### Feed de eventos
-
-<img src="./capturas/feed-eventos.png" alt="Feed de eventos" loading="lazy" width="700">
-
-### Dashboard organizador
-
-<img src="./capturas/dashboard-organizador.png" alt="Dashboard del organizador" loading="lazy" width="700">
-
-### Comunidad
-
-<img src="./capturas/comunidad.png" alt="Comunidad MANTRA" loading="lazy" width="700">
-
-### Perfil de usuario
-
-<img src="./capturas/perfil.png" alt="Perfil de usuario" loading="lazy" width="700">
-
-### Chat
-
-<img src="./capturas/chat.png" alt="Chat entre usuarios" loading="lazy" width="700">
-
-## 🔗 Enlaces
-
-**Repositorio del proyecto:**
-https://github.com/JULIO-MILAN/mantra-backend
-
-**Demo en vivo:**
-https://mantra-backend-24g1.onrender.com/
 
 
 =======
@@ -799,3 +729,65 @@ Payapp es un sistema gestor de servicios financieros que ayuda al cliente a tene
 ## 🔗 Enlaces del Proyecto
   - Código Fuente: [Repositorio Github]: https://github.com/iiTzDaany/PayApp/tree/main
   - Demo en vivo: [Payapp]: https://iitzdaany.github.io/PayApp/
+
+# Proyecto 35: MANTRA — Red social de eventos
+
+MANTRA es una plataforma web tipo red social enfocada en la publicación, descubrimiento e interacción alrededor de eventos. El sistema permite que los usuarios se registren según su rol: asistidor u organizador. Los asistidores pueden descubrir eventos, confirmar asistencia, comentar, dejar reseñas, seguir organizadores, agregar amigos y usar chat. Los organizadores pueden publicar eventos con imágenes promocionales, administrar sus eventos y consultar métricas básicas.
+
+## 🛠️ Tecnologías implementadas
+
+**Backend:** Node.js con Express.js
+**Base de Datos:** PostgreSQL en Render
+**Frontend:** HTML, CSS y JavaScript 
+**Almacenamiento de imágenes:** Cloudinary
+**Despliegue:** Render
+**Control de versiones:** Git y GitHub
+
+## ✨ Funcionalidades principales
+
+* Registro e inicio de sesión de usuarios.
+* Manejo de roles: asistidor, organizador y owner.
+* Publicación de eventos por organizadores.
+* Subida de imágenes promocionales usando Cloudinary.
+* Feed de eventos para usuarios asistentes.
+* Confirmación de asistencia a eventos.
+* Sistema de reseñas y calificaciones.
+* Comentarios en eventos.
+* Seguimiento de organizadores.
+* Perfil de usuario con foto, biografía e intereses.
+* Comunidad tipo red social con publicaciones, imágenes y likes.
+* Solicitudes de amistad entre usuarios.
+* Notificaciones.
+* Logros de usuario.
+* Chat básico entre amigos.
+* Dashboard de organizador con métricas.
+* Persistencia de datos mediante PostgreSQL.
+* API REST para comunicación entre frontend y backend.
+
+
+## ✨ Iniciar sesion
+ Organizador: user5@example.com , contraseña: pass5
+ Usuario: milan.ewok@gmail.com, contraseña : Julio121086
+## 🖼️ Capturas de pantalla
+
+🖼️ Ver capturas de pantalla
+
+<details>
+<summary>Ver capturas de pantalla</summary>Landing Page| Feed de eventos
+<a href="https://github.com/user-attachments/assets/42a1b548-17ca-46eb-aeef-fc862a6ce4c0"><img src="https://github.com/user-attachments/assets/42a1b548-17ca-46eb-aeef-fc862a6ce4c0" alt="Landing Page" loading="lazy" width="180"></a>| <a href="https://github.com/user-attachments/assets/6c369928-ee59-4f45-bce8-97b4a5c7edde"><img src="https://github.com/user-attachments/assets/6c369928-ee59-4f45-bce8-97b4a5c7edde" alt="Feed de eventos" loading="lazy" width="180"></a>
+
+Dashboard organizador| Comunidad
+<a href="https://github.com/user-attachments/assets/873197d9-57de-4f03-9024-a659d2f122a4"><img src="https://github.com/user-attachments/assets/873197d9-57de-4f03-9024-a659d2f122a4" alt="Dashboard" loading="lazy" width="180"></a>| <a href="https://github.com/user-attachments/assets/6ef71a19-5c95-4625-8077-2fa7774410f2"><img src="https://github.com/user-attachments/assets/6ef71a19-5c95-4625-8077-2fa7774410f2" alt="Comunidad" loading="lazy" width="180"></a>
+
+Chat
+<a href="https://github.com/user-attachments/assets/be749db0-1f92-4e3f-9688-544ce48c7792"><img src="https://github.com/user-attachments/assets/be749db0-1f92-4e3f-9688-544ce48c7792" alt="Chat" loading="lazy" width="180"></a>
+
+</details>
+
+## 🔗 Enlaces
+
+**Repositorio del proyecto:**
+https://github.com/JULIO-MILAN/mantra-backend
+
+**Demo en vivo:**
+https://mantra-backend-24g1.onrender.com/
