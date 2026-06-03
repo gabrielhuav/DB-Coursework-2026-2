@@ -774,13 +774,13 @@ MANTRA es una plataforma web tipo red social enfocada en la publicación, descub
 
 <details>
 <summary>Ver capturas de pantalla</summary>Landing Page| Feed de eventos
-<a href="https://github.com/user-attachments/assets/42a1b548-17ca-46eb-aeef-fc862a6ce4c0"><img src="https://github.com/user-attachments/assets/42a1b548-17ca-46eb-aeef-fc862a6ce4c0" alt="Landing Page" loading="lazy" width="180"></a>| <a href="https://github.com/user-attachments/assets/6c369928-ee59-4f45-bce8-97b4a5c7edde"><img src="https://github.com/user-attachments/assets/6c369928-ee59-4f45-bce8-97b4a5c7edde" alt="Feed de eventos" loading="lazy" width="180"></a>
+<a href="https://github.com/user-attachments/assets/42a1b548-17ca-46eb-aeef-fc862a6ce4c0"><img src="https://github.com/user-attachments/assets/42a1b548-17ca-46eb-aeef-fc862a6ce4c0" alt="Landing Page" loading="lazy" width="400"></a>| <a href="https://github.com/user-attachments/assets/6c369928-ee59-4f45-bce8-97b4a5c7edde"><img src="https://github.com/user-attachments/assets/6c369928-ee59-4f45-bce8-97b4a5c7edde" alt="Feed de eventos" loading="lazy" width="400"></a>
 
 Dashboard organizador| Comunidad
-<a href="https://github.com/user-attachments/assets/873197d9-57de-4f03-9024-a659d2f122a4"><img src="https://github.com/user-attachments/assets/873197d9-57de-4f03-9024-a659d2f122a4" alt="Dashboard" loading="lazy" width="180"></a>| <a href="https://github.com/user-attachments/assets/6ef71a19-5c95-4625-8077-2fa7774410f2"><img src="https://github.com/user-attachments/assets/6ef71a19-5c95-4625-8077-2fa7774410f2" alt="Comunidad" loading="lazy" width="180"></a>
+<a href="https://github.com/user-attachments/assets/873197d9-57de-4f03-9024-a659d2f122a4"><img src="https://github.com/user-attachments/assets/873197d9-57de-4f03-9024-a659d2f122a4" alt="Dashboard" loading="lazy" width="400"></a>| <a href="https://github.com/user-attachments/assets/6ef71a19-5c95-4625-8077-2fa7774410f2"><img src="https://github.com/user-attachments/assets/6ef71a19-5c95-4625-8077-2fa7774410f2" alt="Comunidad" loading="lazy" width="400"></a>
 
 Chat
-<a href="https://github.com/user-attachments/assets/be749db0-1f92-4e3f-9688-544ce48c7792"><img src="https://github.com/user-attachments/assets/be749db0-1f92-4e3f-9688-544ce48c7792" alt="Chat" loading="lazy" width="180"></a>
+<a href="https://github.com/user-attachments/assets/be749db0-1f92-4e3f-9688-544ce48c7792"><img src="https://github.com/user-attachments/assets/be749db0-1f92-4e3f-9688-544ce48c7792" alt="Chat" loading="lazy" width="400"></a>
 
 </details>
 
