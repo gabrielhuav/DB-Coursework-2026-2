@@ -412,6 +412,7 @@ manejo de personal e informacion sobre los servicios proporcionados.
 Código Fuente: [Repositorio GitHub](https://github.com/Jaely19/Patitas-Sanas)
 Demo en Vivo: [Patitas Sanas Web](https://patitas-sanas.vercel.app)
 
+--- 
 
 ## Proyecto 8: Scynara - Sistema de Gestión para Comercio Minorista
 Sistema web full-stack para la gestión de una tienda o cadena de sucursales, con control de inventario, proveedores, productos, ventas, clientes y usuarios/empleados.
@@ -440,6 +441,14 @@ Sistema web full-stack para la gestión de una tienda o cadena de sucursales, co
 Código Fuente: Frontend [Repositorio](https://github.com/scynara09-hue/Scynara-Frontend)
 Código Fuente: Backend [Repositorio](https://github.com/scynara09-hue/Scynara-Backend)
 Demo en Vivo: [Página Web](https://scynara-frontend.vercel.app/)
+### 🔑 Credenciales de Acceso (Para Evaluación)
+
+- **Correo:** admin@scynara.com
+- **Contraseña:** aAdmin1234!
+
+> ⚠️ Este usuario es de solo lectura. No tiene privilegios para eliminar ni modificar datos, con el fin de no dañar el proyecto en producción.
+
+--- 
   
 ## Proyecto 9: Data Warehouse CDMX - Consumo de Agua y Clima
 Proyecto de Data Warehouse para analizar la correlación entre el consumo de agua y las condiciones climáticas en la Ciudad de México durante 2019.
