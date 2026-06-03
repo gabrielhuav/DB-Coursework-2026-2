@@ -252,7 +252,7 @@ MANTRA es una plataforma web tipo red social enfocada en la publicación, descub
 
 
 ## ✨ Iniciar sesion
- Organizador: user5@example.com , contraseña: Julio121086
+ Organizador: user5@example.com , contraseña: pass5
  Usuario: milan.ewok@gmail.com, contraseña : Julio121086
 ## 🖼️ Capturas de pantalla
 
