@@ -41,8 +41,6 @@ Plataforma web tipo red social enfocada en lectores, donde los usuarios pueden r
 <details>
 <summary>🖼️ Ver capturas de pantalla</summary>
 
-##  Funcionalidades principales
-
 | | |
 |---|---|
 | <img loading="lazy" src="URL_IMAGEN_1" alt="Vista principal de Booksnexus" width="800"/> | |
