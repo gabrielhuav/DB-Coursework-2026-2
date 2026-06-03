@@ -402,7 +402,7 @@ manejo de personal e informacion sobre los servicios proporcionados.
 <details>
 <summary>🖼️ Ver capturas de pantalla</summary>
 | <img loading="lazy" src="https://github.com/Jaely19/Patitas-Sanas/blob/main/pantallap.png" alt="Vista principal de Veterinaria" width="800"/> | |
-| <img loading="lazy" src="https://github.com/Jaely19/Patitas-Sanas/blob/main/sevicios.png" alt="servicios" width="400"/> |
+| <img loading="lazy" src="https://github.com/Jaely19/Patitas-Sanas/blob/main/sevicios.png" alt="servicios" width="800"/> |
 </details>
 
 ### Usuarios:
