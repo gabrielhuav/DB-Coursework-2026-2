@@ -43,9 +43,9 @@ Plataforma web tipo red social enfocada en lectores, donde los usuarios pueden r
 
 | | |
 |---|---|
-| <img loading="lazy" src="URL_IMAGEN_1" alt="Vista principal de Booksnexus" width="800"/> | |
-| <img loading="lazy" src="URL_IMAGEN_2" alt="Perfil de usuario" width="400"/> | <img loading="lazy" src="URL_IMAGEN_3" alt="Timeline de publicaciones" width="400"/> |
-| <img loading="lazy" src="URL_IMAGEN_4" alt="Gestión de libros y reseñas" width="800"/> | |
+| <img loading="lazy" src="https://github.com/user-attachments/assets/3683878c-1592-4f2a-894e-cd170b474878" alt="Vista principal de Booksnexus" width="800"/> | |
+| <img loading = "lazy" width="400" alt="Login" src="https://github.com/user-attachments/assets/a23f5224-c830-419d-990c-65331520df5f" /> | |
+  <img loading ="lazy" width="800" alt="Perfil de usuario" src="https://github.com/user-attachments/assets/a7d1700a-7887-4c79-87ad-92082ed4bbe7" />
 </details>
 
 ### ✨ Funcionalidades principales
@@ -127,13 +127,12 @@ Plataforma web para la gestión integral de un refugio de animales, donde los us
 | | |
 |---|---|
 | <img loading="lazy" src="https://github.com/user-attachments/assets/c04a0b8e-cdf1-4da3-b722-79644c8aad3c" alt="Vista principal" width="400"/> | <img loading="lazy" src="https://github.com/user-attachments/assets/474219f5-2c2c-4ad9-83b8-eed15b6ec1d0" alt="Panel admin" width="400"/> |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/352f3878-9982-435f-8235-43ea6d21d938" alt="Solicitudes" width="400"/> | <img loading="lazy"
-src="https://github.com/user-attachments/assets/a7156165-26d1-42fd-be91-c1a9f80dbd53" alt="Historial" width="400"/> |
+| <img loading="lazy" src="https://github.com/user-attachments/assets/352f3878-9982-435f-8235-43ea6d21d938" alt="Solicitudes" width="400"/> | <img loading="lazy" src="https://github.com/user-attachments/assets/a7156165-26d1-42fd-be91-c1a9f80dbd53" alt="Historial" width="400"/> |
 
 </details>
 
 ### 🔗 Enlaces
-
+Admin de Chocolate:MON-001      Contraseña:123456
 - **Código Fuente:** [Repositorio en GitHub](https://github.com/JOKERKORIO/patitas-api)
 - **Demo en Vivo (Railway):** [Patitas Felices API](https://patitas-backend-production.up.railway.app/)
 - **Demo en Vivo (GitHub Pages):** [Patitas Felices Web](https://jokerkorio.github.io/patitas-api/#)
@@ -479,6 +478,10 @@ manejo de personal e informacion sobre los servicios proporcionados.
 | <img loading="lazy" src="https://github.com/Jaely19/Patitas-Sanas/blob/main/sevicios.png" alt="servicios" width="400"/> |
 </details>
 
+### Usuarios:
+*Usuario de Prueba: Correo: Prueba1@gmail.com Contraseña: 123456789
+*Admin: Correo: admin@gmail.com Contraseña: Admin2026
+
 ### 🔗 Enlaces
 Código Fuente: [Repositorio GitHub](https://github.com/Jaely19/Patitas-Sanas)
 Demo en Vivo: [Patitas Sanas Web](https://patitas-sanas.vercel.app)
@@ -504,14 +507,47 @@ Sistema web full-stack para la gestión de una tienda o cadena de sucursales, co
 
 <details>
 <summary>🖼️ Ver capturas de pantalla</summary>
-<img width="1289" height="815" alt="principal" src="https://github.com/user-attachments/assets/4e0a99b5-fb40-44ab-9d35-57668798aaf8" />
-<img width="1289" height="815" alt="servicios" src="https://github.com/user-attachments/assets/4d0ae50e-22b0-4823-833f-0e30a2db2174" />
+<img loading="lazy" width="1289" height="815" alt="principal" src="https://github.com/user-attachments/assets/4e0a99b5-fb40-44ab-9d35-57668798aaf8" />
+<img loading="lazy" width="1289" height="815" alt="servicios" src="https://github.com/user-attachments/assets/4d0ae50e-22b0-4823-833f-0e30a2db2174" />
 </details>
 
 Código Fuente: Frontend [Repositorio](https://github.com/scynara09-hue/Scynara-Frontend)
 Código Fuente: Backend [Repositorio](https://github.com/scynara09-hue/Scynara-Backend)
-Demo en Vivo: [Página Web](https://scynara-frontend-nuv4w7vem-niv-s-projects2.vercel.app/)
+Demo en Vivo: [Página Web](https://scynara-frontend.vercel.app/)
   
+## Proyecto 9: Data Warehouse CDMX - Consumo de Agua y Clima
+Proyecto de Data Warehouse para analizar la correlación entre el consumo de agua y las condiciones climáticas en la Ciudad de México durante 2019.
+
+### Tecnologías
+* Docker
+* Docker compose
+* PostgreSQL 16
+* SQL
+* CSV
+* Modelo Estrella
+* ETL
+* Open-Meteo
+* SACMEX CDMX
+
+### Funcionalidad principales
+* Carga automática de archivos SQL al inicializar el contenedor de PostgreSQL.
+* Creación de tablas de staging para recibir datos crudos.
+* Construcción de dimensiones como tiempo, ubicación e índice de desarrollo.
+* Construcción de tablas de hechos para consumo de agua y clima.
+* Integración de datos bimestrales de consumo de agua con datos climáticos diarios.
+* Agregación de información climática por bimestre.
+* Consulta analítica para comparar consumo total de agua, temperatura promedio, días de calor, días fríos y lluvia total.
+* Ejecución del proyecto mediante Docker sin instalar PostgreSQL manualmente.
+
+### Repositorio Base
+
+Proyecto original disponible en:
+
+[Data Warehouse CDMX](https://github.com/omarpulidom/data_warehouse_cdmx)
+
+### Fork del proyecto
+
+[Mi fork del proyecto](https://github.com/2gmyq2crw8-spec/Proyecto-9-Data-Warehouse-67.git)
 
 ## Proyecto 10: Notaría 105 (Sistema Integral de Gestión Notarial)
 Plataforma web segura diseñada específicamente para la **Notaría Pública 105** en la Ciudad de México. Este proyecto nace para resolver la necesidad de modernizar el flujo de trabajo notarial, eliminando el papeleo físico, previniendo la pérdida de documentos y centralizando la información en un entorno digital seguro bajo principios de auditoría estricta.
@@ -532,24 +568,24 @@ El sistema funciona como un gestor relacional de expedientes que automatiza el c
 * **Auditoría Notarial y Borrado Lógico:** Cumplimiento de la secuencialidad de folios exigida por la ley. Las escrituras canceladas o con errores se ocultan del panel operativo principal mediante un `UPDATE` de estado (borrado lógico), preservando el registro en un panel de archivo histórico para futuras auditorías.
 * **Portal de Transparencia Ciudadana:** Interfaz de acceso restringido para clientes externos. Mediante validación de CURP y correo, el usuario visualiza el avance de sus escrituras (JOINs en tiempo real) sin poder alterar la base de datos.
 * **Generación de Documento Oficial:** Sistema de renderizado dinámico mediante Jinja2 y CSS para previsualizar el instrumento notarial final (formato carta) con la firma digital incrustada, listo para impresión o exportación.
- 
-🖼️ Ver capturas de pantalla
+  
+<details>
+<summary>🖼️ Ver capturas de pantalla</summary>
 
-<img width="1600" height="755" alt="index" src="https://github.com/user-attachments/assets/9932b8ba-6d88-487d-8d2b-4411601c175e" />
-<img width="1600" height="757" alt="regisperso" src="https://github.com/user-attachments/assets/5dbdecb2-a3df-466c-8214-0cc138a0ec31" />
-<img width="1600" height="754" alt="abogado" src="https://github.com/user-attachments/assets/42c0483c-c947-4d44-b400-08c2e912a4ad" />
-<img width="1600" height="746" alt="regisclient" src="https://github.com/user-attachments/assets/446e047b-f2e5-4d17-b529-74141bc8edc4" />
-
- 
+<img width="1600" height="755" alt="index" src="https://github.com/user-attachments/assets/9932b8ba-6d88-487d-8d2b-4411601c175e" loading="lazy" /> 
+<img width="1600" height="757" alt="regisperso" src="https://github.com/user-attachments/assets/5dbdecb2-a3df-466c-8214-0cc138a0ec31" loading="lazy" /> 
+<img width="1600" height="754" alt="abogado" src="https://github.com/user-attachments/assets/42c0483c-c947-4d44-b400-08c2e912a4ad" loading="lazy" /> 
+<img width="1600" height="746" alt="regisclient" src="https://github.com/user-attachments/assets/446e047b-f2e5-4d17-b529-74141bc8edc4" loading="lazy" />
+</details>
 🔑 Credenciales de Acceso (Para Evaluación)
 Para ingresar al sistema con privilegios totales de administrador y evaluar el flujo completo (dashboard, creación de escrituras y alta de personal), utiliza la siguiente cuenta:
 * **Rol:** Notario Titular
-* **Usuario:** Jesus_Av@notaria105.com
-* **Contraseña:** 1234
+* **Usuario:** roberto.notario@notaria105.com
+* **Contraseña:** c123
  
 🔗 Enlaces
 * **Código Fuente:** [Repositorio Notaría 105](https://github.com/s06008525-max/notaria-105)
-* **Demo en Vivo:** [notaria105](http://roberto.notario@notaria105.com)
+* **Demo en Vivo:** [notaria105](https://notaria-105.onrender.com/)
 
 # Proyecto 11: Refaccionaria Leo 🚗
 
@@ -619,7 +655,7 @@ rdBg2yGGGR
 </details>
 
 
-## Proyecto XII PAPIROSSO (papeleria)
+## Proyecto 13 PAPIROSSO (papeleria)
 
 **Integrantes:** [Rodríguez Martínez José y Rosales Juarez Alexis]
 **GitHub:** https://github.com/jorvsk2007/jorvsk2007.github.io.git
@@ -630,15 +666,50 @@ Mediante nuestro proyecto buscamos implementar una automatizacion para cobros, r
 Con esto buscamos lograr que nuestra papeleria (papirosso) tenga un mejor control de su mercancia así como sus ventas y agregar la funcionalidad de que los clientes más frecuentes puedan acceder a una página exclusiva para realizar sus pedidos y recogerlos directo en la sucursal fisica.
 
 ## Imagenes del proyecto 
-<img loading="lazy" src="https://github.com/jorvsk2007/jorvsk2007.github.io/blob/main/imagenesRepoGeneral/2026-05-29_18-44-20.png">
-<img loading="lazy" src="https://github.com/jorvsk2007/jorvsk2007.github.io/blob/main/imagenesRepoGeneral/2026-05-29_18-45-33.png">
-<img loading="lazy" src="https://github.com/jorvsk2007/jorvsk2007.github.io/blob/main/imagenesRepoGeneral/2026-05-29_18-45-48.png">
-<img loading="lazy" src="https://github.com/jorvsk2007/jorvsk2007.github.io/blob/main/imagenesRepoGeneral/2026-05-29_18-46-30.png">
-<img loading="lazy" src="https://github.com/jorvsk2007/jorvsk2007.github.io/blob/main/imagenesRepoGeneral/2026-05-29_18-46-42.png">
-<img loading="lazy" src="https://github.com/jorvsk2007/jorvsk2007.github.io/blob/main/imagenesRepoGeneral/2026-05-29_18-46-45.png">
-<img loading="lazy" src="https://github.com/jorvsk2007/jorvsk2007.github.io/blob/main/imagenesRepoGeneral/2026-05-29_18-46-48.png">
-<img loading="lazy" src="https://github.com/jorvsk2007/jorvsk2007.github.io/blob/main/imagenesRepoGeneral/2026-05-29_18-46-51.png">
-<img loading="lazy" src="https://github.com/jorvsk2007/jorvsk2007.github.io/blob/main/imagenesRepoGeneral/2026-05-29_18-46-54.png">
+<details>
+  <summary>🖼️ Ver capturas de pantalla</summary>
+  <img loading="lazy" src="https://github.com/jorvsk2007/jorvsk2007.github.io/blob/main/imagenesRepoGeneral/2026-05-29_18-44-20.png">
+  <img loading="lazy" src="https://github.com/jorvsk2007/jorvsk2007.github.io/blob/main/imagenesRepoGeneral/2026-05-29_18-45-33.png">
+  <img loading="lazy" src="https://github.com/jorvsk2007/jorvsk2007.github.io/blob/main/imagenesRepoGeneral/2026-05-29_18-45-48.png">
+  <img loading="lazy" src="https://github.com/jorvsk2007/jorvsk2007.github.io/blob/main/imagenesRepoGeneral/2026-05-29_18-46-30.png">
+  <img loading="lazy" src="https://github.com/jorvsk2007/jorvsk2007.github.io/blob/main/imagenesRepoGeneral/2026-05-29_18-46-42.png">
+  <img loading="lazy" src="https://github.com/jorvsk2007/jorvsk2007.github.io/blob/main/imagenesRepoGeneral/2026-05-29_18-46-45.png">
+  <img loading="lazy" src="https://github.com/jorvsk2007/jorvsk2007.github.io/blob/main/imagenesRepoGeneral/2026-05-29_18-46-48.png">
+  <img loading="lazy" src="https://github.com/jorvsk2007/jorvsk2007.github.io/blob/main/imagenesRepoGeneral/2026-05-29_18-46-51.png">
+  <img loading="lazy" src="https://github.com/jorvsk2007/jorvsk2007.github.io/blob/main/imagenesRepoGeneral/2026-05-29_18-46-54.png">
+  
+</details>
+
+## Proyecto 14: Huellitas
+
+Huellitas es una fundación enfocada en brindar un hogar y mejores oportunidades a animales en situación de abandono. Con el desarrollo de una página web, se mejoró significativamente la presencia digital de la fundación, ya que anteriormente únicamente operaba de manera presencial y sin publicidad en línea.
+
+Para solucionar este problema, se desarrolló una plataforma web conectada a una base de datos que almacena la información completa de todos los animales disponibles en el refugio. Además, se implementó un apartado de donaciones que permite apoyar económicamente a la fundación, ayudando a convertir a Huellitas en un mejor refugio y hogar temporal para los animales.
+
+### Tecnologías utilizadas
+
+* Javascript
+* PostgreSQL
+* CSS
+* GitHub
+
+### Capturas del proyecto
+<details>
+<summary>🖼️ Ver capturas de pantalla</summary>
+
+| | |
+|---|---|
+| <img loading="lazy" src="https://github.com/user-attachments/assets/f4101a5b-38cd-4a72-bd41-1ae500c4301b" alt="Página principal de Huellitas" width="400"/> | <img loading="lazy" src="https://github.com/user-attachments/assets/ad53f7b0-2d23-4993-b25c-ee4116ded8f9" alt="Sección de ayuda y donaciones" width="400"/> |
+| <img loading="lazy" src="https://github.com/user-attachments/assets/2c98c9e6-239b-43a4-a988-448c29393ad6" alt="Registro de adoptante" width="400"/> | <img loading="lazy" src="https://github.com/user-attachments/assets/f2656b9e-e6fd-4844-9b98-8d59ee6422f3" alt="Inicio de sesión de adoptante" width="400"/> |
+| <img loading="lazy" src="https://github.com/user-attachments/assets/7aca0e43-14f4-4d68-af34-8d052f3c9f53" alt="Animales en adopción" width="400"/> | <img loading="lazy" src="https://github.com/user-attachments/assets/5d8e2741-4333-443e-8218-3556306e3e6a" alt="Listado de animales en adopción" width="400"/> |
+| <img loading="lazy" src="https://github.com/user-attachments/assets/c3008166-4296-48ad-a241-9f85e9c20780" alt="Más animales disponibles" width="400"/> | <img loading="lazy" src="https://github.com/user-attachments/assets/d0c31a67-85c2-4223-be17-a3bbfe92ee27" alt="Inicio del módulo de donaciones" width="400"/> |
+| <img loading="lazy" src="https://github.com/user-attachments/assets/03d79ecf-50bb-4b02-bdfc-f9c6a8243d63" alt="Donación de alimento" width="400"/> | <img loading="lazy" src="https://github.com/user-attachments/assets/c47aeb91-2d27-4da4-97cc-df5d6c26a1e3" alt="Donación de limpieza y salud" width="400"/> |
+| <img loading="lazy" src="https://github.com/user-attachments/assets/79d3ad59-ece6-4381-8252-d273dbe0a111" alt="Tabla de necesidades" width="400"/> | <img loading="lazy" src="https://github.com/user-attachments/assets/ced17b40-b9a1-49d1-b99b-574fe791ead0" alt="Resumen de donación" width="400"/> |
+| <img loading="lazy" src="https://github.com/user-attachments/assets/56fc655b-6555-44ba-a357-29360942bc30" alt="Mascotas al cuidado del empleado" width="400"/> | <img loading="lazy" src="https://github.com/user-attachments/assets/adb0a879-6013-47d9-9e9d-768147b96234" alt="Mascotas adoptadas" width="400"/> |
+| <img loading="lazy" src="https://github.com/user-attachments/assets/43e2e38f-429d-427d-b7d9-2293bb879a39" alt="Mascotas buscando hogar" width="400"/> | <img loading="lazy" src="https://github.com/user-attachments/assets/52c46f75-f93f-4be4-b1bb-4b501e5c0f1e" alt="Panel de entrevistas" width="400"/> |
+| <img loading="lazy" src="https://github.com/user-attachments/assets/7fa9537e-6d22-4dff-b59e-491ceb1189d7" alt="Horarios del empleado" width="400"/> | <img loading="lazy" src="https://github.com/user-attachments/assets/23a875b0-0dc7-47e8-bd12-d46250a8a43c" alt="Cuenta del empleado" width="400"/> |
+
+</details>
 
 
 ## Proyecto 50: Barber Cerdas (Sistema de gestión de citas)
@@ -656,9 +727,9 @@ Sistema web de reservas para la Academia De Barbería The Hipster (Lindavista, C
 
 | | |
 |---|---|
-| <img loading="lazy" src="barber-cerdas/img/01-landing.png" alt="Página principal de Academia The Hipster" width="400"/> | <img loading="lazy" src="barber-cerdas/img/02-servicios.png" alt="Catálogo de servicios" width="400"/> |
-| <img loading="lazy" src="barber-cerdas/img/03-equipo.png" alt="Equipo de barberos" width="400"/> | <img loading="lazy" src="barber-cerdas/img/04-ubicacion.png" alt="Ubicación y sucursales" width="400"/> |
-| <img loading="lazy" src="barber-cerdas/img/05-login.png" alt="Inicio de sesión y registro" width="400"/> | <img loading="lazy" src="barber-cerdas/img/06-agendar.png" alt="Wizard para agendar cita" width="400"/> |
+| <img loading="lazy" src="https://raw.githubusercontent.com/StrlgE26/Barberia/main/barber-cerdas/img/01-landing.png" alt="Página principal de Academia The Hipster" width="400"/> | <img loading="lazy" src="https://raw.githubusercontent.com/StrlgE26/Barberia/main/barber-cerdas/img/02-servicios.png" alt="Catálogo de servicios" width="400"/> |
+| <img loading="lazy" src="https://raw.githubusercontent.com/StrlgE26/Barberia/main/barber-cerdas/img/03-equipo.png" alt="Equipo de barberos" width="400"/> | <img loading="lazy" src="https://raw.githubusercontent.com/StrlgE26/Barberia/main/barber-cerdas/img/04-ubicacion.png" alt="Ubicación y sucursales" width="400"/> |
+| <img loading="lazy" src="https://raw.githubusercontent.com/StrlgE26/Barberia/main/barber-cerdas/img/05-login.png" alt="Inicio de sesión y registro" width="400"/> | <img loading="lazy" src="https://raw.githubusercontent.com/StrlgE26/Barberia/main/barber-cerdas/img/06-agendar.png" alt="Wizard para agendar cita" width="400"/> |
 </details>
 
 ### ✨ Funcionalidades principales
@@ -675,3 +746,272 @@ Sistema web de reservas para la Academia De Barbería The Hipster (Lindavista, C
 ### 🔗 Enlaces
 Código Fuente: [Repositorio del proyecto](https://github.com/StrlgE26/Barberia)
 Demo en Vivo: [Barber Cerdas](https://www.koddesolutions.com/)
+
+### Características principales
+
+* Gestión de animales disponibles para adopción.
+* Base de datos con información detallada de cada animal.
+* Sistema de donaciones.
+* Mejor presencia y difusión digital para la fundación.
+* Interfaz amigable y accesible para los usuarios.
+
+### 🔗 Enlaces
+Código Fuente: [Repositorio](https://github.com/sofi-14/gitfin)
+Página web: [PáginaWeb](https://sofi-14.github.io/gitfin/)
+
+
+## 😷 Proyecto 15: Sistema de Agendado de citas medicas
+Sistema web para el agendado y gestión de citas medicas en un hospital
+
+#🛠️ Tecnologías
+- Backend: Java, Apache Netbeans
+- Base de Datos: PostgreSQL 
+- Frontend: HTML, CSS (Bootstrap 5) y JavaScript vanilla (Fetch API)
+- Despliegue: Save in cloud
+
+##📢 Funciones Principales
+- Permitir a pacientes agendar citas medicas con base en la situación por la que se necesita agendar la cita, la fecha y la hora.
+- Gestión de médicos, situaciones de cita, especialidades y consultorios desde un menú de administrador
+- Visualización de las citas de cada médico desde una sesión personal para cada doctor
+- Escritura de receta médica para cada cita agendada en el sistema
+
+##👨‍👩‍👧‍👦 Integrantes del equipo
+- Flores Vargas Augusto Hazel
+- Hernandez Zuñiga Andrea Veronica
+- Linares Medina Fernando Agustin
+- Angeles Salinas Daniel Alejandro
+
+<summary>🖼️ Capturas de la pagina</summary>
+<br>
+| | |
+|---|---|
+|<img loading="lazy" width="1800" height="724" alt="Captura de pantalla 2026-05-28 192656" src="https://github.com/user-attachments/assets/7e617b84-42e8-49f9-8907-274c34e515bd" />|
+|<img loading="lazy" width="1190" height="736" alt="Captura de pantalla 2026-05-28 193621" src="https://github.com/user-attachments/assets/cfd6fdaf-692a-43a2-83fd-e357257a4117" />|
+|<img loading="lazy" width="1874" height="666" alt="Captura de pantalla 2026-05-28 193641" src="https://github.com/user-attachments/assets/c40df635-46ac-4868-8750-0b76bc2a32ce" />|
+</details>
+
+
+##🔗 Enlaces del Proyecto
+Código Fuente: [Repositorio Github] (https://github.com/warinsanomachine/Sistema-de-citas.git)
+Demo en Vivo: [Sistema Medico] (http://sistemamedico.sp1.br.saveincloud.net.br/main.jsp)
+
+## Proyecto 16: Payapp+
+Payapp es un sistema gestor de servicios financieros que ayuda al cliente a tener una mejor gestion de sus finanzas, asi como tambien ofrece distintas opciones que se adecuan a las necesidades del cliente.
+
+## 🛠️ Tecnologías
+  - Backend:
+  Node.js con Express.js para manejar las rutas y controladores.
+  Configuración en server.js para levantar el servidor.
+  - Base de datos:
+  PostgreSQL, gestionada mediante conexión desde Node.js.
+  Variables de entorno en el archivo .env para credenciales y configuración.
+  - Frontend:
+  Carpeta frontend con HTML, CSS y JavaScript.
+  Posible uso de librerías como Bootstrap para estilos.
+
+## ⚙️ Funciones principales
+  Registro e inicio de sesión de usuarios
+  Manejo de cuentas con autenticación segura.
+  Uso de variables de entorno para credenciales.
+  Gestión de pagos
+  Creación de transacciones entre usuarios.
+  Control de montos, fechas y estados de pago.
+  Administración de usuarios
+  Alta, baja y modificación de perfiles.
+  Validación de datos antes de guardar en la base de datos.
+
+## 👨‍👩‍👧‍👦 Integrantes
+  - Acosta Davila Omar Esau
+  - Bernal Cruz Hector Daniel
+  - Campos Blancas Vanessa
+
+## SS de Funcionamiento
+  - <img loading="lazy" width="1800" height="724" alt="Dashboard Admin" src="https://github.com/iiTzDaany/PayApp/blob/main/Imagenes%20Prueba/Dashboard_Admin.png" />|
+  - <img loading="lazy" width="1800" height="724" alt="Dashboard User" src="https://github.com/iiTzDaany/PayApp/blob/main/Imagenes%20Prueba/Dashboard_Usuario.png" />|
+  - <img loading="lazy" width="1800" height="724" alt="Dashboard login" src="https://github.com/iiTzDaany/PayApp/blob/main/Imagenes%20Prueba/Inicio_de_Sesion.png" />|
+
+## 🔗 Enlaces del Proyecto
+  - Código Fuente: [Repositorio Github]: https://github.com/iiTzDaany/PayApp/tree/main
+  - Demo en vivo: [Payapp]: https://iitzdaany.github.io/PayApp/
+
+# Proyecto 17: MANTRA — Red social de eventos
+
+MANTRA es una plataforma web tipo red social enfocada en la publicación, descubrimiento e interacción alrededor de eventos. El sistema permite que los usuarios se registren según su rol: asistidor u organizador. Los asistidores pueden descubrir eventos, confirmar asistencia, comentar, dejar reseñas, seguir organizadores, agregar amigos y usar chat. Los organizadores pueden publicar eventos con imágenes promocionales, administrar sus eventos y consultar métricas básicas.
+
+## 🛠️ Tecnologías implementadas
+
+**Backend:** Node.js con Express.js
+**Base de Datos:** PostgreSQL en Render
+**Frontend:** HTML, CSS y JavaScript 
+**Almacenamiento de imágenes:** Cloudinary
+**Despliegue:** Render
+**Control de versiones:** Git y GitHub
+
+## ✨ Funcionalidades principales
+
+* Registro e inicio de sesión de usuarios.
+* Manejo de roles: asistidor, organizador y owner.
+* Publicación de eventos por organizadores.
+* Subida de imágenes promocionales usando Cloudinary.
+* Feed de eventos para usuarios asistentes.
+* Confirmación de asistencia a eventos.
+* Sistema de reseñas y calificaciones.
+* Comentarios en eventos.
+* Seguimiento de organizadores.
+* Perfil de usuario con foto, biografía e intereses.
+* Comunidad tipo red social con publicaciones, imágenes y likes.
+* Solicitudes de amistad entre usuarios.
+* Notificaciones.
+* Logros de usuario.
+* Chat básico entre amigos.
+* Dashboard de organizador con métricas.
+* Persistencia de datos mediante PostgreSQL.
+* API REST para comunicación entre frontend y backend.
+
+
+## ✨ Iniciar sesion
+ Organizador: user5@example.com , contraseña: pass5
+ Usuario: milan.ewok@gmail.com, contraseña : Julio121086
+## 🖼️ Capturas de pantalla
+
+🖼️ Ver capturas de pantalla
+
+<details>
+<summary>Ver capturas de pantalla</summary>Landing Page| Feed de eventos
+<a href="https://github.com/user-attachments/assets/42a1b548-17ca-46eb-aeef-fc862a6ce4c0"><img src="https://github.com/user-attachments/assets/42a1b548-17ca-46eb-aeef-fc862a6ce4c0" alt="Landing Page" loading="lazy" width="400"></a>| <a href="https://github.com/user-attachments/assets/6c369928-ee59-4f45-bce8-97b4a5c7edde"><img src="https://github.com/user-attachments/assets/6c369928-ee59-4f45-bce8-97b4a5c7edde" alt="Feed de eventos" loading="lazy" width="400"></a>
+
+Dashboard organizador| Comunidad
+<a href="https://github.com/user-attachments/assets/873197d9-57de-4f03-9024-a659d2f122a4"><img src="https://github.com/user-attachments/assets/873197d9-57de-4f03-9024-a659d2f122a4" alt="Dashboard" loading="lazy" width="400"></a>| <a href="https://github.com/user-attachments/assets/6ef71a19-5c95-4625-8077-2fa7774410f2"><img src="https://github.com/user-attachments/assets/6ef71a19-5c95-4625-8077-2fa7774410f2" alt="Comunidad" loading="lazy" width="400"></a>
+
+Chat
+<a href="https://github.com/user-attachments/assets/be749db0-1f92-4e3f-9688-544ce48c7792"><img src="https://github.com/user-attachments/assets/be749db0-1f92-4e3f-9688-544ce48c7792" alt="Chat" loading="lazy" width="400"></a>
+
+</details>
+
+## 🔗 Enlaces
+
+**Repositorio del proyecto:**
+https://github.com/JULIO-MILAN/mantra-backend
+
+**Demo en vivo:**
+https://mantra-backend-24g1.onrender.com/
+
+## Proyecto 18: Compañía de Danza — App de administración
+
+Aplicación de laboratorio para administrar integrantes, bailes, presentaciones, cuadros, observaciones e inventario. El sistema fue desarrollado con HTML, CSS y JavaScript puro, y se conecta a una base de datos Postgres en Supabase mediante una función RPC para ejecutar consultas SQL.
+
+### Tecnologías utilizadas
+
+- **Frontend:** HTML, CSS y JavaScript vanilla
+- **Base de datos:** PostgreSQL
+- **Backend / servicio:** Supabase (RPC `exec_sql`)
+- **Despliegue:** Vercel
+
+### Funcionalidades principales
+
+- Inicio de sesión y manejo de sesión
+- Administración de integrantes
+- Administración de bailes
+- Administración de participaciones
+- Administración de presentaciones
+- Administración de cuadros
+- Registro de observaciones
+- Control de inventario
+- Registro de acciones en `audit_log`
+
+### Credenciales de prueba
+
+- **Usuario:** `admin@compania.pe`
+- **Contraseña:** `Password123!`
+
+<details>
+<summary>🟩 Ver capturas de pantalla</summary>
+
+<img loading="lazy" src="https://github.com/user-attachments/assets/363efd33-a4d3-4cf6-97e7-a35b43497171" width="250"/>
+<img loading="lazy" src="https://github.com/user-attachments/assets/c4aee3e2-8a28-4906-9400-feac535b7141" width="250"/>
+<img loading="lazy" src="https://github.com/user-attachments/assets/fc762a02-3e1a-4d5c-9de4-f1178b10ce7b" width="250"/>
+<img loading="lazy" src="https://github.com/user-attachments/assets/af3c6509-8157-4619-9a3a-d8a113c06d70" width="250"/>
+<img loading="lazy" src="https://github.com/user-attachments/assets/7378958f-3876-4075-b04b-90825dcd9b75" width="250"/>
+<img loading="lazy" src="https://github.com/user-attachments/assets/58e7743c-a6a3-4aa7-b168-dd08d3a32c0d" width="250"/>
+<img loading="lazy" src="https://github.com/user-attachments/assets/9a030f63-0a62-4cfc-ae01-8ae3d38098b0" width="250"/>
+<img loading="lazy" src="https://github.com/user-attachments/assets/f0af967b-bfe0-4a75-ae00-80274589655d" width="250"/>
+<img loading="lazy" src="https://github.com/user-attachments/assets/2d9f5ff7-55c1-4589-8e12-a128cab3034b" width="250"/>
+<img loading="lazy" src="https://github.com/user-attachments/assets/b793270e-cb81-4a01-83d4-ff4c52be6100" width="250"/>
+<img loading="lazy" src="https://github.com/user-attachments/assets/11ed698a-0f9a-4503-a2fb-ef28f67efc59" width="250"/>
+<img loading="lazy" src="https://github.com/user-attachments/assets/28d6b6fc-926d-415d-876c-1e707d01428e" width="250"/>
+<img loading="lazy" src="https://github.com/user-attachments/assets/f6883df6-df7a-4239-a2cc-4827b2852a14" width="250"/>
+<img loading="lazy" src="https://github.com/user-attachments/assets/479ee716-06a3-4289-96e6-64cd79370ffc" width="250"/>
+<img loading="lazy" src="https://github.com/user-attachments/assets/a24e48e4-e359-43eb-b05f-0743b73c6fd8" width="250"/>
+<img loading="lazy" src="https://github.com/user-attachments/assets/b8f00a17-7c83-488f-ba9a-4ffb939ca4c6" width="250"/>
+<img loading="lazy" src="https://github.com/user-attachments/assets/4bfd1f76-c667-4ea8-bce0-81dcf075295e" width="250"/>
+
+</details>
+
+### Enlaces
+
+- **Código Fuente:** [Repositorio en GitHub](https://github.com/avril1699/Grupo-Jaltepec-BD/tree/4e0f75d7a63f13784b874eaa521d3e8103a8dce5/Downloads/danza-app)
+- **Demo en Vivo (Vercel):** [Ver proyecto](https://grupo-jaltepec-bd.vercel.app/)
+
+## Proyecto 19: ABV Library (Sistema de Gestión de Librería)
+
+Sistema web completo de gestión para una librería/biblioteca. Permite administrar libros, empleados, clientes, proveedores, ventas, préstamos y donaciones desde una interfaz moderna tipo marketplace con tres roles de acceso.
+
+### 🛠️ Tecnologías
+
+- **Backend:** Node.js con Express 5
+- **Base de Datos:** PostgreSQL (Render)
+- **Frontend:** HTML, CSS y JavaScript vanilla (Fetch API)
+- **Autenticación:** bcrypt (10 salt rounds)
+- **API externa:** Open Library Search API
+- **Despliegue:** Render (web service + PostgreSQL)
+
+<details>
+<summary>▶ 🖼️ Ver capturas de pantalla</summary>
+
+| <img loading="lazy" src="https://raw.githubusercontent.com/AbelGod27/Libreria_va/main/docs/01-catalogo.png" alt="Catálogo de libros" width="800"/> |
+| <img loading="lazy" src="https://raw.githubusercontent.com/AbelGod27/Libreria_va/main/docs/02-modo-oscuro.png" alt="Modo oscuro" width="400"/> |
+| <img loading="lazy" src="https://raw.githubusercontent.com/AbelGod27/Libreria_va/main/docs/03-login.png" alt="Login unificado" width="400"/> |
+| <img loading="lazy" src="https://raw.githubusercontent.com/AbelGod27/Libreria_va/main/docs/04-admin-panel.png" alt="Panel administrador" width="400"/> |
+| <img loading="lazy" src="https://raw.githubusercontent.com/AbelGod27/Libreria_va/main/docs/05-libros-stock.png" alt="Gestión de libros y stock" width="400"/> |
+| <img loading="lazy" src="https://raw.githubusercontent.com/AbelGod27/Libreria_va/main/docs/06-bibliotecario-panel.png" alt="Panel bibliotecario" width="400"/>  
+<img loading="lazy" src="https://raw.githubusercontent.com/AbelGod27/Libreria_va/main/docs/07-carrito-ventas.png" alt="Carrito de ventas" width="400"/> |
+| <img loading="lazy" src="https://raw.githubusercontent.com/AbelGod27/Libreria_va/main/docs/08-portal-cliente.png" alt="Portal del cliente" width="400"/> |
+| <img loading="lazy" src="https://raw.githubusercontent.com/AbelGod27/Libreria_va/main/docs/09-facturas.png" alt="Reporte de facturas" width="400"/> |
+| <img loading="lazy" src="https://raw.githubusercontent.com/AbelGod27/Libreria_va/main/docs/10-proveedores.png" alt="Recepción de paquetes" width="800"/> |
+
+</details>
+
+### ✨ Funcionalidades principales
+
+- Catálogo de libros con búsqueda en tiempo real y switch Local/Global (Open Library)
+- Sistema de ventas con carrito multi-libro y control de stock automático
+- Sistema de préstamos con cálculo automático de multas ($10/día de retraso)
+- Sistema de puntos de fidelización (1 punto por cada $10 de compra)
+- Donaciones de libros con recompensa (puntos o intercambio)
+- CRUD de proveedores con recepción de paquetes y distribución de stock
+- Reportes financieros por rango de fechas (ingresos, egresos, balance neto)
+- Favoritos y recomendaciones personalizadas por autor
+- Tres temas visuales: Claro, Oscuro y Night shift
+- Roles: Administrador, Bibliotecario y Cliente
+
+### 👥 Integrantes
+
+- Vanya Castillo Castillo
+- Abel Pineda Godinez
+
+### Base de Datos (14 tablas)
+
+`persona` · `empleado` · `cliente` · `libro` · `proveedor` · `prov_suministra_lib` · `recepcion_paquete` · `venta` · `lib_venta` · `prestamo` · `lib_pres` · `libro_favorito` · `historial_puntos` · `donacion`
+
+### 🔑 Credenciales de Acceso (Para Evaluación)
+
+- **Correo:** visitante@abvlibrary.com
+- **Contraseña:** visitante1234
+
+> ⚠️ Este usuario es de solo lectura. No tiene privilegios para eliminar ni modificar datos, con el fin de no dañar el proyecto en producción.
+
+### 🔗 Enlaces
+
+- **Código Fuente:** [Repositorio en GitHub](https://github.com/AbelGod27/Libreria_va)
+- **Demo en Vivo (GitHub Pages):** [ABV Library](https://abelgod27.github.io/abv_library/)
+- **Demo en Vivo (Render):** [ABV Library](https://libreria-va.onrender.com)
