@@ -480,7 +480,7 @@ Para ingresar al sistema con privilegios totales de administrador y evaluar el f
 
 
 
-  ## Proyecto 11: Compañía de Danza — App de administración
+  ## Proyecto XX1: Compañía de Danza — App de administración
 
 Aplicación de laboratorio para administrar integrantes, bailes, presentaciones, cuadros, observaciones e inventario. El sistema fue desarrollado con HTML, CSS y JavaScript puro, y se conecta a una base de datos Postgres en Supabase mediante una función RPC para ejecutar consultas SQL.
 
@@ -511,23 +511,23 @@ Aplicación de laboratorio para administrar integrantes, bailes, presentaciones,
 <details>
 <summary>🟩 Ver capturas de pantalla</summary>
 
-<img loading="lazy" src="Captura01.png" width="250"/>
-<img loading="lazy" src="Captura02.png" width="250"/>
-<img loading="lazy" src="Captura03.png" width="250"/>
-<img loading="lazy" src="Captura04.png" width="250"/>
-<img loading="lazy" src="Captura05.png" width="250"/>
-<img loading="lazy" src="Captura06.png" width="250"/>
-<img loading="lazy" src="Captura07.png" width="250"/>
-<img loading="lazy" src="Captura08.png" width="250"/>
-<img loading="lazy" src="Captura09.png" width="250"/>
-<img loading="lazy" src="Captura10.png" width="250"/>
-<img loading="lazy" src="Captura11.png" width="250"/>
-<img loading="lazy" src="Captura12.png" width="250"/>
-<img loading="lazy" src="Captura13.png" width="250"/>
-<img loading="lazy" src="Captura14.png" width="250"/>
-<img loading="lazy" src="Captura15.png" width="250"/>
-<img loading="lazy" src="Captura16.png" width="250"/>
-<img loading="lazy" src="Captura17.png" width="250"/>
+<img loading="lazy" src="https://github.com/user-attachments/assets/363efd33-a4d3-4cf6-97e7-a35b43497171" width="250"/>
+<img loading="lazy" src="https://github.com/user-attachments/assets/c4aee3e2-8a28-4906-9400-feac535b7141" width="250"/>
+<img loading="lazy" src="https://github.com/user-attachments/assets/fc762a02-3e1a-4d5c-9de4-f1178b10ce7b" width="250"/>
+<img loading="lazy" src="https://github.com/user-attachments/assets/af3c6509-8157-4619-9a3a-d8a113c06d70" width="250"/>
+<img loading="lazy" src="https://github.com/user-attachments/assets/7378958f-3876-4075-b04b-90825dcd9b75" width="250"/>
+<img loading="lazy" src="https://github.com/user-attachments/assets/58e7743c-a6a3-4aa7-b168-dd08d3a32c0d" width="250"/>
+<img loading="lazy" src="https://github.com/user-attachments/assets/9a030f63-0a62-4cfc-ae01-8ae3d38098b0" width="250"/>
+<img loading="lazy" src="https://github.com/user-attachments/assets/f0af967b-bfe0-4a75-ae00-80274589655d" width="250"/>
+<img loading="lazy" src="https://github.com/user-attachments/assets/2d9f5ff7-55c1-4589-8e12-a128cab3034b" width="250"/>
+<img loading="lazy" src="https://github.com/user-attachments/assets/b793270e-cb81-4a01-83d4-ff4c52be6100" width="250"/>
+<img loading="lazy" src="https://github.com/user-attachments/assets/11ed698a-0f9a-4503-a2fb-ef28f67efc59" width="250"/>
+<img loading="lazy" src="https://github.com/user-attachments/assets/28d6b6fc-926d-415d-876c-1e707d01428e" width="250"/>
+<img loading="lazy" src="https://github.com/user-attachments/assets/f6883df6-df7a-4239-a2cc-4827b2852a14" width="250"/>
+<img loading="lazy" src="https://github.com/user-attachments/assets/479ee716-06a3-4289-96e6-64cd79370ffc" width="250"/>
+<img loading="lazy" src="https://github.com/user-attachments/assets/a24e48e4-e359-43eb-b05f-0743b73c6fd8" width="250"/>
+<img loading="lazy" src="https://github.com/user-attachments/assets/b8f00a17-7c83-488f-ba9a-4ffb939ca4c6" width="250"/>
+<img loading="lazy" src="https://github.com/user-attachments/assets/4bfd1f76-c667-4ea8-bce0-81dcf075295e" width="250"/>
 
 </details>
 
