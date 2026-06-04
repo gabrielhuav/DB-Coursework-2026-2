@@ -648,7 +648,8 @@ Para solucionar este problema, se desarrolló una plataforma web conectada a una
 * Interfaz amigable y accesible para los usuarios.
 
 ### 🔗 Enlaces
-Admin de prueba:EMP-0003 Contraseña 12345
+Admin de prueba:EMP-0003 Contraseña 12345 
+
 Código Fuente: [Repositorio](https://github.com/sofi-14/gitfin)
 Página web: [PáginaWeb](https://sofi-14.github.io/gitfin/)
 
