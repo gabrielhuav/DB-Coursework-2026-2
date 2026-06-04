@@ -638,6 +638,7 @@ Para solucionar este problema, se desarrolló una plataforma web conectada a una
 
 </details>
 
+-
 ### Características principales
 
 * Gestión de animales disponibles para adopción.
