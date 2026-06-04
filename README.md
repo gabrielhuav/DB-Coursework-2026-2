@@ -1307,3 +1307,103 @@ Sistema web de registro y control de recepción de productos para la empresa **C
 | 🌐 Sistema en línea | [Abrir sistema](https://carnicerialaidealescom1.page.gd/CARNES/Login.html) |
 | 💻 Código fuente | [Ver en GitHub](https://github.com/aleaguiballos-cell/ProyectoBD2) |
 | 🗄️ Base de datos | [infinityfree] (https://php-myadmin.net/db_structure.php?db=if0_41904449_carniceria)  |
+
+## 🥩 Proyecto 21: Carnicería Camacho (Sistema de Gestión de Carnicería)
+
+Plataforma web desarrollada para la administración integral de una carnicería, permitiendo gestionar productos, clientes, proveedores y ventas mediante una interfaz conectada a una base de datos en la nube. El sistema facilita la organización de la información y automatiza procesos como el cálculo de impuestos y totales de venta.
+
+## 🛠️ Tecnologías
+
+* **Base de Datos:** PostgreSQL (Supabase)
+* **Frontend:** HTML, CSS y JavaScript Vanilla
+* **Backend:** Supabase API REST y funciones SQL
+* **Seguridad:** Row Level Security (RLS) y Policies
+* **Despliegue:** GitHub Pages
+
+## ✨ Funcionalidades
+
+* Gestión de productos (altas, consultas, modificaciones y bajas)
+* Gestión de clientes
+* Gestión de proveedores
+* Registro y administración de ventas
+* Operaciones CRUD completas
+* Cálculo automático del impuesto (10%)
+* Cálculo automático del total de venta
+* Conexión en tiempo real con Supabase
+* Interfaz web responsive
+* Control de acceso mediante roles (Administrador y Profesor)
+* Visualización de datos almacenados en la base de datos
+* Integración mediante API REST proporcionada por Supabase
+
+###  Verifica que funciona
+
+La aplicación se abrirá en tu navegador y mostrará la página principal de Carnicería Camacho conectada a Supabase.
+
+https://ivanrvillegas10-dev.github.io/carniceria/
+
+## 🔗 Tablas principales
+
+### Productos
+
+* idproducto
+* descripcion
+* costo
+* imagen
+* idproveedor
+
+### Clientes
+
+* idcliente
+* nombre
+* telefono
+* direccion
+
+### Proveedores
+
+* idproveedor
+* descripcion
+* tipo
+
+### Ventas
+
+* idventa
+* fecha
+* noventa
+* idcliente
+* subtotal
+* impuesto
+* total
+
+## 🔒 Seguridad
+
+* Uso de anon public key de Supabase
+* Protección mediante Row Level Security (RLS)
+* Policies para controlar acceso a las tablas
+* Roles de acceso:
+
+  * Administrador (control total)
+  * Profesor (solo lectura)
+
+👥 Usuarios de acceso
+
+* Usuario: **profesor**
+* Contraseña: **chocolate**
+* Permisos:
+
+  * Consultar productos, clientes, proveedores y ventas.
+  * Visualizar el funcionamiento general del sistema.
+  * No puede agregar, editar ni eliminar información.
+
+Esta implementación permite demostrar el funcionamiento del sistema sin comprometer la integridad de los datos almacenados en la base de datos.
+
+## 🌐 Demo
+
+**Página Web:**
+https://ivanrvillegas10-dev.github.io/carniceria/
+
+**Repositorio GitHub:**
+https://github.com/ivanrvillegas10-dev/carniceria
+
+Repositorio Central:
+
+https://github.com/gabrielhuav/DB-Coursework-2026-2
