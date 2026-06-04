@@ -40,8 +40,6 @@ Plataforma web tipo red social enfocada en lectores, donde los usuarios pueden r
 
 <details>
 <summary>🖼️ Ver capturas de pantalla</summary>
-##  Funcionalidades principales
-
 
 | | |
 |---|---|
