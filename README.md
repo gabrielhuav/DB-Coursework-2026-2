@@ -317,7 +317,20 @@ backend/
     ├── proyectista.py            # Presupuesto por obra, Costos
     └── public.py                 # Endpoints públicos (mapa ciudadano)
 ```
+ # Testeo del Proyecto
+
+## 🚀 Funcionalidad: 
  
+De manera general, puedes acceder a cada uno de los roles predispustos, pero no puedes ralizar acciones directas sobre la base de datos. Esto con algunos usuarios de prueba: 
+
+### Usuarios de prueba:
+
+| Rol | Usuario | Contraseña |
+| :--- | :--- | :--- |
+| Director | demo_director | DemoDir2026! |
+| Supervisor | demo_supervisor | DemoSup2026! |
+| Secretaria | demo_secretaria | DemoSec2026! |
+| Proyectista | demo_proyectista | DemoPry2026! |
 ---
 
 <details>
@@ -335,6 +348,28 @@ backend/
 | <img src="https://github.com/user-attachments/assets/8cf06dce-4605-4345-9d42-7dda3d9832ae" alt="Mapa Público DEMO" width="800"/> |
 
 </details>
+
+<details>
+<summary>🖼️ Ver Diagramas</summary>
+
+## Diagrama Relacional
+
+| |
+|---|
+| <img src="https://github.com/user-attachments/assets/28638031-7d27-42f3-b2b1-c932fb207ef6" alt="Login" width="800"/> |
+
+
+
+## Diagrama Entidad Rel. Etendido
+
+
+| |
+|---|
+| <img src="https://github.com/user-attachments/assets/303c37e3-4fe9-4cfe-9b74-7f442f51541a" alt="Login" width="800"/> |
+
+
+</details>
+---
 
 ### 🔗 Enlaces
 * **Código Fuente:** [Repositorio en GitHub](https://github.com/Urigc/Obras_publicas/tree/TestDefinitivo)
