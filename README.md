@@ -42,7 +42,7 @@ Plataforma web tipo red social enfocada en lectores, donde los usuarios pueden r
 <summary>🖼️ Ver capturas de pantalla</summary>
 ##  Funcionalidades principales
 
-<<<<<<< HEAD
+
 | | |
 |---|---|
 | <img loading="lazy" src="https://github.com/user-attachments/assets/3683878c-1592-4f2a-894e-cd170b474878" alt="Vista principal de Booksnexus" width="800"/> | |
@@ -218,9 +218,7 @@ El sistema está dividido en secciones interactivas que se actualizan de forma a
 Código Fuente: [Repositorio](https://github.com/aeiou520814-del/abc)
 Demo en Vivo: [Página Web](https://aeiou520814-del.github.io/abc/)
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
+
 # Proyecto 15: MANTRA — Red social de eventos
 
 MANTRA es una plataforma web tipo red social enfocada en la publicación, descubrimiento e interacción alrededor de eventos. El sistema permite que los usuarios se registren según su rol: asistidor u organizador. Los asistidores pueden descubrir eventos, confirmar asistencia, comentar, dejar reseñas, seguir organizadores, agregar amigos y usar chat. Los organizadores pueden publicar eventos con imágenes promocionales, administrar sus eventos y consultar métricas básicas.
@@ -294,13 +292,7 @@ https://github.com/JULIO-MILAN/mantra-backend
 https://mantra-backend-24g1.onrender.com/
 
 
-=======
-=======
->>>>>>> upstream/main
 
->>>>>>> upstream/main
-=======
->>>>>>> a980f3237585a6318431f7d4fa9be69c69de31f0
 ---
 
 ## Proyecto 5: Sistema de Información — Dirección de Obras Públicas de Temascaltepec
@@ -403,16 +395,13 @@ backend/
 ```
  
 ---
-<<<<<<< HEAD
->>>>>>> 6fc4c1d600fb47cba285b6a2be75fb171c0b2eda
-=======
->>>>>>> 6fc4c1d600fb47cba285b6a2be75fb171c0b2eda
+
+
 
 <details>
 <summary>🖼️ Ver capturas de pantalla</summary>
 
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 | | |
 |---|---|
 | <img loading="lazy" src="https://github.com/xsuik33/xsuik33.github.io/blob/main/Page.png" alt="Vista principal de la Pagina - Bibliotech" width="400"/> | <img loading="lazy" src="https://github.com/xsuik33/xsuik33.github.io/blob/main/Login.png" alt="Login - BiblioTech" width="400"/> |
@@ -438,10 +427,8 @@ src="https://github.com/xsuik33/xsuik33.github.io/blob/main/Section.png" alt="Vi
 * **Demo en Vivo:** [BiblioTech Web](https://xsuik33.github.io)
 ---
 
->>>>>>> 2d6b17956a0d96f9a0ea0b6ad4bb635c5bd9d9be
-=======
-=======
->>>>>>> 6fc4c1d600fb47cba285b6a2be75fb171c0b2eda
+
+
 ## Capturas de pantalla
 
 | |
@@ -631,14 +618,12 @@ Para ingresar al sistema con privilegios totales de administrador y evaluar el f
  
 🔗 Enlaces
 * **Código Fuente:** [Repositorio Notaría 105](https://github.com/s06008525-max/notaria-105)
-<<<<<<< HEAD
+
 * **Demo en Vivo:** [notaria105](http://roberto.notario@notaria105.com)
-<<<<<<< HEAD
-  
-<<<<<<< HEAD
-=======
+
+
 * **Demo en Vivo:** [notaria105](https://notaria-105.onrender.com/)
->>>>>>> a980f3237585a6318431f7d4fa9be69c69de31f0
+
 
 # Proyecto 11: Refaccionaria Leo 🚗
 
@@ -683,14 +668,14 @@ Sistema integral para la gestión de inventario, ventas y distribuicion de abarr
 * **Frontend:** HTML, CSS y JavaScript
 * **Hosting del Frontend:** Github Pages
 * **Hosting de la base de datos y backend:** Render
->>>>>>> upstream/main
+
 
 <details>
 <summary>🖼️ Ver capturas de pantalla</summary>
 
 | | |
 |---|---|
-<<<<<<< HEAD
+
 | <img loading="lazy" src="https://github.com/xsuik33/xsuik33.github.io/blob/main/Page.png" alt="Vista principal de la Pagina - Bibliotech" width="400"/> | <img loading="lazy" src="https://github.com/xsuik33/xsuik33.github.io/blob/main/Login.png" alt="Login - BiblioTech" width="400"/> |
 | <img loading="lazy" src="https://github.com/xsuik33/xsuik33.github.io/blob/main/Register.png" alt="Registro - BiblioTech" width="400"/> | <img loading="lazy"
 src="https://github.com/xsuik33/xsuik33.github.io/blob/main/Preview.png" alt="Vista Previa de la Pagina de Libro- BiblioTech" width="400"/> | <img loading="lazy"
@@ -713,9 +698,7 @@ src="https://github.com/xsuik33/xsuik33.github.io/blob/main/Section.png" alt="Vi
 * **Código Fuente:** [Repositorio en GitHub](https://github.com/xsuik33/xsuik33.github.io)
 * **Demo en Vivo:** [BiblioTech Web](https://xsuik33.github.io)
 ---
-=======
->>>>>>> 6fc4c1d600fb47cba285b6a2be75fb171c0b2eda
-=======
+
 | <img loading="lazy" src="https://github.com/user-attachments/assets/4e5635a8-4fe3-4789-a8aa-ad3ef39d7300" alt="Pantalla de login" width="800"/> | |
 | <img loading="lazy" src="https://github.com/user-attachments/assets/9317424e-674d-4877-a1bd-7e6cb287e254" alt="Pantalla de inicio admin" width="800"/> | |
 | <img loading="lazy" src="https://github.com/user-attachments/assets/1d013572-cf13-4fa7-bd7a-c60fc9e334eb" alt="Detalles tabla trabajador" width="800"/> | |
