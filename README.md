@@ -1308,7 +1308,7 @@ Sistema web de registro y control de recepción de productos para la empresa **C
 | 💻 Código fuente | [Ver en GitHub](https://github.com/aleaguiballos-cell/ProyectoBD2) |
 | 🗄️ Base de datos | [infinityfree] (https://php-myadmin.net/db_structure.php?db=if0_41904449_carniceria)  |
 
-## 🥩 Proyecto 21: Carnicería Camacho (Sistema de Gestión de Carnicería)
+## 🥩 Proyecto 33: Carnicería Camacho (Sistema de Gestión de Carnicería)
 
 Plataforma web desarrollada para la administración integral de una carnicería, permitiendo gestionar productos, clientes, proveedores y ventas mediante una interfaz conectada a una base de datos en la nube. El sistema facilita la organización de la información y automatiza procesos como el cálculo de impuestos y totales de venta.
 
