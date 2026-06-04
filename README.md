@@ -317,7 +317,21 @@ backend/
     ├── proyectista.py            # Presupuesto por obra, Costos
     └── public.py                 # Endpoints públicos (mapa ciudadano)
 ```
+ # Testeo del Proyecto
+
+## 🚀 Funcionalidad: 
  
+De manera general, puedes acceder a cada uno de los roles predispuestos, pero no puedes ralizar acciones directas sobre la base de datos. Esto con algunos usuarios de prueba: 
+
+### Usuarios de prueba:
+
+| Rol | Usuario | Contraseña |
+| :--- | :--- | :--- |
+| Director | demo_director | DemoDir2026! |
+| Supervisor | demo_supervisor | DemoSup2026! |
+| Secretaria | demo_secretaria | DemoSec2026! |
+| Proyectista | demo_proyectista | DemoPry2026! |
+
 ---
 
 <details>
