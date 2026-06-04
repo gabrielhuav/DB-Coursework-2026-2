@@ -317,20 +317,7 @@ backend/
     ├── proyectista.py            # Presupuesto por obra, Costos
     └── public.py                 # Endpoints públicos (mapa ciudadano)
 ```
- # Testeo del Proyecto
-
-## 🚀 Funcionalidad: 
  
-De manera general, puedes acceder a cada uno de los roles predispustos, pero no puedes ralizar acciones directas sobre la base de datos. Esto con algunos usuarios de prueba: 
-
-### Usuarios de prueba:
-
-| Rol | Usuario | Contraseña |
-| :--- | :--- | :--- |
-| Director | demo_director | DemoDir2026! |
-| Supervisor | demo_supervisor | DemoSup2026! |
-| Secretaria | demo_secretaria | DemoSec2026! |
-| Proyectista | demo_proyectista | DemoPry2026! |
 ---
 
 <details>
@@ -349,28 +336,6 @@ De manera general, puedes acceder a cada uno de los roles predispustos, pero no 
 
 </details>
 
-<details>
-<summary>🖼️ Ver Diagramas</summary>
-
-## Diagrama Relacional
-
-| |
-|---|
-| <img src="https://github.com/user-attachments/assets/28638031-7d27-42f3-b2b1-c932fb207ef6" alt="Login" width="800"/> |
-
-
-
-## Diagrama Entidad Rel. Etendido
-
-
-| |
-|---|
-| <img src="https://github.com/user-attachments/assets/303c37e3-4fe9-4cfe-9b74-7f442f51541a" alt="Login" width="800"/> |
-
-
-</details>
----
-
 ### 🔗 Enlaces
 * **Código Fuente:** [Repositorio en GitHub](https://github.com/Urigc/Obras_publicas/tree/TestDefinitivo)
 * **Demo en Vivo (GitHub Pages):** [Página](https://urigc.github.io/Obras_publicas/)
@@ -383,7 +348,8 @@ De manera general, puedes acceder a cada uno de los roles predispustos, pero no 
 
 ## Stack
 
-### Backend
+<details>
+<summary>Backend</summary>
 | Tecnología | Uso |
 |---|---|
 | Node.js + Express | Servidor y endpoints |
@@ -394,7 +360,10 @@ De manera general, puedes acceder a cada uno de los roles predispustos, pero no 
 | express-rate-limit | Protección contra abuso |
 | ioredis | Cliente de Redis |
 
-### Frontend
+</details>
+
+<details>
+<summary>Frontend</summary>
 | Tecnología | Uso |
 |---|---|
 | HTML5 | Estructura de las páginas |
@@ -402,10 +371,11 @@ De manera general, puedes acceder a cada uno de los roles predispustos, pero no 
 | JavaScript (vanilla) | Lógica del frontend |
 | Google Fonts | Tipografías (Playfair Display, DM Sans, DM Mono) |
 | localStorage | Sesión del usuario y carrito |
-
+</details>
 ---
 
-## Estructura de archivos
+<details>
+<summary>Estructura de archivos</summary>
 
 ```
 vinylvibes-backend/
@@ -423,7 +393,7 @@ vinylvibes-frontend/
 ├── admin.js       → lógica del panel admin
 └── style.css      → estilos globales y variables de diseño
 ```
-
+</details>
 ---
 
 ## Instalación local
@@ -490,7 +460,8 @@ LASTFM_API_KEY    = clave_de_lastfm
 | Contraseña | `chocolate` |
 
 ---
-
+<details>
+<summary>Paginas Frontend</summary>
 ## Páginas (Frontend)
 
 ### index.html — Catálogo principal
@@ -518,7 +489,7 @@ Accesible solo para usuarios con rol `admin` o `demo`. Contiene:
 - Tabla de usuarios con búsqueda, cambio de rol y eliminación con confirmación.
 - Tabla de ventas con búsqueda, cambio de estado y modal de detalle.
 - Banner de solo lectura visible para cuentas `demo`.
-
+</details>
 ---
 
 ## Roles de usuario
@@ -546,7 +517,8 @@ El token JWT se guarda en `localStorage` tras el login y se envía en el header 
 
 ---
 
-## Endpoints
+<details>
+<summary>Endpoints</summary>
 
 ### Auth
 | Método | Ruta | Auth | Descripción |
@@ -586,6 +558,7 @@ El token JWT se guarda en `localStorage` tras el login y se envía en el header 
 | PUT | `/admin/ventas/:id/estado` | [admin] | Cambiar estado de una venta |
 | GET | `/redis-ping` | [admin, demo] | Diagnóstico de Redis |
 
+</details>
 ---
 
 ## Base de datos
@@ -723,7 +696,8 @@ El sistema de diseño usa variables CSS definidas en `style.css` (`--bg-surface`
 
 ---
 
-## Ejemplos de request / response
+<details>
+<summary>Ejemplos de request, response</summary>
 
 ### POST /registro
 
@@ -785,7 +759,7 @@ El sistema de diseño usa variables CSS definidas en `style.css` (`--bg-surface`
 // Response 201
 { "mensaje": "¡Compra procesada exitosamente!", "id_venta": 42, "total": "29.99" }
 ```
-
+</details>
 ---
 
 
@@ -794,13 +768,11 @@ El sistema de diseño usa variables CSS definidas en `style.css` (`--bg-surface`
 
 | | |
 |---|---|
-| <img loading="lazy" src="[https://github.com/user-attachments/assets/1ad4d892-9777-4b9b-8305-ebe85305cfd8](https://github.com/user-attachments/assets/b8a28bde-7a63-4fb5-ab29-dae045f5c318)" alt="Página principal de VinylVibes" width="800"/> | 
-| <img loading="lazy" src="[https://github.com/user-attachments/assets/4ef93b08-d50d-46b7-9491-7cd907dcb663](https://github.com/user-attachments/assets/c698edfe-8f98-4268-9bab-666cf72c7caa)" alt="Búsqueda de discos" width="400"/>|
-| <img loading="lazy" src="[https://github.com/user-attachments/assets/4ef93b08-d50d-46b7-9491-7cd907dcb663](https://github.com/user-attachments/assets/8769e360-5673-4111-8041-c7813d667014)" alt="Seccion de generos musicales" width="400"/>|
-| <img loading="lazy" src="[[https://github.com/user-attachments/assets/4ef93b08-d50d-46b7-9491-7cd907dcb663](https://github.com/user-attachments/assets/8769e360-5673-4111-8041-c7813d667014)](https://github.com/user-attachments/assets/28cf1996-b01a-4a49-8d43-18dd05ac8edd)" alt="Seccion de generos musicales" width="400"/>|
-
-| <img loading="lazy" src="[https://github.com/user-attachments/assets/1ad4d892-9777-4b9b-8305-ebe85305cfd8](https://github.com/user-attachments/assets/b8a28bde-7a63-4fb5-ab29-dae045f5c318)](https://github.com/user-attachments/assets/8eef01ca-0473-410e-91cd-0c3c221b5f8a)" alt="Modal de historia" width="800"/> | 
-| <img loading="lazy" src="[https://github.com/user-attachments/assets/1ad4d892-9777-4b9b-8305-ebe85305cfd8](https://github.com/user-attachments/assets/b8a28bde-7a63-4fb5-ab29-dae045f5c318)](https://github.com/user-attachments/assets/8eef01ca-0473-410e-91cd-0c3c221b5f8a)](https://github.com/user-attachments/assets/84e4ade7-b921-4b01-8299-a5e53cffce40)" alt="Modal de Compra" width="800"/> | 
+| <img loading="lazy" src="https://github.com/user-attachments/assets/1ad4d892-9777-4b9b-8305-ebe85305cfd8" alt="Página principal de VinylVibes" width="800"/> | 
+| <img loading="lazy" src="https://github.com/user-attachments/assets/c698edfe-8f98-4268-9bab-666cf72c7caa" alt="Búsqueda de discos" width="400"/>|
+| <img loading="lazy" src="https://github.com/user-attachments/assets/8769e360-5673-4111-8041-c7813d667014" alt="Seccion de generos musicales" width="400"/>|
+| <img loading="lazy" src="https://github.com/user-attachments/assets/8eef01ca-0473-410e-91cd-0c3c221b5f8a" alt="Modal de historia" width="800"/> | 
+| <img loading="lazy" src="https://github.com/user-attachments/assets/84e4ade7-b921-4b01-8299-a5e53cffce40" alt="Modal de Compra" width="800"/> | 
 
 </details>
 
