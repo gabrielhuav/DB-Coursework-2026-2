@@ -79,10 +79,11 @@ Sistema web integral para la gestión de una cafetería artesanal ubicada en Ref
 
 | | |
 |---|---|
-| <img loading="lazy" src="https://github.com/PerlaSantos/DestinyCafe/blob/0aeb3ca476dc1d6d692dc9c9264c140ae76295cd/Principal.png" alt="Vista principal de DestinyCafe - Página de inicio" width="800"/> | |
-| <img loading="lazy" src="https://github.com/PerlaSantos/DestinyCafe/blob/0aeb3ca476dc1d6d692dc9c9264c140ae76295cd/Areas.png" alt="Sección de áreas: Barra, Cocina y Panadería" width="400"/> | <img loading="lazy" src="https://github.com/PerlaSantos/DestinyCafe/blob/0aeb3ca476dc1d6d692dc9c9264c140ae76295cd/Inventario.png" alt="Formulario de registro de insumos" width="400"/> |
-| <img loading="lazy" src="https://github.com/PerlaSantos/DestinyCafe/blob/0aeb3ca476dc1d6d692dc9c9264c140ae76295cd/Ventas.png" alt="Formulario de registro de ventas." width="800"/> | |
+| <img loading="lazy" src="https://github.com/PerlaSantos/DestinyCafe/blob/960a0a8029eea604e10949a234bdaa3712193b60/Principal.png" alt="Vista principal de DestinyCafe - Página de inicio" width="800"/> | |
+| <img loading="lazy" src="https://github.com/PerlaSantos/DestinyCafe/blob/960a0a8029eea604e10949a234bdaa3712193b60/Areas.png" alt="Sección de áreas: Barra, Cocina y Panadería" width="400"/> | <img loading="lazy" src="https://github.com/PerlaSantos/DestinyCafe/blob/960a0a8029eea604e10949a234bdaa3712193b60/Inventario.png" alt="Formulario de registro de insumos" width="400"/> |
+| <img loading="lazy" src="https://github.com/PerlaSantos/DestinyCafe/blob/960a0a8029eea604e10949a234bdaa3712193b60/Ventas.png" alt="Formulario de registro de ventas." width="800"/> | |
 </details>
+
 
 ###  Funcionalidades principales
 
@@ -508,7 +509,7 @@ manejo de personal e informacion sobre los servicios proporcionados.
 <details>
 <summary>🖼️ Ver capturas de pantalla</summary>
 | <img loading="lazy" src="https://github.com/Jaely19/Patitas-Sanas/blob/main/pantallap.png" alt="Vista principal de Veterinaria" width="800"/> | |
-| <img loading="lazy" src="https://github.com/Jaely19/Patitas-Sanas/blob/main/sevicios.png" alt="servicios" width="400"/> |
+| <img loading="lazy" src="https://github.com/Jaely19/Patitas-Sanas/blob/main/sevicios.png" alt="servicios" width="800"/> |
 </details>
 
 ### Usuarios:
@@ -1080,3 +1081,402 @@ Plataforma web enfocada en la comunidad universitaria (alumnos y profesores), di
 
 * **Código Fuente:** [Repositorio en GitHub](https://github.com/xsuik33/xsuik33.github.io)
 * **Demo en Vivo:** [BiblioTech Web](https://xsuik33.github.io) 
+# La Casita - Mini Súper Web con Laravel
+
+## Descripción
+
+**La Casita** es una aplicación web desarrollada con **Laravel** para administrar de forma básica un mini súper. Permite gestionar productos, clientes, empleados, proveedores, sucursales, promociones, inventario, ventas y preguntas frecuentes.
+
+El proyecto incluye autenticación, registro de clientes, control de sesiones, roles de usuario y paneles diferentes para administrador, empleado y cliente.
+
+---
+
+## Tecnologías utilizadas
+
+- Laravel 12
+- PHP 8.2 o superior
+- MySQL / MariaDB
+- Composer
+- Blade Templates
+- HTML, CSS y JavaScript
+- XAMPP
+- phpMyAdmin
+
+---
+
+## Funcionalidades principales
+
+- Página pública del negocio.
+- Registro e inicio de sesión.
+- Panel de administrador, empleado y cliente.
+- Gestión de productos, categorías, clientes, empleados y proveedores.
+- Gestión de sucursales, promociones y preguntas frecuentes.
+- Consulta de inventario y ventas.
+- Catálogo e historial de compras para clientes.
+- Protección de rutas por sesión y rol.
+
+---
+
+## Roles del sistema
+
+| Rol | Descripción |
+|---|---|
+| Administrador | Acceso completo a la administración del sistema. |
+| Empleado | Acceso operativo a productos, inventario y ventas. |
+| Cliente | Consulta catálogo y compras realizadas. |
+
+---
+
+## Cuentas de prueba
+
+| Rol | Correo | Contraseña |
+|---|---|---|
+| Administrador | admin@lacasita.com | 123456 |
+| Empleado | empleado@lacasita.com | 123456 |
+| Cliente | cliente@lacasita.com | 123456 |
+
+---
+
+## Capturas del proyecto
+
+<details>
+<summary>🖼️ Ver capturas de pantalla</summary>
+
+### Página de inicio
+
+![Página de inicio](Inicio.png)
+
+---
+
+### Catálogo de productos
+
+![Catálogo de productos](CATALOGO.png)
+
+---
+
+### Promociones
+
+![Promociones](Oferta.png)
+
+---
+
+### Sucursales
+
+![Sucursales](Sucursales.png)
+
+---
+
+### Ayuda
+
+![Ayuda](Ayuda.png)
+
+---
+
+### Panel de administrador
+
+![Panel de administrador](ADMIN.png)
+
+---
+
+### Panel de empleado
+
+![Panel de empleado](EMPLEADO.png)
+
+---
+
+### Panel de cliente
+
+![Panel de cliente](CLIENTE.png)
+
+</details>
+
+---
+
+## Estructura general
+
+```txt
+LaCasita/
+├── app/
+├── bootstrap/
+├── config/
+├── database/
+├── public/
+├── resources/
+├── routes/
+├── storage/
+├── Inicio.png
+├── CATALOGO.png
+├── Oferta.png
+├── Sucursales.png
+├── Ayuda.png
+├── ADMIN.png
+├── EMPLEADO.png
+├── CLIENTE.png
+├── artisan
+├── composer.json
+├── composer.lock
+└── README.md
+```
+
+---
+
+## Instalación local
+
+1. Colocar el proyecto en:
+
+```txt
+C:\xampp\htdocs\LaCasita
+```
+
+2. Encender en XAMPP:
+
+```txt
+Apache
+MySQL
+```
+
+3. Crear en phpMyAdmin una base de datos llamada:
+
+```txt
+lacasita_laravel
+```
+
+4. Configurar el archivo `.env`:
+
+```env
+APP_NAME="La Casita"
+APP_ENV=local
+APP_DEBUG=true
+APP_URL=http://127.0.0.1:8000
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=lacasita_laravel
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+5. Ejecutar los comandos:
+
+```bash
+cd C:\xampp\htdocs\LaCasita
+composer install
+php artisan key:generate
+php artisan migrate:fresh --seed
+php artisan optimize:clear
+php artisan serve
+```
+
+6. Abrir en el navegador:
+
+```txt
+http://127.0.0.1:8000
+```
+
+---
+
+## Rutas principales
+
+| Ruta | Descripción |
+|---|---|
+| `/` | Página principal |
+| `/login` | Inicio de sesión |
+| `/registro` | Registro de cliente |
+| `/dashboard` | Panel según el rol |
+| `/productos` | Gestión de productos |
+| `/inventario` | Consulta de inventario |
+| `/ventas` | Consulta de ventas |
+| `/cliente/catalogo` | Catálogo del cliente |
+| `/cliente/compras` | Compras del cliente |
+
+---
+
+## Seguridad implementada
+
+- Autenticación de usuarios.
+- Protección de rutas privadas.
+- Control de acceso por rol.
+- Contraseñas cifradas con hash.
+- Protección CSRF en formularios.
+- Validaciones del lado del servidor.
+- Uso de Eloquent ORM.
+
+---
+
+## Notas importantes
+
+- No subir `.env` a GitHub.
+- No subir `vendor` ni `node_modules`.
+- En producción usar `APP_DEBUG=false`.
+- Las imágenes del README deben estar en la raíz del repositorio, junto al archivo `README.md`.
+
+---
+
+## Conclusión
+
+**La Casita** es un proyecto web funcional desarrollado con Laravel y MySQL. Integra autenticación, roles, operaciones CRUD y paneles diferenciados para administrar un mini súper de manera sencilla.
+
+
+## Carniceria la Ideal 
+
+**Estudiantes:** Alejandro Aguilera Ceballos, José Ángel Malvaez Flores, Gomez Belmont Wendy Nathaly 
+
+**Asignatura:** Bases de Datos 2026-2  
+**URL del sistema:** https://carnicerialaidealescom1.page.gd/CARNES/Login.html
+
+---
+
+## Descripción del proyecto
+
+Sistema web de registro y control de recepción de productos para la empresa **Carnes Ideal**. Permite registrar la entrada de mercancía de proveedores con características sensoriales, temperatura, empaques y evidencias. Cuenta con autenticación de usuarios, roles (admin/operativo), panel de administración y almacenamiento en base de datos MySQL.
+
+---
+
+## Tecnologías utilizadas
+
+| Capa | Tecnología |
+|---|---|
+| Frontend | HTML5, CSS3, JavaScript |
+| Backend | PHP 8 |
+| Base de datos | MySQL (InfinityFree — `sql311.infinityfree.com`) |
+| SGBD visual | phpMyAdmin |
+| Hosting | InfinityFree |
+
+---
+
+## Código Fuente Frontend
+
+| Archivo | Descripción |
+|---|---|
+| `frontend/Login.html` | Página de inicio de sesión |
+| `frontend/Login.css` | Estilos del login |
+| `frontend/Login.js` | Lógica del login (fetch, validaciones, ojo de contraseña) |
+| `frontend/registro.html` | Formulario de registro de nuevos usuarios |
+| `frontend/registrer.css` | Estilos del registro |
+| `frontend/index.php` | Formulario principal de recepción de productos (protegido por sesión) |
+| `frontend/admin.php` | Panel de administración (solo rol admin) |
+| `frontend/estilos.css` | Estilos globales del sistema |
+
+---
+
+## Código Fuente Backend
+
+| Archivo | Descripción |
+|---|---|
+| `backend/login.php` | Autenticación de usuarios, manejo de sesión y redirección por rol |
+| `backend/logout.php` | Cierre de sesión y destrucción de sesión PHP |
+| `backend/registro.php` | Registro de nuevos usuarios con hash bcrypt y validaciones |
+| `backend/guardar_excel.php` | Guardado de registros de recepción en base de datos MySQL |
+| `backend/admin_data.php` | API de datos para el panel admin (estadísticas, recepciones, usuarios) |
+| `backend/get_user.php` | Retorna el nombre del usuario activo desde la sesión |
+
+---
+
+## Estructura de la base de datos
+
+### Tabla `usuarios`
+| Campo | Tipo | Descripción |
+|---|---|---|
+| id | INT PK AUTO_INCREMENT | Identificador único |
+| username | VARCHAR(100) | Nombre de usuario |
+| password | VARCHAR(255) | Contraseña hasheada con bcrypt |
+| nombre_completo | VARCHAR(150) | Nombre completo del usuario |
+| correo_electronico | VARCHAR(150) | Correo electrónico |
+| permisos | VARCHAR(20) | Rol: `admin` u `operativo` |
+
+### Tabla `recepciones`
+| Campo | Tipo | Descripción |
+|---|---|---|
+| id | INT PK AUTO_INCREMENT | Identificador único |
+| usuario | VARCHAR(100) | Usuario que registró |
+| fecha | DATE | Fecha de recepción |
+| proveedor | VARCHAR(100) | Proveedor del producto |
+| producto | VARCHAR(200) | Nombre del producto |
+| cantidad | INT | Cantidad recibida |
+| unidad | VARCHAR(20) | Unidad (Caja/Kg/Pieza) |
+| precio_unidad | DECIMAL(10,2) | Precio por unidad |
+| sensorial_olor | VARCHAR(10) | Evaluación olor (Si/No) |
+| sensorial_color | VARCHAR(10) | Evaluación color (Si/No) |
+| sensorial_textura | VARCHAR(10) | Evaluación textura (Si/No) |
+| temp_producto | DECIMAL(5,1) | Temperatura del producto °C |
+| empaque_limpio | VARCHAR(5) | Estado del empaque (Si/No) |
+| num_remision | VARCHAR(100) | Número de remisión |
+| verifico | VARCHAR(100) | Persona que verificó |
+| fecha_registro | TIMESTAMP | Fecha/hora de registro automático |
+
+---
+
+## Características del sistema
+
+- ✅ Autenticación segura con `password_hash()` (bcrypt)
+- ✅ Protección de sesiones PHP en todas las páginas
+- ✅ Prevención de SQL Injection con Prepared Statements
+- ✅ Roles de usuario: `admin` y `operativo`
+- ✅ Panel de administración con estadísticas en tiempo real
+- ✅ Exportación de registros a CSV
+- ✅ Formulario de recepción con validaciones
+- ✅ Evaluación sensorial de productos (olor, color, textura)
+- ✅ Control de temperatura con slider interactivo
+- ✅ Registro de múltiples productos por recepción
+
+---
+
+## Pasos para ejecutar y comprobar la entrega
+
+### Opción 1 — Sistema en línea (recomendado)
+
+1. Abrir: https://carnicerialaidealescom1.page.gd/CARNES/Login.html
+2. Iniciar sesión con las credenciales de prueba:
+
+| Usuario | Contraseña | Rol |
+|---|---|---|
+| `2` | `Aguilucho5000$` | Administrador |
+| `1` | `Aguilucho5000$` | Operativo |
+
+3. Llenar el formulario de recepción y dar clic en **Guardar**
+4. Para acceder al panel admin, iniciar sesión con una cuenta de rol `admin`
+
+
+
+## Notas especiales
+
+- Las contraseñas se almacenan con `password_hash()` algoritmo **bcrypt**.
+- Todas las consultas usan **Prepared Statements** para prevenir SQL Injection.
+- Solo usuarios con rol `admin` pueden acceder al panel de administración.
+
+---
+
+## Capturas de pantalla
+
+**Login**
+
+<img src="screenshots/login.png" alt="Pantalla de inicio de sesión" loading="lazy" width="800">
+
+---
+
+**Registro de usuario**
+
+<img src="screenshots/registro.png" alt="Formulario de registro de nuevos usuarios" loading="lazy" width="800">
+
+---
+
+**Formulario de recepción**
+
+<img src="screenshots/formulario.png" alt="Formulario de recepción de productos" loading="lazy" width="800">
+
+---
+
+**Panel de administración**
+
+<img src="screenshots/administrador.png" alt="Panel de administración" loading="lazy" width="800">
+
+---
+
+## Enlaces
+
+| Descripción | URL |
+|---|---|
+| 🌐 Sistema en línea | [Abrir sistema](https://carnicerialaidealescom1.page.gd/CARNES/Login.html) |
+| 💻 Código fuente | [Ver en GitHub](https://github.com/aleaguiballos-cell/ProyectoBD2) |
+| 🗄️ Base de datos | [infinityfree] (https://php-myadmin.net/db_structure.php?db=if0_41904449_carniceria)  |
