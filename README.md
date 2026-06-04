@@ -673,13 +673,15 @@ Sistema web para el agendado y gestión de citas medicas en un hospital
 - Linares Medina Fernando Agustin
 - Angeles Salinas Daniel Alejandro
 
-<summary>🖼️ Capturas de la pagina</summary>
+<details>
+<summary>🖼️ Capturas de la página</summary>
 <br>
+
 | | |
 |---|---|
-|<img loading="lazy" width="1800" height="724" alt="Captura de pantalla 2026-05-28 192656" src="https://github.com/user-attachments/assets/7e617b84-42e8-49f9-8907-274c34e515bd" />|
-|<img loading="lazy" width="1190" height="736" alt="Captura de pantalla 2026-05-28 193621" src="https://github.com/user-attachments/assets/cfd6fdaf-692a-43a2-83fd-e357257a4117" />|
-|<img loading="lazy" width="1874" height="666" alt="Captura de pantalla 2026-05-28 193641" src="https://github.com/user-attachments/assets/c40df635-46ac-4868-8750-0b76bc2a32ce" />|
+| <img loading="lazy" width="1800" src="https://github.com/user-attachments/assets/7e617b84-42e8-49f9-8907-274c34e515bd" alt="Vista principal de Booksnexus" /><br>**Vista principal de Booksnexus** | |
+| <img loading="lazy" width="1190" src="https://github.com/user-attachments/assets/cfd6fdaf-692a-43a2-83fd-e357257a4117" alt="Perfil de usuario" /><br>**Perfil de usuario** | <img loading="lazy" width="1874" src="https://github.com/user-attachments/assets/c40df635-46ac-4868-8750-0b76bc2a32ce" alt="Timeline de publicaciones" /><br>**Timeline de publicaciones** |
+
 </details>
 
 
