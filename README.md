@@ -1211,20 +1211,46 @@ MANTRA es una plataforma web tipo red social enfocada en la publicación, descub
  Organizador: user5@example.com , contraseña: pass5
  Usuario: milan.ewok@gmail.com, contraseña : Julio121086
 ## 🖼️ Capturas de pantalla
-
-🖼️ Ver capturas de pantalla
-
 <details>
-<summary>Ver capturas de pantalla</summary>Landing Page| Feed de eventos
-<a href="https://github.com/user-attachments/assets/42a1b548-17ca-46eb-aeef-fc862a6ce4c0"><img src="https://github.com/user-attachments/assets/42a1b548-17ca-46eb-aeef-fc862a6ce4c0" alt="Landing Page" loading="lazy" width="400"></a>| <a href="https://github.com/user-attachments/assets/6c369928-ee59-4f45-bce8-97b4a5c7edde"><img src="https://github.com/user-attachments/assets/6c369928-ee59-4f45-bce8-97b4a5c7edde" alt="Feed de eventos" loading="lazy" width="400"></a>
+<br>
 
-Dashboard organizador| Comunidad
-<a href="https://github.com/user-attachments/assets/873197d9-57de-4f03-9024-a659d2f122a4"><img src="https://github.com/user-attachments/assets/873197d9-57de-4f03-9024-a659d2f122a4" alt="Dashboard" loading="lazy" width="400"></a>| <a href="https://github.com/user-attachments/assets/6ef71a19-5c95-4625-8077-2fa7774410f2"><img src="https://github.com/user-attachments/assets/6ef71a19-5c95-4625-8077-2fa7774410f2" alt="Comunidad" loading="lazy" width="400"></a>
+<table>
+<tr>
+<td align="center">
+<b>Landing Page</b><br><br>
+<a href="https://github.com/user-attachments/assets/42a1b548-17ca-46eb-aeef-fc862a6ce4c0">
+<img src="https://github.com/user-attachments/assets/42a1b548-17ca-46eb-aeef-fc862a6ce4c0" width="450" loading="lazy">
+</a>
+</td>
 
-Chat
-<a href="https://github.com/user-attachments/assets/be749db0-1f92-4e3f-9688-544ce48c7792"><img src="https://github.com/user-attachments/assets/be749db0-1f92-4e3f-9688-544ce48c7792" alt="Chat" loading="lazy" width="400"></a>
+<td align="center">
+<b>Feed de Eventos</b><br><br>
+<a href="https://github.com/user-attachments/assets/6c369928-ee59-4f45-bce8-97b4a5c7edde">
+<img src="https://github.com/user-attachments/assets/6c369928-ee59-4f45-bce8-97b4a5c7edde" width="450" loading="lazy">
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="center">
+<b>Dashboard del Organizador</b><br><br>
+<a href="https://github.com/user-attachments/assets/873197d9-57de-4f03-9024-a659d2f122a4">
+<img src="https://github.com/user-attachments/assets/873197d9-57de-4f03-9024-a659d2f122a4" width="450" loading="lazy">
+</a>
+</td>
+
+<td align="center">
+<b>Comunidad</b><br><br>
+<a href="https://github.com/user-attachments/assets/6ef71a19-5c95-4625-8077-2fa7774410f2">
+<img src="https://github.com/user-attachments/assets/6ef71a19-5c95-4625-8077-2fa7774410f2" width="450" loading="lazy">
+</a>
+</td>
+</tr>
+
+</table>
 
 </details>
+
 
 ## 🔗 Enlaces
 
