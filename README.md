@@ -77,10 +77,11 @@ Sistema web integral para la gestión de una cafetería artesanal ubicada en Ref
 
 | | |
 |---|---|
-| <img loading="lazy" src="https://github.com/PerlaSantos/DestinyCafe/blob/0aeb3ca476dc1d6d692dc9c9264c140ae76295cd/Principal.png" alt="Vista principal de DestinyCafe - Página de inicio" width="800"/> | |
-| <img loading="lazy" src="https://github.com/PerlaSantos/DestinyCafe/blob/0aeb3ca476dc1d6d692dc9c9264c140ae76295cd/Areas.png" alt="Sección de áreas: Barra, Cocina y Panadería" width="400"/> | <img loading="lazy" src="https://github.com/PerlaSantos/DestinyCafe/blob/0aeb3ca476dc1d6d692dc9c9264c140ae76295cd/Inventario.png" alt="Formulario de registro de insumos" width="400"/> |
-| <img loading="lazy" src="https://github.com/PerlaSantos/DestinyCafe/blob/0aeb3ca476dc1d6d692dc9c9264c140ae76295cd/Ventas.png" alt="Formulario de registro de ventas." width="800"/> | |
+| <img loading="lazy" src="https://github.com/PerlaSantos/DestinyCafe/blob/960a0a8029eea604e10949a234bdaa3712193b60/Principal.png" alt="Vista principal de DestinyCafe - Página de inicio" width="800"/> | |
+| <img loading="lazy" src="https://github.com/PerlaSantos/DestinyCafe/blob/960a0a8029eea604e10949a234bdaa3712193b60/Areas.png" alt="Sección de áreas: Barra, Cocina y Panadería" width="800"/> | <img loading="lazy" src="https://github.com/PerlaSantos/DestinyCafe/blob/960a0a8029eea604e10949a234bdaa3712193b60/Inventario.png" alt="Formulario de registro de insumos" width="800"/> |
+| <img loading="lazy" src="https://github.com/PerlaSantos/DestinyCafe/blob/960a0a8029eea604e10949a234bdaa3712193b60/Ventas.png" alt="Formulario de registro de ventas." width="800"/> | |
 </details>
+
 
 ###  Funcionalidades principales
 
@@ -316,7 +317,20 @@ backend/
     ├── proyectista.py            # Presupuesto por obra, Costos
     └── public.py                 # Endpoints públicos (mapa ciudadano)
 ```
+ # Testeo del Proyecto
+
+## 🚀 Funcionalidad: 
  
+De manera general, puedes acceder a cada uno de los roles predispustos, pero no puedes ralizar acciones directas sobre la base de datos. Esto con algunos usuarios de prueba: 
+
+### Usuarios de prueba:
+
+| Rol | Usuario | Contraseña |
+| :--- | :--- | :--- |
+| Director | demo_director | DemoDir2026! |
+| Supervisor | demo_supervisor | DemoSup2026! |
+| Secretaria | demo_secretaria | DemoSec2026! |
+| Proyectista | demo_proyectista | DemoPry2026! |
 ---
 
 <details>
@@ -335,6 +349,28 @@ backend/
 
 </details>
 
+<details>
+<summary>🖼️ Ver Diagramas</summary>
+
+## Diagrama Relacional
+
+| |
+|---|
+| <img src="https://github.com/user-attachments/assets/28638031-7d27-42f3-b2b1-c932fb207ef6" alt="Login" width="800"/> |
+
+
+
+## Diagrama Entidad Rel. Etendido
+
+
+| |
+|---|
+| <img src="https://github.com/user-attachments/assets/303c37e3-4fe9-4cfe-9b74-7f442f51541a" alt="Login" width="800"/> |
+
+
+</details>
+---
+
 ### 🔗 Enlaces
 * **Código Fuente:** [Repositorio en GitHub](https://github.com/Urigc/Obras_publicas/tree/TestDefinitivo)
 * **Demo en Vivo (GitHub Pages):** [Página](https://urigc.github.io/Obras_publicas/)
@@ -344,42 +380,451 @@ backend/
 
 
 ## Proyecto 6: VinylVibes(Venta de vinilos)
-Plataforma web de venta de discos de vinilo, donde los usuarios pueden buscar entre millones de álbumes, ver información detallada de cada disco incluyendo portada, historia y video, y realizar compras. El catálogo se alimenta en tiempo real desde Discogs y se enriquece automáticamente con datos de MusicBrainz y Last.fm.
 
-### Tecnologías
-* **Backend:** Node.js con Express.js
-* **Base de Datos:** PostgreSQL (Neon)
-* **Frontend:** HTML, CSS y JavaScript vanilla
-* **Despliegue:** Render y GitHub Pages
-* **APIs externas:** Discogs, MusicBrainz, Last.fm, YouTube, Cover Art Archive
+## Stack
+
+### Backend
+| Tecnología | Uso |
+|---|---|
+| Node.js + Express | Servidor y endpoints |
+| Prisma | ORM para PostgreSQL |
+| PostgreSQL (Neon) | Base de datos |
+| Redis (Render) | Caché de respuestas |
+| JWT + bcrypt | Autenticación |
+| express-rate-limit | Protección contra abuso |
+| ioredis | Cliente de Redis |
+
+### Frontend
+| Tecnología | Uso |
+|---|---|
+| HTML5 | Estructura de las páginas |
+| CSS3 | Estilos y variables de diseño |
+| JavaScript (vanilla) | Lógica del frontend |
+| Google Fonts | Tipografías (Playfair Display, DM Sans, DM Mono) |
+| localStorage | Sesión del usuario y carrito |
+
+---
+
+## Estructura de archivos
+
+```
+vinylvibes-backend/
+├── index.js              → servidor principal y endpoints
+├── package.json          → dependencias
+└── prisma/
+    └── schema.prisma     → esquema de la base de datos
+
+vinylvibes-frontend/
+├── index.html     → página principal: catálogo, búsqueda, géneros, carrito
+├── login.html     → inicio de sesión y registro de cuenta
+├── admin.html     → panel de administración (usuarios y ventas)
+├── script.js      → lógica del catálogo, modal de detalle, carrito y checkout
+├── login.js       → lógica de autenticación y registro
+├── admin.js       → lógica del panel admin
+└── style.css      → estilos globales y variables de diseño
+```
+
+---
+
+## Instalación local
+
+### Backend
+
+```bash
+git clone https://github.com/akibanks/api-tienda-vinilos.git
+cd vinylvibes-backend
+npm install        # también ejecuta prisma generate (postinstall)
+# Crear archivo .env con las variables de entorno
+node index.js
+```
+
+Para aplicar migraciones de base de datos:
+
+```bash
+npx prisma migrate deploy
+```
+
+### Frontend
+
+```bash
+git clone https://github.com/akibanks/tienda_musica_web.git
+cd vinylvibes-frontend
+```
+
+No requiere build ni dependencias. Abre `index.html` en el navegador o usa un servidor local:
+
+```bash
+npx serve .
+# o
+python -m http.server 8080
+```
+
+> Para que el frontend funcione correctamente necesita el backend corriendo.
+
+---
+
+## Variables de entorno (Backend)
+
+Configurar en Render → Environment o en `.env` para desarrollo local:
+
+```env
+DATABASE_URL      = postgresql://...@neon.tech/neondb
+JWT_SECRET        = clave_secreta_larga
+CORS_ORIGIN       = https://api-tienda-vinilos.onrender.com
+REDIS_URL         = redis://red-...
+DISCOGS_TOKEN     = token_de_discogs
+YOUTUBE_API_KEY   = clave_de_youtube
+LASTFM_API_KEY    = clave_de_lastfm
+```
+
+> `CORS_ORIGIN` acepta múltiples dominios separados por coma.  
+> El servidor no arranca si `JWT_SECRET` no está definido.
+
+---
+
+## Cuenta de demostración
+
+| Campo | Valor |
+|---|---|
+| Usuario | `admin_chocolate` |
+| Contraseña | `chocolate` |
+
+---
+
+## Páginas (Frontend)
+
+### index.html — Catálogo principal
+
+Página de inicio de la tienda. Contiene:
+
+- Carrusel de discos recientes del año actual.
+- Buscador con debounce (500ms) que consulta la API de Discogs.
+- Filtro de géneros (Rock, Jazz, Pop, Electronic, Hip Hop, Classical, Blues, Folk, Latin, Reggae).
+- Catálogo con paginación.
+- Modal de detalle del disco con historia (Last.fm), video (YouTube) y recomendaciones personalizadas.
+- Carrito de compras con modal de envío y pago.
+- Historial de compras del usuario.
+- Sincronización del carrito entre pestañas del navegador vía evento `storage`.
+
+### login.html — Autenticación
+
+Página de inicio de sesión y registro con dos vistas en una misma pantalla (tabs). Panel decorativo con un vinilo animado en pantallas anchas.
+
+### admin.html — Panel de administración
+
+Accesible solo para usuarios con rol `admin` o `demo`. Contiene:
+
+- Tarjetas de estadísticas: total de usuarios, ventas, ingresos y ventas pendientes.
+- Tabla de usuarios con búsqueda, cambio de rol y eliminación con confirmación.
+- Tabla de ventas con búsqueda, cambio de estado y modal de detalle.
+- Banner de solo lectura visible para cuentas `demo`.
+
+---
+
+## Roles de usuario
+
+| Rol | Descripción | Acceso admin | Puede modificar |
+|---|---|---|---|
+| `cliente` | Rol por defecto al registrarse. Puede comprar y ver su historial. | No | — |
+| `vendedor` | Acceso futuro a gestión de inventario. | No | — |
+| `admin` | Acceso completo: usuarios, ventas y diagnóstico. | Sí | Sí |
+| `demo` | Solo lectura de secciones admin. No puede escribir ni modificar datos. | Sí | No |
+
+---
+
+## Autenticación
+
+El token JWT se guarda en `localStorage` tras el login y se envía en el header `Authorization: Bearer <token>` en cada petición protegida. Duración: 7 días.
+
+| Clave localStorage | Contenido |
+|---|---|
+| `vv_token` | JWT devuelto por el backend |
+| `usuarioLogueado` | Nombre del usuario |
+| `esAdmin` | `"true"` o `"false"` |
+| `esDemo` | `"true"` o `"false"` |
+| `vv_carrito` | Array JSON con los ítems del carrito |
+
+---
+
+## Endpoints
+
+### Auth
+| Método | Ruta | Auth | Descripción |
+|---|---|---|---|
+| POST | `/registro` | — | Crear cuenta |
+| POST | `/login` | — | Iniciar sesión, devuelve JWT |
+
+> Rate limit en auth: máximo 10 intentos cada 15 minutos.
+
+### Catálogo (Discogs)
+| Método | Ruta | Auth | Descripción |
+|---|---|---|---|
+| GET | `/buscar?q=&pagina=` | — | Buscar discos |
+| GET | `/recientes` | — | Discos del año actual |
+| GET | `/genero/:genero?pagina=` | — | Discos por género |
+| GET | `/disco/:id` | — | Detalle de un disco |
+| GET | `/disco/:id/historia` | — | Historia del álbum (Last.fm) |
+| GET | `/disco/:id/video` | — | Video del álbum (YouTube) |
+| GET | `/disco/:id/recomendaciones` | Opcional | Recomendaciones personalizadas si hay token |
+
+### Usuario
+| Método | Ruta | Auth | Descripción |
+|---|---|---|---|
+| POST | `/historial` | [JWT] | Registrar disco visto (máx. 10 por usuario) |
+| GET | `/historial` | [JWT] | Historial de navegación |
+| POST | `/checkout` | [JWT] | Procesar compra (precio calculado en backend) |
+| GET | `/mis-compras` | [JWT] | Historial de compras del usuario |
+
+### Admin
+| Método | Ruta | Auth | Descripción |
+|---|---|---|---|
+| GET | `/admin/usuarios` | [admin, demo] | Listar todos los usuarios |
+| PUT | `/admin/usuarios/:id/rol` | [admin] | Cambiar rol de un usuario |
+| DELETE | `/admin/usuarios/:id` | [admin] | Eliminar usuario |
+| GET | `/admin/ventas` | [admin, demo] | Listar todas las ventas |
+| GET | `/admin/ventas/:id` | [admin, demo] | Detalle de una venta |
+| PUT | `/admin/ventas/:id/estado` | [admin] | Cambiar estado de una venta |
+| GET | `/redis-ping` | [admin, demo] | Diagnóstico de Redis |
+
+---
+
+## Base de datos
+
+```
+usuario           → autenticación y roles
+venta             → órdenes de compra
+linea_venta       → discos por orden (con discogs_id y precio calculado en backend)
+envio             → dirección de envío por orden
+historial_usuario → últimos 10 discos vistos por usuario
+```
+
+<details>
+  <summary>Modelo relacional</summary>
+  <img src="https://github.com/user-attachments/assets/eb826ead-d502-454b-b3a0-a50bd8880af8" alt="Modelo relacional VinylVibes" style="max-width:100%;">
+</details>
+
+<details>
+  <summary>Modelo entidad relacion extendido</summary>
+  <img src="https://github.com/user-attachments/assets/9f8a4410-9c02-4592-b3c1-895f6739d290" alt="Modelo entidad relacion extendido VinylVibes" style="max-width:100%;">
+</details>
+
+---
+
+## Flujo de una compra
+
+1. El usuario agrega discos al carrito en el frontend.
+2. Completa el formulario de envío.
+3. El frontend hace `POST /checkout` con los ítems (sin precio) y los datos de envío.
+4. El backend consulta Discogs para obtener los stats actuales y calcula el precio real.
+5. Se crea la orden en la base de datos con estado `pagada`.
+6. El admin puede actualizar el estado desde el panel.
+
+### Estados posibles de una venta
+
+| Estado | Descripción |
+|---|---|
+| `pendiente` | Orden creada, pago no confirmado |
+| `pagada` | Pago confirmado (estado inicial en el flujo actual) |
+| `enviada` | Orden despachada |
+| `entregada` | Orden recibida por el cliente |
+| `cancelada` | Orden cancelada |
+
+---
+
+## Cálculo de precios
+
+El precio de cada disco se calcula en el backend. El campo `precio` que envíe el cliente es ignorado.
+
+**Precio base por año de lanzamiento:**
+
+| Año | Precio base |
+|---|---|
+| 2000 o posterior | $19.99 |
+| 1980 - 1999 | $29.99 |
+| 1960 - 1979 | $34.99 |
+| Anterior a 1960 | $39.99 |
+| Desconocido | $24.99 |
+
+**Ajuste por popularidad** (ratio want/have en Discogs):
+
+| Ratio | Ajuste |
+|---|---|
+| >= 1.5 (muy deseado) | +40% (max +$15) |
+| >= 0.8 (bastante deseado) | +20% (max +$8) |
+| <= 0.1 (poco deseado) | -15% (max -$5) |
+
+---
+
+## Caché Redis
+
+| Dato | TTL |
+|---|---|
+| Búsquedas | 1 hora |
+| Géneros | 24 horas |
+| Recientes | 24 horas |
+| Detalle disco | 7 días |
+| Historia | 7 días |
+| Video | 7 días |
+| Recomendaciones | 1 hora |
+
+> Si Redis no está disponible, el backend sigue funcionando pero consulta las APIs externas en cada request.
+
+---
+
+## Rate limiting
+
+| Ámbito | Límite |
+|---|---|
+| Global (todas las rutas) | 100 peticiones / minuto |
+| `/registro` y `/login` | 10 intentos / 15 minutos |
+
+---
+
+## APIs externas
+
+| API | Para qué se usa | Rate limit aproximado |
+|---|---|---|
+| Discogs | Búsqueda, detalle y estadísticas de discos | 60 req/min autenticado |
+| Last.fm | Historia del álbum y artistas similares | 5 req/seg |
+| YouTube Data API v3 | Video del álbum | 10,000 unidades/día |
+
+---
+
+## Códigos de error
+
+| Código | Cuándo ocurre |
+|---|---|
+| 400 | Datos faltantes o inválidos en el request |
+| 401 | Token ausente, inválido o expirado |
+| 403 | El rol del usuario no tiene permiso para esa acción |
+| 404 | Recurso no encontrado (disco, venta, usuario) |
+| 409 | Conflicto — por ejemplo, nombre de usuario ya registrado |
+| 429 | Rate limit alcanzado |
+| 500 | Error interno del servidor |
+
+---
+
+## Tipografía y diseño
+
+| Fuente | Uso |
+|---|---|
+| Playfair Display | Títulos principales y elementos decorativos |
+| DM Sans | Texto de interfaz, botones y etiquetas |
+| DM Mono | IDs, fechas, badges y datos técnicos |
+
+El sistema de diseño usa variables CSS definidas en `style.css` (`--bg-surface`, `--text-primary`, `--amber`, `--border-subtle`, etc.) para mantener consistencia entre páginas.
+
+---
+
+## Despliegue
+
+- **Backend:** hospedado en [Render](https://render.com). Configura las variables de entorno en Render → Environment.
+- **Frontend:** desplegado automáticamente en GitHub Pages al hacer push a la rama `main`. No requiere configuración adicional.
+
+---
+
+## Ejemplos de request / response
+
+### POST /registro
+
+```json
+// Request
+{ "nombre_usuario": "juan", "password": "mipassword123" }
+
+// Response 201
+{ "mensaje": "Usuario creado exitosamente." }
+
+// Response 409
+{ "error": "El nombre de usuario ya está en uso." }
+```
+
+### POST /login
+
+```json
+// Request
+{ "nombre_usuario": "juan", "password": "mipassword123" }
+
+// Response 200
+{
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
+  "nombre": "juan",
+  "es_admin": false,
+  "es_demo": false
+}
+
+// Response 401
+{ "error": "Credenciales inválidas." }
+```
+
+### POST /checkout
+
+```json
+// Request
+{
+  "items": [
+    {
+      "discogs_id": "1234567",
+      "titulo": "Dark Side of the Moon",
+      "artista": "Pink Floyd",
+      "cantidad": 1
+    }
+  ],
+  "envio": {
+    "nombre_receptor": "Juan Pérez",
+    "calle": "Insurgentes Sur",
+    "numero_ext": "123",
+    "numero_int": "4B",
+    "colonia": "Del Valle",
+    "ciudad": "Ciudad de México",
+    "estado": "CDMX",
+    "codigo_postal": "03100",
+    "referencias": "Edificio azul, portón negro"
+  }
+}
+
+// Response 201
+{ "mensaje": "¡Compra procesada exitosamente!", "id_venta": 42, "total": "29.99" }
+```
+
+---
+
 
 <details>
 <summary>Ver capturas de pantalla</summary>
 
 | | |
 |---|---|
-| <img loading="lazy" src="https://github.com/user-attachments/assets/1ad4d892-9777-4b9b-8305-ebe85305cfd8" alt="Página principal de VinylVibes" width="800"/> | |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/4ef93b08-d50d-46b7-9491-7cd907dcb663" alt="Búsqueda de discos" width="400"/> 
-| <img loading="lazy" src="https://github.com/user-attachments/assets/d25a3a1b-95c4-42bd-ba2c-5e856abe432c"" alt="Detalles del Disco" width="800"/> | |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/85bc9a9c-7fed-48f3-bfd0-0ccc9d24ad4c
-" alt="Datos de envío" width="800"/> | |
+| <img loading="lazy" src="[https://github.com/user-attachments/assets/1ad4d892-9777-4b9b-8305-ebe85305cfd8](https://github.com/user-attachments/assets/b8a28bde-7a63-4fb5-ab29-dae045f5c318)" alt="Página principal de VinylVibes" width="800"/> | 
+| <img loading="lazy" src="[https://github.com/user-attachments/assets/4ef93b08-d50d-46b7-9491-7cd907dcb663](https://github.com/user-attachments/assets/c698edfe-8f98-4268-9bab-666cf72c7caa)" alt="Búsqueda de discos" width="400"/>|
+| <img loading="lazy" src="[https://github.com/user-attachments/assets/4ef93b08-d50d-46b7-9491-7cd907dcb663](https://github.com/user-attachments/assets/8769e360-5673-4111-8041-c7813d667014)" alt="Seccion de generos musicales" width="400"/>|
+| <img loading="lazy" src="[[https://github.com/user-attachments/assets/4ef93b08-d50d-46b7-9491-7cd907dcb663](https://github.com/user-attachments/assets/8769e360-5673-4111-8041-c7813d667014)](https://github.com/user-attachments/assets/28cf1996-b01a-4a49-8d43-18dd05ac8edd)" alt="Seccion de generos musicales" width="400"/>|
+
+| <img loading="lazy" src="[https://github.com/user-attachments/assets/1ad4d892-9777-4b9b-8305-ebe85305cfd8](https://github.com/user-attachments/assets/b8a28bde-7a63-4fb5-ab29-dae045f5c318)](https://github.com/user-attachments/assets/8eef01ca-0473-410e-91cd-0c3c221b5f8a)" alt="Modal de historia" width="800"/> | 
+| <img loading="lazy" src="[https://github.com/user-attachments/assets/1ad4d892-9777-4b9b-8305-ebe85305cfd8](https://github.com/user-attachments/assets/b8a28bde-7a63-4fb5-ab29-dae045f5c318)](https://github.com/user-attachments/assets/8eef01ca-0473-410e-91cd-0c3c221b5f8a)](https://github.com/user-attachments/assets/84e4ade7-b921-4b01-8299-a5e53cffce40)" alt="Modal de Compra" width="800"/> | 
 
 </details>
-
-### Funcionalidades principales
-* Búsqueda en tiempo real contra la API de Discogs
-* Portadas obtenidas automáticamente desde MusicBrainz y Last.fm
-* Historia de cada álbum desde Last.fm o MusicBrainz en cascada
-* Video del álbum embebido desde YouTube
-* API REST para comunicación entre frontend y backend
-* Sistema de caché en PostgreSQL para optimizar consultas repetidas
-* Registro e inicio de sesión de usuarios
-* Carrito de compras y gestión de pedidos
 
 ### 🔗 Enlaces
 Código Fuente Backend: [Repositorio Backend](https://github.com/akibanks/api-tienda-vinilos)
 Código Fuente Frontend: [Repositorio Frontend](https://github.com/akibanks/tienda_musica_web)
 Demo en Vivo: [VinylVibes](https://akibanks.github.io/tienda_musica_web/)
+
+## Contribuir
+
+1. Haz fork del repositorio.
+2. Crea una rama para tu cambio: `git checkout -b feature/nombre-del-cambio`.
+3. Haz commit de tus cambios: `git commit -m "descripción clara del cambio"`.
+4. Abre un Pull Request describiendo qué cambiaste y por qué.
+
+Para reportar un bug, abre un Issue en GitHub con el endpoint afectado, el request que lo reproduce y el error que devuelve.
+
+---
+
+## Licencia
+
+ISC
+
+
 
 
 ## Proyecto 7: Patitas Sanas - Veterinaria 
@@ -401,7 +846,7 @@ manejo de personal e informacion sobre los servicios proporcionados.
 <details>
 <summary>🖼️ Ver capturas de pantalla</summary>
 | <img loading="lazy" src="https://github.com/Jaely19/Patitas-Sanas/blob/main/pantallap.png" alt="Vista principal de Veterinaria" width="800"/> | |
-| <img loading="lazy" src="https://github.com/Jaely19/Patitas-Sanas/blob/main/sevicios.png" alt="servicios" width="400"/> |
+| <img loading="lazy" src="https://github.com/Jaely19/Patitas-Sanas/blob/main/sevicios.png" alt="servicios" width="800"/> |
 </details>
 
 ### Usuarios:
@@ -656,6 +1101,8 @@ Para solucionar este problema, se desarrolló una plataforma web conectada a una
 * Interfaz amigable y accesible para los usuarios.
 
 ### 🔗 Enlaces
+Admin de prueba:EMP-0003 Contraseña 12345 
+
 Código Fuente: [Repositorio](https://github.com/sofi-14/gitfin)
 Página web: [PáginaWeb](https://sofi-14.github.io/gitfin/)
 
@@ -681,13 +1128,15 @@ Sistema web para el agendado y gestión de citas medicas en un hospital
 - Linares Medina Fernando Agustin
 - Angeles Salinas Daniel Alejandro
 
-<summary>🖼️ Capturas de la pagina</summary>
+<details>
+<summary>🖼️ Capturas de la página</summary>
 <br>
+
 | | |
 |---|---|
-|<img loading="lazy" width="1800" height="724" alt="Captura de pantalla 2026-05-28 192656" src="https://github.com/user-attachments/assets/7e617b84-42e8-49f9-8907-274c34e515bd" />|
-|<img loading="lazy" width="1190" height="736" alt="Captura de pantalla 2026-05-28 193621" src="https://github.com/user-attachments/assets/cfd6fdaf-692a-43a2-83fd-e357257a4117" />|
-|<img loading="lazy" width="1874" height="666" alt="Captura de pantalla 2026-05-28 193641" src="https://github.com/user-attachments/assets/c40df635-46ac-4868-8750-0b76bc2a32ce" />|
+| <img loading="lazy" width="1800" src="https://github.com/user-attachments/assets/7e617b84-42e8-49f9-8907-274c34e515bd" alt="Vista principal de Booksnexus" /><br>**Vista principal de Booksnexus** | |
+| <img loading="lazy" width="1190" src="https://github.com/user-attachments/assets/cfd6fdaf-692a-43a2-83fd-e357257a4117" alt="Perfil de usuario" /><br>**Perfil de usuario** | <img loading="lazy" width="1874" src="https://github.com/user-attachments/assets/c40df635-46ac-4868-8750-0b76bc2a32ce" alt="Timeline de publicaciones" /><br>**Timeline de publicaciones** |
+
 </details>
 
 
@@ -915,3 +1364,547 @@ Sistema web completo de gestión para una librería/biblioteca. Permite administ
 - **Código Fuente:** [Repositorio en GitHub](https://github.com/AbelGod27/Libreria_va)
 - **Demo en Vivo (GitHub Pages):** [ABV Library](https://abelgod27.github.io/abv_library/)
 - **Demo en Vivo (Render):** [ABV Library](https://libreria-va.onrender.com)
+
+# La Casita - Mini Súper Web con Laravel
+
+## Descripción
+
+**La Casita** es una aplicación web desarrollada con **Laravel** para administrar de forma básica un mini súper. Permite gestionar productos, clientes, empleados, proveedores, sucursales, promociones, inventario, ventas y preguntas frecuentes.
+
+El proyecto incluye autenticación, registro de clientes, control de sesiones, roles de usuario y paneles diferentes para administrador, empleado y cliente.
+
+---
+
+## Tecnologías utilizadas
+
+- Laravel 12
+- PHP 8.2 o superior
+- MySQL / MariaDB
+- Composer
+- Blade Templates
+- HTML, CSS y JavaScript
+- XAMPP
+- phpMyAdmin
+
+---
+
+## Funcionalidades principales
+
+- Página pública del negocio.
+- Registro e inicio de sesión.
+- Panel de administrador, empleado y cliente.
+- Gestión de productos, categorías, clientes, empleados y proveedores.
+- Gestión de sucursales, promociones y preguntas frecuentes.
+- Consulta de inventario y ventas.
+- Catálogo e historial de compras para clientes.
+- Protección de rutas por sesión y rol.
+
+---
+
+## Roles del sistema
+
+| Rol | Descripción |
+|---|---|
+| Administrador | Acceso completo a la administración del sistema. |
+| Empleado | Acceso operativo a productos, inventario y ventas. |
+| Cliente | Consulta catálogo y compras realizadas. |
+
+---
+
+## Cuentas de prueba
+
+| Rol | Correo | Contraseña |
+|---|---|---|
+| Administrador | admin@lacasita.com | 123456 |
+| Empleado | empleado@lacasita.com | 123456 |
+| Cliente | cliente@lacasita.com | 123456 |
+
+---
+
+## Capturas del proyecto
+
+<details>
+<summary>🖼️ Ver capturas de pantalla</summary>
+
+### Página de inicio
+
+![Página de inicio](Inicio.png)
+
+---
+
+### Catálogo de productos
+
+![Catálogo de productos](CATALOGO.png)
+
+---
+
+### Promociones
+
+![Promociones](Oferta.png)
+
+---
+
+### Sucursales
+
+![Sucursales](Sucursales.png)
+
+---
+
+### Ayuda
+
+![Ayuda](Ayuda.png)
+
+---
+
+### Panel de administrador
+
+![Panel de administrador](ADMIN.png)
+
+---
+
+### Panel de empleado
+
+![Panel de empleado](EMPLEADO.png)
+
+---
+
+### Panel de cliente
+
+![Panel de cliente](CLIENTE.png)
+
+</details>
+
+---
+
+## Estructura general
+
+```txt
+LaCasita/
+├── app/
+├── bootstrap/
+├── config/
+├── database/
+├── public/
+├── resources/
+├── routes/
+├── storage/
+├── Inicio.png
+├── CATALOGO.png
+├── Oferta.png
+├── Sucursales.png
+├── Ayuda.png
+├── ADMIN.png
+├── EMPLEADO.png
+├── CLIENTE.png
+├── artisan
+├── composer.json
+├── composer.lock
+└── README.md
+```
+
+---
+
+## Instalación local
+
+1. Colocar el proyecto en:
+
+```txt
+C:\xampp\htdocs\LaCasita
+```
+
+2. Encender en XAMPP:
+
+```txt
+Apache
+MySQL
+```
+
+3. Crear en phpMyAdmin una base de datos llamada:
+
+```txt
+lacasita_laravel
+```
+
+4. Configurar el archivo `.env`:
+
+```env
+APP_NAME="La Casita"
+APP_ENV=local
+APP_DEBUG=true
+APP_URL=http://127.0.0.1:8000
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=lacasita_laravel
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+5. Ejecutar los comandos:
+
+```bash
+cd C:\xampp\htdocs\LaCasita
+composer install
+php artisan key:generate
+php artisan migrate:fresh --seed
+php artisan optimize:clear
+php artisan serve
+```
+
+6. Abrir en el navegador:
+
+```txt
+http://127.0.0.1:8000
+```
+
+---
+
+## Rutas principales
+
+| Ruta | Descripción |
+|---|---|
+| `/` | Página principal |
+| `/login` | Inicio de sesión |
+| `/registro` | Registro de cliente |
+| `/dashboard` | Panel según el rol |
+| `/productos` | Gestión de productos |
+| `/inventario` | Consulta de inventario |
+| `/ventas` | Consulta de ventas |
+| `/cliente/catalogo` | Catálogo del cliente |
+| `/cliente/compras` | Compras del cliente |
+
+---
+
+## Seguridad implementada
+
+- Autenticación de usuarios.
+- Protección de rutas privadas.
+- Control de acceso por rol.
+- Contraseñas cifradas con hash.
+- Protección CSRF en formularios.
+- Validaciones del lado del servidor.
+- Uso de Eloquent ORM.
+
+---
+
+## Notas importantes
+
+- No subir `.env` a GitHub.
+- No subir `vendor` ni `node_modules`.
+- En producción usar `APP_DEBUG=false`.
+- Las imágenes del README deben estar en la raíz del repositorio, junto al archivo `README.md`.
+
+---
+
+## Conclusión
+
+**La Casita** es un proyecto web funcional desarrollado con Laravel y MySQL. Integra autenticación, roles, operaciones CRUD y paneles diferenciados para administrar un mini súper de manera sencilla.
+
+
+## Carniceria la Ideal 
+
+**Estudiantes:** Alejandro Aguilera Ceballos, José Ángel Malvaez Flores, Gomez Belmont Wendy Nathaly 
+
+**Asignatura:** Bases de Datos 2026-2  
+**URL del sistema:** https://carnicerialaidealescom1.page.gd/CARNES/Login.html
+
+---
+
+## Descripción del proyecto
+
+Sistema web de registro y control de recepción de productos para la empresa **Carnes Ideal**. Permite registrar la entrada de mercancía de proveedores con características sensoriales, temperatura, empaques y evidencias. Cuenta con autenticación de usuarios, roles (admin/operativo), panel de administración y almacenamiento en base de datos MySQL.
+
+---
+
+## Tecnologías utilizadas
+
+| Capa | Tecnología |
+|---|---|
+| Frontend | HTML5, CSS3, JavaScript |
+| Backend | PHP 8 |
+| Base de datos | MySQL (InfinityFree — `sql311.infinityfree.com`) |
+| SGBD visual | phpMyAdmin |
+| Hosting | InfinityFree |
+
+---
+
+## Código Fuente Frontend
+
+| Archivo | Descripción |
+|---|---|
+| `frontend/Login.html` | Página de inicio de sesión |
+| `frontend/Login.css` | Estilos del login |
+| `frontend/Login.js` | Lógica del login (fetch, validaciones, ojo de contraseña) |
+| `frontend/registro.html` | Formulario de registro de nuevos usuarios |
+| `frontend/registrer.css` | Estilos del registro |
+| `frontend/index.php` | Formulario principal de recepción de productos (protegido por sesión) |
+| `frontend/admin.php` | Panel de administración (solo rol admin) |
+| `frontend/estilos.css` | Estilos globales del sistema |
+
+---
+
+## Código Fuente Backend
+
+| Archivo | Descripción |
+|---|---|
+| `backend/login.php` | Autenticación de usuarios, manejo de sesión y redirección por rol |
+| `backend/logout.php` | Cierre de sesión y destrucción de sesión PHP |
+| `backend/registro.php` | Registro de nuevos usuarios con hash bcrypt y validaciones |
+| `backend/guardar_excel.php` | Guardado de registros de recepción en base de datos MySQL |
+| `backend/admin_data.php` | API de datos para el panel admin (estadísticas, recepciones, usuarios) |
+| `backend/get_user.php` | Retorna el nombre del usuario activo desde la sesión |
+
+---
+
+## Estructura de la base de datos
+
+### Tabla `usuarios`
+| Campo | Tipo | Descripción |
+|---|---|---|
+| id | INT PK AUTO_INCREMENT | Identificador único |
+| username | VARCHAR(100) | Nombre de usuario |
+| password | VARCHAR(255) | Contraseña hasheada con bcrypt |
+| nombre_completo | VARCHAR(150) | Nombre completo del usuario |
+| correo_electronico | VARCHAR(150) | Correo electrónico |
+| permisos | VARCHAR(20) | Rol: `admin` u `operativo` |
+
+### Tabla `recepciones`
+| Campo | Tipo | Descripción |
+|---|---|---|
+| id | INT PK AUTO_INCREMENT | Identificador único |
+| usuario | VARCHAR(100) | Usuario que registró |
+| fecha | DATE | Fecha de recepción |
+| proveedor | VARCHAR(100) | Proveedor del producto |
+| producto | VARCHAR(200) | Nombre del producto |
+| cantidad | INT | Cantidad recibida |
+| unidad | VARCHAR(20) | Unidad (Caja/Kg/Pieza) |
+| precio_unidad | DECIMAL(10,2) | Precio por unidad |
+| sensorial_olor | VARCHAR(10) | Evaluación olor (Si/No) |
+| sensorial_color | VARCHAR(10) | Evaluación color (Si/No) |
+| sensorial_textura | VARCHAR(10) | Evaluación textura (Si/No) |
+| temp_producto | DECIMAL(5,1) | Temperatura del producto °C |
+| empaque_limpio | VARCHAR(5) | Estado del empaque (Si/No) |
+| num_remision | VARCHAR(100) | Número de remisión |
+| verifico | VARCHAR(100) | Persona que verificó |
+| fecha_registro | TIMESTAMP | Fecha/hora de registro automático |
+
+---
+
+## Características del sistema
+
+- ✅ Autenticación segura con `password_hash()` (bcrypt)
+- ✅ Protección de sesiones PHP en todas las páginas
+- ✅ Prevención de SQL Injection con Prepared Statements
+- ✅ Roles de usuario: `admin` y `operativo`
+- ✅ Panel de administración con estadísticas en tiempo real
+- ✅ Exportación de registros a CSV
+- ✅ Formulario de recepción con validaciones
+- ✅ Evaluación sensorial de productos (olor, color, textura)
+- ✅ Control de temperatura con slider interactivo
+- ✅ Registro de múltiples productos por recepción
+
+---
+
+## Pasos para ejecutar y comprobar la entrega
+
+### Opción 1 — Sistema en línea (recomendado)
+
+1. Abrir: https://carnicerialaidealescom1.page.gd/CARNES/Login.html
+2. Iniciar sesión con las credenciales de prueba:
+
+| Usuario | Contraseña | Rol |
+|---|---|---|
+| `2` | `Aguilucho5000$` | Administrador |
+| `1` | `Aguilucho5000$` | Operativo |
+
+3. Llenar el formulario de recepción y dar clic en **Guardar**
+4. Para acceder al panel admin, iniciar sesión con una cuenta de rol `admin`
+
+
+
+## Notas especiales
+
+- Las contraseñas se almacenan con `password_hash()` algoritmo **bcrypt**.
+- Todas las consultas usan **Prepared Statements** para prevenir SQL Injection.
+- Solo usuarios con rol `admin` pueden acceder al panel de administración.
+
+---
+
+## Capturas de pantalla
+
+**Login**
+
+<img src="screenshots/login.png" alt="Pantalla de inicio de sesión" loading="lazy" width="800">
+
+---
+
+**Registro de usuario**
+
+<img src="screenshots/registro.png" alt="Formulario de registro de nuevos usuarios" loading="lazy" width="800">
+
+---
+
+**Formulario de recepción**
+
+<img src="screenshots/formulario.png" alt="Formulario de recepción de productos" loading="lazy" width="800">
+
+---
+
+**Panel de administración**
+
+<img src="screenshots/administrador.png" alt="Panel de administración" loading="lazy" width="800">
+
+---
+
+## Enlaces
+
+| Descripción | URL |
+|---|---|
+| 🌐 Sistema en línea | [Abrir sistema](https://carnicerialaidealescom1.page.gd/CARNES/Login.html) |
+| 💻 Código fuente | [Ver en GitHub](https://github.com/aleaguiballos-cell/ProyectoBD2) |
+| 🗄️ Base de datos | [infinityfree] (https://php-myadmin.net/db_structure.php?db=if0_41904449_carniceria)  |
+
+
+## Proyecto 50: Barber Cerdas (Sistema de gestión de citas)
+Sistema web de reservas para la Academia De Barbería The Hipster (Lindavista, CDMX). Los clientes agendan citas en línea, los barberos gestionan su jornada desde un dashboard en tiempo real y el administrador orquesta walk-ins y reservas telefónicas, unificando los tres canales (online, telefónica y walk-in) en una sola entidad de cita.
+
+### 🛠️ Tecnologías
+* *Frontend:* HTML5, CSS3 y JavaScript Vanilla (sin frameworks ni bundlers)
+* *Backend / Base de Datos:* Supabase (PostgreSQL + Auth + REST API) con RLS, RPCs, triggers y vistas
+* *Realtime:* Supabase Realtime (WebSocket) con fallback por polling
+* *Serverless / Email:* Vercel Functions (Node.js) + Resend
+* *Despliegue:* Vercel (CI continuo desde GitHub)
+
+<details>
+<summary>🖼️ Ver capturas de pantalla</summary>
+
+| | |
+|---|---|
+| <img loading="lazy" src="https://raw.githubusercontent.com/StrlgE26/Barberia/main/barber-cerdas/img/01-landing.png" alt="Página principal de Academia The Hipster" width="400"/> | <img loading="lazy" src="https://raw.githubusercontent.com/StrlgE26/Barberia/main/barber-cerdas/img/02-servicios.png" alt="Catálogo de servicios" width="400"/> |
+| <img loading="lazy" src="https://raw.githubusercontent.com/StrlgE26/Barberia/main/barber-cerdas/img/03-equipo.png" alt="Equipo de barberos" width="400"/> | <img loading="lazy" src="https://raw.githubusercontent.com/StrlgE26/Barberia/main/barber-cerdas/img/04-ubicacion.png" alt="Ubicación y sucursales" width="400"/> |
+| <img loading="lazy" src="https://raw.githubusercontent.com/StrlgE26/Barberia/main/barber-cerdas/img/05-login.png" alt="Inicio de sesión y registro" width="400"/> | <img loading="lazy" src="https://raw.githubusercontent.com/StrlgE26/Barberia/main/barber-cerdas/img/06-agendar.png" alt="Wizard para agendar cita" width="400"/> |
+</details>
+
+### ✨ Funcionalidades principales
+* Reserva de citas en línea (sucursal → servicios → barbero/horario → datos)
+* Confirmación de citas por email con token de un solo uso que expira en 10 minutos
+* Dashboard de administración con semáforo de barberos en tiempo real
+* Registro de walk-ins desde un kiosko en mostrador y gestión de reservas telefónicas
+* Identidad portable: un cliente anónimo que se registra conserva su historial
+* Anti-spam: una reserva por teléfono al día por sucursal, sin lockout
+* Arquitectura lista para múltiples sucursales
+* Cuenta de cliente con historial y cancelación de citas (/mi-cuenta)
+* Seguridad mediante Row Level Security activa en todas las tablas
+
+### 🔗 Enlaces
+Código Fuente: [Repositorio del proyecto](https://github.com/StrlgE26/Barberia)
+Demo en Vivo: [Barber Cerdas](https://www.koddesolutions.com/)
+
+## 🥩 Proyecto 44: Carnicería Camacho (Sistema de Gestión de Carnicería)
+
+Plataforma web desarrollada para la administración integral de una carnicería, permitiendo gestionar productos, clientes, proveedores y ventas mediante una interfaz conectada a una base de datos en la nube. El sistema facilita la organización de la información y automatiza procesos como el cálculo de impuestos y totales de venta.
+
+## 🛠️ Tecnologías
+
+* **Base de Datos:** PostgreSQL (Supabase)
+* **Frontend:** HTML, CSS y JavaScript Vanilla
+* **Backend:** Supabase API REST y funciones SQL
+* **Seguridad:** Row Level Security (RLS) y Policies
+* **Despliegue:** GitHub Pages
+
+## ✨ Funcionalidades
+
+* Gestión de productos (altas, consultas, modificaciones y bajas)
+* Gestión de clientes
+* Gestión de proveedores
+* Registro y administración de ventas
+* Operaciones CRUD completas
+* Cálculo automático del impuesto (10%)
+* Cálculo automático del total de venta
+* Conexión en tiempo real con Supabase
+* Interfaz web responsive
+* Control de acceso mediante roles (Administrador y Profesor)
+* Visualización de datos almacenados en la base de datos
+* Integración mediante API REST proporcionada por Supabase
+
+###  Verifica que funciona
+
+La aplicación se abrirá en tu navegador y mostrará la página principal de Carnicería Camacho conectada a Supabase.
+
+https://ivanrvillegas10-dev.github.io/carniceria/
+
+## 🔗 Tablas principales
+
+### Productos
+
+* idproducto
+* descripcion
+* costo
+* imagen
+* idproveedor
+
+### Clientes
+
+* idcliente
+* nombre
+* telefono
+* direccion
+
+### Proveedores
+
+* idproveedor
+* descripcion
+* tipo
+
+### Ventas
+
+* idventa
+* fecha
+* noventa
+* idcliente
+* subtotal
+* impuesto
+* total
+
+## 🔒 Seguridad
+
+* Uso de anon public key de Supabase
+* Protección mediante Row Level Security (RLS)
+* Policies para controlar acceso a las tablas
+* Roles de acceso:
+
+  * Administrador (control total)
+  * Profesor (solo lectura)
+
+👥 Usuarios de acceso
+
+* Usuario: **profesor**
+* Contraseña: **chocolate**
+* Permisos:
+
+  * Consultar productos, clientes, proveedores y ventas.
+  * Visualizar el funcionamiento general del sistema.
+  * No puede agregar, editar ni eliminar información.
+
+Esta implementación permite demostrar el funcionamiento del sistema sin comprometer la integridad de los datos almacenados en la base de datos.
+
+## 🌐 Demo
+
+**Página Web:**
+https://ivanrvillegas10-dev.github.io/carniceria/
+
+**Repositorio GitHub:**
+https://github.com/ivanrvillegas10-dev/carniceria
+
+Repositorio Central:
+
+https://github.com/gabrielhuav/DB-Coursework-2026-2
+
+IMAGENES 
+
+<img src="https://github.com/user-attachments/assets/35ec3b13-3e45-430f-b918-a2746ce77ecf" alt="Imagen 1" width="800"/>
+
+<img src="https://github.com/user-attachments/assets/288cf883-9485-49e2-8df8-5de2ba3c2fbd" alt="Imagen 2" width="800"/>
+
+<img src="https://github.com/user-attachments/assets/cf3d4ac4-8aa1-4345-84a8-298096fb80af" alt="Imagen 3" width="800"/>
