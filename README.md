@@ -1101,19 +1101,19 @@ Página web: [PáginaWeb](https://sofi-14.github.io/gitfin/)
 ## 😷 Proyecto 15: Sistema de Agendado de citas medicas
 Sistema web para el agendado y gestión de citas medicas en un hospital
 
-#🛠️ Tecnologías
+## 🛠️ Tecnologías
 - Backend: Java, Apache Netbeans
 - Base de Datos: PostgreSQL 
 - Frontend: HTML, CSS (Bootstrap 5) y JavaScript vanilla (Fetch API)
 - Despliegue: Save in cloud
 
-##📢 Funciones Principales
+## 📢 Funciones Principales
 - Permitir a pacientes agendar citas medicas con base en la situación por la que se necesita agendar la cita, la fecha y la hora.
 - Gestión de médicos, situaciones de cita, especialidades y consultorios desde un menú de administrador
 - Visualización de las citas de cada médico desde una sesión personal para cada doctor
 - Escritura de receta médica para cada cita agendada en el sistema
 
-##👨‍👩‍👧‍👦 Integrantes del equipo
+## 👨‍👩‍👧‍👦 Integrantes del equipo
 - Flores Vargas Augusto Hazel
 - Hernandez Zuñiga Andrea Veronica
 - Linares Medina Fernando Agustin
@@ -1132,8 +1132,8 @@ Sistema web para el agendado y gestión de citas medicas en un hospital
 
 
 ##🔗 Enlaces del Proyecto
-Código Fuente: [Repositorio Github] (https://github.com/warinsanomachine/Sistema-de-citas.git)
-Demo en Vivo: [Sistema Medico] (http://sistemamedico.sp1.br.saveincloud.net.br/main.jsp)
+Código Fuente: [Repositorio Github] (https://github.com/AugustoHFV/SistemaMedicoHOST)
+Demo en Vivo: [Sistema Medico] (https://sistemamedico-1gmy.onrender.com)
 
 ## Proyecto 16: Payapp+
 Payapp es un sistema gestor de servicios financieros que ayuda al cliente a tener una mejor gestion de sus finanzas, asi como tambien ofrece distintas opciones que se adecuan a las necesidades del cliente.
