@@ -43,9 +43,9 @@ Plataforma web tipo red social enfocada en lectores, donde los usuarios pueden r
 
 | | |
 |---|---|
-| <img loading="lazy" src="URL_IMAGEN_1" alt="Vista principal de Booksnexus" width="800"/> | |
-| <img loading="lazy" src="URL_IMAGEN_2" alt="Perfil de usuario" width="400"/> | <img loading="lazy" src="URL_IMAGEN_3" alt="Timeline de publicaciones" width="400"/> |
-| <img loading="lazy" src="URL_IMAGEN_4" alt="Gestión de libros y reseñas" width="800"/> | |
+| <img loading="lazy" src="https://github.com/user-attachments/assets/3683878c-1592-4f2a-894e-cd170b474878" alt="Vista principal de Booksnexus" width="800"/> | |
+| <img loading = "lazy" width="400" alt="Login" src="https://github.com/user-attachments/assets/a23f5224-c830-419d-990c-65331520df5f" /> | |
+  <img loading ="lazy" width="800" alt="Perfil de usuario" src="https://github.com/user-attachments/assets/a7d1700a-7887-4c79-87ad-92082ed4bbe7" />
 </details>
 
 ### ✨ Funcionalidades principales
@@ -77,10 +77,11 @@ Sistema web integral para la gestión de una cafetería artesanal ubicada en Ref
 
 | | |
 |---|---|
-| <img loading="lazy" src="https://github.com/PerlaSantos/DestinyCafe/blob/0aeb3ca476dc1d6d692dc9c9264c140ae76295cd/Principal.png" alt="Vista principal de DestinyCafe - Página de inicio" width="800"/> | |
-| <img loading="lazy" src="https://github.com/PerlaSantos/DestinyCafe/blob/0aeb3ca476dc1d6d692dc9c9264c140ae76295cd/Areas.png" alt="Sección de áreas: Barra, Cocina y Panadería" width="400"/> | <img loading="lazy" src="https://github.com/PerlaSantos/DestinyCafe/blob/0aeb3ca476dc1d6d692dc9c9264c140ae76295cd/Inventario.png" alt="Formulario de registro de insumos" width="400"/> |
-| <img loading="lazy" src="https://github.com/PerlaSantos/DestinyCafe/blob/0aeb3ca476dc1d6d692dc9c9264c140ae76295cd/Ventas.png" alt="Formulario de registro de ventas." width="800"/> | |
+| <img loading="lazy" src="https://github.com/PerlaSantos/DestinyCafe/blob/960a0a8029eea604e10949a234bdaa3712193b60/Principal.png" alt="Vista principal de DestinyCafe - Página de inicio" width="800"/> | |
+| <img loading="lazy" src="https://github.com/PerlaSantos/DestinyCafe/blob/960a0a8029eea604e10949a234bdaa3712193b60/Areas.png" alt="Sección de áreas: Barra, Cocina y Panadería" width="800"/> | <img loading="lazy" src="https://github.com/PerlaSantos/DestinyCafe/blob/960a0a8029eea604e10949a234bdaa3712193b60/Inventario.png" alt="Formulario de registro de insumos" width="800"/> |
+| <img loading="lazy" src="https://github.com/PerlaSantos/DestinyCafe/blob/960a0a8029eea604e10949a234bdaa3712193b60/Ventas.png" alt="Formulario de registro de ventas." width="800"/> | |
 </details>
+
 
 ###  Funcionalidades principales
 
@@ -127,13 +128,12 @@ Plataforma web para la gestión integral de un refugio de animales, donde los us
 | | |
 |---|---|
 | <img loading="lazy" src="https://github.com/user-attachments/assets/c04a0b8e-cdf1-4da3-b722-79644c8aad3c" alt="Vista principal" width="400"/> | <img loading="lazy" src="https://github.com/user-attachments/assets/474219f5-2c2c-4ad9-83b8-eed15b6ec1d0" alt="Panel admin" width="400"/> |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/352f3878-9982-435f-8235-43ea6d21d938" alt="Solicitudes" width="400"/> | <img loading="lazy"
-src="https://github.com/user-attachments/assets/a7156165-26d1-42fd-be91-c1a9f80dbd53" alt="Historial" width="400"/> |
+| <img loading="lazy" src="https://github.com/user-attachments/assets/352f3878-9982-435f-8235-43ea6d21d938" alt="Solicitudes" width="400"/> | <img loading="lazy" src="https://github.com/user-attachments/assets/a7156165-26d1-42fd-be91-c1a9f80dbd53" alt="Historial" width="400"/> |
 
 </details>
 
 ### 🔗 Enlaces
-
+Admin de Chocolate:MON-001      Contraseña:123456
 - **Código Fuente:** [Repositorio en GitHub](https://github.com/JOKERKORIO/patitas-api)
 - **Demo en Vivo (Railway):** [Patitas Felices API](https://patitas-backend-production.up.railway.app/)
 - **Demo en Vivo (GitHub Pages):** [Patitas Felices Web](https://jokerkorio.github.io/patitas-api/#)
@@ -216,7 +216,6 @@ El sistema está dividido en secciones interactivas que se actualizan de forma a
 ### 🔗 Enlaces
 Código Fuente: [Repositorio](https://github.com/aeiou520814-del/abc)
 Demo en Vivo: [Página Web](https://aeiou520814-del.github.io/abc/)
-
 
 ---
 
@@ -318,7 +317,20 @@ backend/
     ├── proyectista.py            # Presupuesto por obra, Costos
     └── public.py                 # Endpoints públicos (mapa ciudadano)
 ```
+ # Testeo del Proyecto
+
+## 🚀 Funcionalidad: 
  
+De manera general, puedes acceder a cada uno de los roles predispustos, pero no puedes ralizar acciones directas sobre la base de datos. Esto con algunos usuarios de prueba: 
+
+### Usuarios de prueba:
+
+| Rol | Usuario | Contraseña |
+| :--- | :--- | :--- |
+| Director | demo_director | DemoDir2026! |
+| Supervisor | demo_supervisor | DemoSup2026! |
+| Secretaria | demo_secretaria | DemoSec2026! |
+| Proyectista | demo_proyectista | DemoPry2026! |
 ---
 
 <details>
@@ -337,6 +349,28 @@ backend/
 
 </details>
 
+<details>
+<summary>🖼️ Ver Diagramas</summary>
+
+## Diagrama Relacional
+
+| |
+|---|
+| <img src="https://github.com/user-attachments/assets/28638031-7d27-42f3-b2b1-c932fb207ef6" alt="Login" width="800"/> |
+
+
+
+## Diagrama Entidad Rel. Etendido
+
+
+| |
+|---|
+| <img src="https://github.com/user-attachments/assets/303c37e3-4fe9-4cfe-9b74-7f442f51541a" alt="Login" width="800"/> |
+
+
+</details>
+---
+
 ### 🔗 Enlaces
 * **Código Fuente:** [Repositorio en GitHub](https://github.com/Urigc/Obras_publicas/tree/TestDefinitivo)
 * **Demo en Vivo (GitHub Pages):** [Página](https://urigc.github.io/Obras_publicas/)
@@ -346,42 +380,451 @@ backend/
 
 
 ## Proyecto 6: VinylVibes(Venta de vinilos)
-Plataforma web de venta de discos de vinilo, donde los usuarios pueden buscar entre millones de álbumes, ver información detallada de cada disco incluyendo portada, historia y video, y realizar compras. El catálogo se alimenta en tiempo real desde Discogs y se enriquece automáticamente con datos de MusicBrainz y Last.fm.
 
-### Tecnologías
-* **Backend:** Node.js con Express.js
-* **Base de Datos:** PostgreSQL (Neon)
-* **Frontend:** HTML, CSS y JavaScript vanilla
-* **Despliegue:** Render y GitHub Pages
-* **APIs externas:** Discogs, MusicBrainz, Last.fm, YouTube, Cover Art Archive
+## Stack
+
+### Backend
+| Tecnología | Uso |
+|---|---|
+| Node.js + Express | Servidor y endpoints |
+| Prisma | ORM para PostgreSQL |
+| PostgreSQL (Neon) | Base de datos |
+| Redis (Render) | Caché de respuestas |
+| JWT + bcrypt | Autenticación |
+| express-rate-limit | Protección contra abuso |
+| ioredis | Cliente de Redis |
+
+### Frontend
+| Tecnología | Uso |
+|---|---|
+| HTML5 | Estructura de las páginas |
+| CSS3 | Estilos y variables de diseño |
+| JavaScript (vanilla) | Lógica del frontend |
+| Google Fonts | Tipografías (Playfair Display, DM Sans, DM Mono) |
+| localStorage | Sesión del usuario y carrito |
+
+---
+
+## Estructura de archivos
+
+```
+vinylvibes-backend/
+├── index.js              → servidor principal y endpoints
+├── package.json          → dependencias
+└── prisma/
+    └── schema.prisma     → esquema de la base de datos
+
+vinylvibes-frontend/
+├── index.html     → página principal: catálogo, búsqueda, géneros, carrito
+├── login.html     → inicio de sesión y registro de cuenta
+├── admin.html     → panel de administración (usuarios y ventas)
+├── script.js      → lógica del catálogo, modal de detalle, carrito y checkout
+├── login.js       → lógica de autenticación y registro
+├── admin.js       → lógica del panel admin
+└── style.css      → estilos globales y variables de diseño
+```
+
+---
+
+## Instalación local
+
+### Backend
+
+```bash
+git clone https://github.com/akibanks/api-tienda-vinilos.git
+cd vinylvibes-backend
+npm install        # también ejecuta prisma generate (postinstall)
+# Crear archivo .env con las variables de entorno
+node index.js
+```
+
+Para aplicar migraciones de base de datos:
+
+```bash
+npx prisma migrate deploy
+```
+
+### Frontend
+
+```bash
+git clone https://github.com/akibanks/tienda_musica_web.git
+cd vinylvibes-frontend
+```
+
+No requiere build ni dependencias. Abre `index.html` en el navegador o usa un servidor local:
+
+```bash
+npx serve .
+# o
+python -m http.server 8080
+```
+
+> Para que el frontend funcione correctamente necesita el backend corriendo.
+
+---
+
+## Variables de entorno (Backend)
+
+Configurar en Render → Environment o en `.env` para desarrollo local:
+
+```env
+DATABASE_URL      = postgresql://...@neon.tech/neondb
+JWT_SECRET        = clave_secreta_larga
+CORS_ORIGIN       = https://api-tienda-vinilos.onrender.com
+REDIS_URL         = redis://red-...
+DISCOGS_TOKEN     = token_de_discogs
+YOUTUBE_API_KEY   = clave_de_youtube
+LASTFM_API_KEY    = clave_de_lastfm
+```
+
+> `CORS_ORIGIN` acepta múltiples dominios separados por coma.  
+> El servidor no arranca si `JWT_SECRET` no está definido.
+
+---
+
+## Cuenta de demostración
+
+| Campo | Valor |
+|---|---|
+| Usuario | `admin_chocolate` |
+| Contraseña | `chocolate` |
+
+---
+
+## Páginas (Frontend)
+
+### index.html — Catálogo principal
+
+Página de inicio de la tienda. Contiene:
+
+- Carrusel de discos recientes del año actual.
+- Buscador con debounce (500ms) que consulta la API de Discogs.
+- Filtro de géneros (Rock, Jazz, Pop, Electronic, Hip Hop, Classical, Blues, Folk, Latin, Reggae).
+- Catálogo con paginación.
+- Modal de detalle del disco con historia (Last.fm), video (YouTube) y recomendaciones personalizadas.
+- Carrito de compras con modal de envío y pago.
+- Historial de compras del usuario.
+- Sincronización del carrito entre pestañas del navegador vía evento `storage`.
+
+### login.html — Autenticación
+
+Página de inicio de sesión y registro con dos vistas en una misma pantalla (tabs). Panel decorativo con un vinilo animado en pantallas anchas.
+
+### admin.html — Panel de administración
+
+Accesible solo para usuarios con rol `admin` o `demo`. Contiene:
+
+- Tarjetas de estadísticas: total de usuarios, ventas, ingresos y ventas pendientes.
+- Tabla de usuarios con búsqueda, cambio de rol y eliminación con confirmación.
+- Tabla de ventas con búsqueda, cambio de estado y modal de detalle.
+- Banner de solo lectura visible para cuentas `demo`.
+
+---
+
+## Roles de usuario
+
+| Rol | Descripción | Acceso admin | Puede modificar |
+|---|---|---|---|
+| `cliente` | Rol por defecto al registrarse. Puede comprar y ver su historial. | No | — |
+| `vendedor` | Acceso futuro a gestión de inventario. | No | — |
+| `admin` | Acceso completo: usuarios, ventas y diagnóstico. | Sí | Sí |
+| `demo` | Solo lectura de secciones admin. No puede escribir ni modificar datos. | Sí | No |
+
+---
+
+## Autenticación
+
+El token JWT se guarda en `localStorage` tras el login y se envía en el header `Authorization: Bearer <token>` en cada petición protegida. Duración: 7 días.
+
+| Clave localStorage | Contenido |
+|---|---|
+| `vv_token` | JWT devuelto por el backend |
+| `usuarioLogueado` | Nombre del usuario |
+| `esAdmin` | `"true"` o `"false"` |
+| `esDemo` | `"true"` o `"false"` |
+| `vv_carrito` | Array JSON con los ítems del carrito |
+
+---
+
+## Endpoints
+
+### Auth
+| Método | Ruta | Auth | Descripción |
+|---|---|---|---|
+| POST | `/registro` | — | Crear cuenta |
+| POST | `/login` | — | Iniciar sesión, devuelve JWT |
+
+> Rate limit en auth: máximo 10 intentos cada 15 minutos.
+
+### Catálogo (Discogs)
+| Método | Ruta | Auth | Descripción |
+|---|---|---|---|
+| GET | `/buscar?q=&pagina=` | — | Buscar discos |
+| GET | `/recientes` | — | Discos del año actual |
+| GET | `/genero/:genero?pagina=` | — | Discos por género |
+| GET | `/disco/:id` | — | Detalle de un disco |
+| GET | `/disco/:id/historia` | — | Historia del álbum (Last.fm) |
+| GET | `/disco/:id/video` | — | Video del álbum (YouTube) |
+| GET | `/disco/:id/recomendaciones` | Opcional | Recomendaciones personalizadas si hay token |
+
+### Usuario
+| Método | Ruta | Auth | Descripción |
+|---|---|---|---|
+| POST | `/historial` | [JWT] | Registrar disco visto (máx. 10 por usuario) |
+| GET | `/historial` | [JWT] | Historial de navegación |
+| POST | `/checkout` | [JWT] | Procesar compra (precio calculado en backend) |
+| GET | `/mis-compras` | [JWT] | Historial de compras del usuario |
+
+### Admin
+| Método | Ruta | Auth | Descripción |
+|---|---|---|---|
+| GET | `/admin/usuarios` | [admin, demo] | Listar todos los usuarios |
+| PUT | `/admin/usuarios/:id/rol` | [admin] | Cambiar rol de un usuario |
+| DELETE | `/admin/usuarios/:id` | [admin] | Eliminar usuario |
+| GET | `/admin/ventas` | [admin, demo] | Listar todas las ventas |
+| GET | `/admin/ventas/:id` | [admin, demo] | Detalle de una venta |
+| PUT | `/admin/ventas/:id/estado` | [admin] | Cambiar estado de una venta |
+| GET | `/redis-ping` | [admin, demo] | Diagnóstico de Redis |
+
+---
+
+## Base de datos
+
+```
+usuario           → autenticación y roles
+venta             → órdenes de compra
+linea_venta       → discos por orden (con discogs_id y precio calculado en backend)
+envio             → dirección de envío por orden
+historial_usuario → últimos 10 discos vistos por usuario
+```
+
+<details>
+  <summary>Modelo relacional</summary>
+  <img src="https://github.com/user-attachments/assets/eb826ead-d502-454b-b3a0-a50bd8880af8" alt="Modelo relacional VinylVibes" style="max-width:100%;">
+</details>
+
+<details>
+  <summary>Modelo entidad relacion extendido</summary>
+  <img src="https://github.com/user-attachments/assets/9f8a4410-9c02-4592-b3c1-895f6739d290" alt="Modelo entidad relacion extendido VinylVibes" style="max-width:100%;">
+</details>
+
+---
+
+## Flujo de una compra
+
+1. El usuario agrega discos al carrito en el frontend.
+2. Completa el formulario de envío.
+3. El frontend hace `POST /checkout` con los ítems (sin precio) y los datos de envío.
+4. El backend consulta Discogs para obtener los stats actuales y calcula el precio real.
+5. Se crea la orden en la base de datos con estado `pagada`.
+6. El admin puede actualizar el estado desde el panel.
+
+### Estados posibles de una venta
+
+| Estado | Descripción |
+|---|---|
+| `pendiente` | Orden creada, pago no confirmado |
+| `pagada` | Pago confirmado (estado inicial en el flujo actual) |
+| `enviada` | Orden despachada |
+| `entregada` | Orden recibida por el cliente |
+| `cancelada` | Orden cancelada |
+
+---
+
+## Cálculo de precios
+
+El precio de cada disco se calcula en el backend. El campo `precio` que envíe el cliente es ignorado.
+
+**Precio base por año de lanzamiento:**
+
+| Año | Precio base |
+|---|---|
+| 2000 o posterior | $19.99 |
+| 1980 - 1999 | $29.99 |
+| 1960 - 1979 | $34.99 |
+| Anterior a 1960 | $39.99 |
+| Desconocido | $24.99 |
+
+**Ajuste por popularidad** (ratio want/have en Discogs):
+
+| Ratio | Ajuste |
+|---|---|
+| >= 1.5 (muy deseado) | +40% (max +$15) |
+| >= 0.8 (bastante deseado) | +20% (max +$8) |
+| <= 0.1 (poco deseado) | -15% (max -$5) |
+
+---
+
+## Caché Redis
+
+| Dato | TTL |
+|---|---|
+| Búsquedas | 1 hora |
+| Géneros | 24 horas |
+| Recientes | 24 horas |
+| Detalle disco | 7 días |
+| Historia | 7 días |
+| Video | 7 días |
+| Recomendaciones | 1 hora |
+
+> Si Redis no está disponible, el backend sigue funcionando pero consulta las APIs externas en cada request.
+
+---
+
+## Rate limiting
+
+| Ámbito | Límite |
+|---|---|
+| Global (todas las rutas) | 100 peticiones / minuto |
+| `/registro` y `/login` | 10 intentos / 15 minutos |
+
+---
+
+## APIs externas
+
+| API | Para qué se usa | Rate limit aproximado |
+|---|---|---|
+| Discogs | Búsqueda, detalle y estadísticas de discos | 60 req/min autenticado |
+| Last.fm | Historia del álbum y artistas similares | 5 req/seg |
+| YouTube Data API v3 | Video del álbum | 10,000 unidades/día |
+
+---
+
+## Códigos de error
+
+| Código | Cuándo ocurre |
+|---|---|
+| 400 | Datos faltantes o inválidos en el request |
+| 401 | Token ausente, inválido o expirado |
+| 403 | El rol del usuario no tiene permiso para esa acción |
+| 404 | Recurso no encontrado (disco, venta, usuario) |
+| 409 | Conflicto — por ejemplo, nombre de usuario ya registrado |
+| 429 | Rate limit alcanzado |
+| 500 | Error interno del servidor |
+
+---
+
+## Tipografía y diseño
+
+| Fuente | Uso |
+|---|---|
+| Playfair Display | Títulos principales y elementos decorativos |
+| DM Sans | Texto de interfaz, botones y etiquetas |
+| DM Mono | IDs, fechas, badges y datos técnicos |
+
+El sistema de diseño usa variables CSS definidas en `style.css` (`--bg-surface`, `--text-primary`, `--amber`, `--border-subtle`, etc.) para mantener consistencia entre páginas.
+
+---
+
+## Despliegue
+
+- **Backend:** hospedado en [Render](https://render.com). Configura las variables de entorno en Render → Environment.
+- **Frontend:** desplegado automáticamente en GitHub Pages al hacer push a la rama `main`. No requiere configuración adicional.
+
+---
+
+## Ejemplos de request / response
+
+### POST /registro
+
+```json
+// Request
+{ "nombre_usuario": "juan", "password": "mipassword123" }
+
+// Response 201
+{ "mensaje": "Usuario creado exitosamente." }
+
+// Response 409
+{ "error": "El nombre de usuario ya está en uso." }
+```
+
+### POST /login
+
+```json
+// Request
+{ "nombre_usuario": "juan", "password": "mipassword123" }
+
+// Response 200
+{
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
+  "nombre": "juan",
+  "es_admin": false,
+  "es_demo": false
+}
+
+// Response 401
+{ "error": "Credenciales inválidas." }
+```
+
+### POST /checkout
+
+```json
+// Request
+{
+  "items": [
+    {
+      "discogs_id": "1234567",
+      "titulo": "Dark Side of the Moon",
+      "artista": "Pink Floyd",
+      "cantidad": 1
+    }
+  ],
+  "envio": {
+    "nombre_receptor": "Juan Pérez",
+    "calle": "Insurgentes Sur",
+    "numero_ext": "123",
+    "numero_int": "4B",
+    "colonia": "Del Valle",
+    "ciudad": "Ciudad de México",
+    "estado": "CDMX",
+    "codigo_postal": "03100",
+    "referencias": "Edificio azul, portón negro"
+  }
+}
+
+// Response 201
+{ "mensaje": "¡Compra procesada exitosamente!", "id_venta": 42, "total": "29.99" }
+```
+
+---
+
 
 <details>
 <summary>Ver capturas de pantalla</summary>
 
 | | |
 |---|---|
-| <img loading="lazy" src="https://github.com/user-attachments/assets/1ad4d892-9777-4b9b-8305-ebe85305cfd8" alt="Página principal de VinylVibes" width="800"/> | |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/4ef93b08-d50d-46b7-9491-7cd907dcb663" alt="Búsqueda de discos" width="400"/> 
-| <img loading="lazy" src="https://github.com/user-attachments/assets/d25a3a1b-95c4-42bd-ba2c-5e856abe432c"" alt="Detalles del Disco" width="800"/> | |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/85bc9a9c-7fed-48f3-bfd0-0ccc9d24ad4c
-" alt="Datos de envío" width="800"/> | |
+| <img loading="lazy" src="[https://github.com/user-attachments/assets/1ad4d892-9777-4b9b-8305-ebe85305cfd8](https://github.com/user-attachments/assets/b8a28bde-7a63-4fb5-ab29-dae045f5c318)" alt="Página principal de VinylVibes" width="800"/> | 
+| <img loading="lazy" src="[https://github.com/user-attachments/assets/4ef93b08-d50d-46b7-9491-7cd907dcb663](https://github.com/user-attachments/assets/c698edfe-8f98-4268-9bab-666cf72c7caa)" alt="Búsqueda de discos" width="400"/>|
+| <img loading="lazy" src="[https://github.com/user-attachments/assets/4ef93b08-d50d-46b7-9491-7cd907dcb663](https://github.com/user-attachments/assets/8769e360-5673-4111-8041-c7813d667014)" alt="Seccion de generos musicales" width="400"/>|
+| <img loading="lazy" src="[[https://github.com/user-attachments/assets/4ef93b08-d50d-46b7-9491-7cd907dcb663](https://github.com/user-attachments/assets/8769e360-5673-4111-8041-c7813d667014)](https://github.com/user-attachments/assets/28cf1996-b01a-4a49-8d43-18dd05ac8edd)" alt="Seccion de generos musicales" width="400"/>|
+
+| <img loading="lazy" src="[https://github.com/user-attachments/assets/1ad4d892-9777-4b9b-8305-ebe85305cfd8](https://github.com/user-attachments/assets/b8a28bde-7a63-4fb5-ab29-dae045f5c318)](https://github.com/user-attachments/assets/8eef01ca-0473-410e-91cd-0c3c221b5f8a)" alt="Modal de historia" width="800"/> | 
+| <img loading="lazy" src="[https://github.com/user-attachments/assets/1ad4d892-9777-4b9b-8305-ebe85305cfd8](https://github.com/user-attachments/assets/b8a28bde-7a63-4fb5-ab29-dae045f5c318)](https://github.com/user-attachments/assets/8eef01ca-0473-410e-91cd-0c3c221b5f8a)](https://github.com/user-attachments/assets/84e4ade7-b921-4b01-8299-a5e53cffce40)" alt="Modal de Compra" width="800"/> | 
 
 </details>
-
-### Funcionalidades principales
-* Búsqueda en tiempo real contra la API de Discogs
-* Portadas obtenidas automáticamente desde MusicBrainz y Last.fm
-* Historia de cada álbum desde Last.fm o MusicBrainz en cascada
-* Video del álbum embebido desde YouTube
-* API REST para comunicación entre frontend y backend
-* Sistema de caché en PostgreSQL para optimizar consultas repetidas
-* Registro e inicio de sesión de usuarios
-* Carrito de compras y gestión de pedidos
 
 ### 🔗 Enlaces
 Código Fuente Backend: [Repositorio Backend](https://github.com/akibanks/api-tienda-vinilos)
 Código Fuente Frontend: [Repositorio Frontend](https://github.com/akibanks/tienda_musica_web)
 Demo en Vivo: [VinylVibes](https://akibanks.github.io/tienda_musica_web/)
+
+## Contribuir
+
+1. Haz fork del repositorio.
+2. Crea una rama para tu cambio: `git checkout -b feature/nombre-del-cambio`.
+3. Haz commit de tus cambios: `git commit -m "descripción clara del cambio"`.
+4. Abre un Pull Request describiendo qué cambiaste y por qué.
+
+Para reportar un bug, abre un Issue en GitHub con el endpoint afectado, el request que lo reproduce y el error que devuelve.
+
+---
+
+## Licencia
+
+ISC
+
+
 
 
 ## Proyecto 7: Patitas Sanas - Veterinaria 
@@ -403,13 +846,18 @@ manejo de personal e informacion sobre los servicios proporcionados.
 <details>
 <summary>🖼️ Ver capturas de pantalla</summary>
 | <img loading="lazy" src="https://github.com/Jaely19/Patitas-Sanas/blob/main/pantallap.png" alt="Vista principal de Veterinaria" width="800"/> | |
-| <img loading="lazy" src="https://github.com/Jaely19/Patitas-Sanas/blob/main/sevicios.png" alt="servicios" width="400"/> |
+| <img loading="lazy" src="https://github.com/Jaely19/Patitas-Sanas/blob/main/sevicios.png" alt="servicios" width="800"/> |
 </details>
+
+### Usuarios:
+*Usuario de Prueba: Correo: Prueba1@gmail.com Contraseña: 123456789
+*Admin: Correo: admin@gmail.com Contraseña: Admin2026
 
 ### 🔗 Enlaces
 Código Fuente: [Repositorio GitHub](https://github.com/Jaely19/Patitas-Sanas)
 Demo en Vivo: [Patitas Sanas Web](https://patitas-sanas.vercel.app)
 
+--- 
 
 ## Proyecto 8: Scynara - Sistema de Gestión para Comercio Minorista
 Sistema web full-stack para la gestión de una tienda o cadena de sucursales, con control de inventario, proveedores, productos, ventas, clientes y usuarios/empleados.
@@ -431,14 +879,55 @@ Sistema web full-stack para la gestión de una tienda o cadena de sucursales, co
 
 <details>
 <summary>🖼️ Ver capturas de pantalla</summary>
-<img width="1289" height="815" alt="principal" src="https://github.com/user-attachments/assets/4e0a99b5-fb40-44ab-9d35-57668798aaf8" />
-<img width="1289" height="815" alt="servicios" src="https://github.com/user-attachments/assets/4d0ae50e-22b0-4823-833f-0e30a2db2174" />
+<img loading="lazy" width="1289" height="815" alt="principal" src="https://github.com/user-attachments/assets/4e0a99b5-fb40-44ab-9d35-57668798aaf8" />
+<img loading="lazy" width="1289" height="815" alt="servicios" src="https://github.com/user-attachments/assets/4d0ae50e-22b0-4823-833f-0e30a2db2174" />
 </details>
 
 Código Fuente: Frontend [Repositorio](https://github.com/scynara09-hue/Scynara-Frontend)
 Código Fuente: Backend [Repositorio](https://github.com/scynara09-hue/Scynara-Backend)
-Demo en Vivo: [Página Web](https://scynara-frontend-nuv4w7vem-niv-s-projects2.vercel.app/)
+Demo en Vivo: [Página Web](https://scynara-frontend.vercel.app/)
+### 🔑 Credenciales de Acceso (Para Evaluación)
+
+- **Correo:** admin@scynara.com
+- **Contraseña:** aAdmin1234!
+
+> ⚠️ Este usuario es de solo lectura. No tiene privilegios para eliminar ni modificar datos, con el fin de no dañar el proyecto en producción.
+
+--- 
   
+## Proyecto 9: Data Warehouse CDMX - Consumo de Agua y Clima
+Proyecto de Data Warehouse para analizar la correlación entre el consumo de agua y las condiciones climáticas en la Ciudad de México durante 2019.
+
+### Tecnologías
+* Docker
+* Docker compose
+* PostgreSQL 16
+* SQL
+* CSV
+* Modelo Estrella
+* ETL
+* Open-Meteo
+* SACMEX CDMX
+
+### Funcionalidad principales
+* Carga automática de archivos SQL al inicializar el contenedor de PostgreSQL.
+* Creación de tablas de staging para recibir datos crudos.
+* Construcción de dimensiones como tiempo, ubicación e índice de desarrollo.
+* Construcción de tablas de hechos para consumo de agua y clima.
+* Integración de datos bimestrales de consumo de agua con datos climáticos diarios.
+* Agregación de información climática por bimestre.
+* Consulta analítica para comparar consumo total de agua, temperatura promedio, días de calor, días fríos y lluvia total.
+* Ejecución del proyecto mediante Docker sin instalar PostgreSQL manualmente.
+
+### Repositorio Base
+
+Proyecto original disponible en:
+
+[Data Warehouse CDMX](https://github.com/omarpulidom/data_warehouse_cdmx)
+
+### Fork del proyecto
+
+[Mi fork del proyecto](https://github.com/2gmyq2crw8-spec/Proyecto-9-Data-Warehouse-67.git)
 
 ## Proyecto 10: Notaría 105 (Sistema Integral de Gestión Notarial)
 Plataforma web segura diseñada específicamente para la **Notaría Pública 105** en la Ciudad de México. Este proyecto nace para resolver la necesidad de modernizar el flujo de trabajo notarial, eliminando el papeleo físico, previniendo la pérdida de documentos y centralizando la información en un entorno digital seguro bajo principios de auditoría estricta.
@@ -459,26 +948,26 @@ El sistema funciona como un gestor relacional de expedientes que automatiza el c
 * **Auditoría Notarial y Borrado Lógico:** Cumplimiento de la secuencialidad de folios exigida por la ley. Las escrituras canceladas o con errores se ocultan del panel operativo principal mediante un `UPDATE` de estado (borrado lógico), preservando el registro en un panel de archivo histórico para futuras auditorías.
 * **Portal de Transparencia Ciudadana:** Interfaz de acceso restringido para clientes externos. Mediante validación de CURP y correo, el usuario visualiza el avance de sus escrituras (JOINs en tiempo real) sin poder alterar la base de datos.
 * **Generación de Documento Oficial:** Sistema de renderizado dinámico mediante Jinja2 y CSS para previsualizar el instrumento notarial final (formato carta) con la firma digital incrustada, listo para impresión o exportación.
- 
-🖼️ Ver capturas de pantalla
+  
+<details>
+<summary>🖼️ Ver capturas de pantalla</summary>
 
-<img width="1600" height="755" alt="index" src="https://github.com/user-attachments/assets/9932b8ba-6d88-487d-8d2b-4411601c175e" />
-<img width="1600" height="757" alt="regisperso" src="https://github.com/user-attachments/assets/5dbdecb2-a3df-466c-8214-0cc138a0ec31" />
-<img width="1600" height="754" alt="abogado" src="https://github.com/user-attachments/assets/42c0483c-c947-4d44-b400-08c2e912a4ad" />
-<img width="1600" height="746" alt="regisclient" src="https://github.com/user-attachments/assets/446e047b-f2e5-4d17-b529-74141bc8edc4" />
-
- 
+<img width="1600" height="755" alt="index" src="https://github.com/user-attachments/assets/9932b8ba-6d88-487d-8d2b-4411601c175e" loading="lazy" /> 
+<img width="1600" height="757" alt="regisperso" src="https://github.com/user-attachments/assets/5dbdecb2-a3df-466c-8214-0cc138a0ec31" loading="lazy" /> 
+<img width="1600" height="754" alt="abogado" src="https://github.com/user-attachments/assets/42c0483c-c947-4d44-b400-08c2e912a4ad" loading="lazy" /> 
+<img width="1600" height="746" alt="regisclient" src="https://github.com/user-attachments/assets/446e047b-f2e5-4d17-b529-74141bc8edc4" loading="lazy" />
+</details>
 🔑 Credenciales de Acceso (Para Evaluación)
 Para ingresar al sistema con privilegios totales de administrador y evaluar el flujo completo (dashboard, creación de escrituras y alta de personal), utiliza la siguiente cuenta:
 * **Rol:** Notario Titular
-* **Usuario:** Jesus_Av@notaria105.com
-* **Contraseña:** 1234
+* **Usuario:** roberto.notario@notaria105.com
+* **Contraseña:** c123
  
 🔗 Enlaces
 * **Código Fuente:** [Repositorio Notaría 105](https://github.com/s06008525-max/notaria-105)
-* **Demo en Vivo:** [notaria105](http://roberto.notario@notaria105.com)
+* **Demo en Vivo:** [notaria105](https://notaria-105.onrender.com/)
 
-# Proyecto 11 Refaccionaria Leo 🚗
+# Proyecto 11: Refaccionaria Leo 🚗
 
 ## 👥 Equipo de Desarrollo
 * **Martinez Marin Nahum**
