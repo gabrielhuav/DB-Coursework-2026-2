@@ -528,6 +528,8 @@ Con esto buscamos lograr que nuestra papeleria (papirosso) tenga un mejor contro
 <img width="1878" height="1113" alt="2026-05-29_18-45-33" loading="lazy" src="https://github.com/user-attachments/assets/d343cac2-0641-4376-ab42-b0d4a228c538" />
 <img width="1878" height="1113" alt="2026-05-29_18-45-48" loading="lazy" src="https://github.com/user-attachments/assets/8c64a28e-acfe-4c02-a4b0-6d8ed89c6b83" />
 <img width="1878" height="1113" alt="2026-05-29_18-46-30" loading="lazy" src="https://github.com/user-attachments/assets/e037140c-ba22-4ca6-9f1a-cefd6bae8700" />
+
+.
 <img width="1878" height="1113" alt="2026-05-29_18-46-42" loading="lazy" src="https://github.com/user-attachments/assets/e77cea9c-bc48-4035-9995-e5ffaa957f16" />
 <img width="1878" height="1113" alt="2026-05-29_18-46-45" loading="lazy" src="https://github.com/user-attachments/assets/c647bef8-3bb6-4ec3-b36e-a5950cd41182" />
 <img width="1878" height="1113" alt="2026-05-29_18-46-48" loading="lazy" src="https://github.com/user-attachments/assets/604236f6-f7ea-4f1e-a5c8-e8819e5d81fd" />
