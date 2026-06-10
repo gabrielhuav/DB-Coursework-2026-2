@@ -1066,14 +1066,14 @@ Huellitas es una fundación enfocada en brindar un hogar y mejores oportunidades
 
 Para solucionar este problema, se desarrolló una plataforma web conectada a una base de datos que almacena la información completa de todos los animales disponibles en el refugio. Además, se implementó un apartado de donaciones que permite apoyar económicamente a la fundación, ayudando a convertir a Huellitas en un mejor refugio y hogar temporal para los animales.
 
-### Tecnologías utilizadas
+### Tecnologías utilizadas.
 
-* Javascript
-* PostgreSQL
-* CSS
-* GitHub
+* Javascript.
+* PostgreSQL.
+* CSS.
+* GitHub.
 
-### Capturas del proyecto
+### Capturas del proyecto.
 <details>
 <summary>🖼️ Ver capturas de pantalla</summary>
 
@@ -1092,7 +1092,7 @@ Para solucionar este problema, se desarrolló una plataforma web conectada a una
 </details>
 
 
-### Características principales
+### Características principales.
 
 * Gestión de animales disponibles para adopción.
 * Base de datos con información detallada de cada animal.
