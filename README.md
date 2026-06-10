@@ -818,7 +818,7 @@ Aplicación de laboratorio para administrar integrantes, bailes, presentaciones,
 <details>
 <summary>🟩 Ver capturas de pantalla</summary>
 
-<img loading="lazy" src="https://github.com/user-attachments/assets/363efd33-a4d3-4cf6-97e7-a35b43497171" width="880"/>
+<img loading="lazy" src="https://github.com/user-attachments/assets/363efd33-a4d3-4cf6-97e7-a35b43497171" width="800"/>
 <img loading="lazy" src="https://github.com/user-attachments/assets/c4aee3e2-8a28-4906-9400-feac535b7141" width="800"/>
 <img loading="lazy" src="https://github.com/user-attachments/assets/fc762a02-3e1a-4d5c-9de4-f1178b10ce7b" width="800"/>
 <img loading="lazy" src="https://github.com/user-attachments/assets/af3c6509-8157-4619-9a3a-d8a113c06d70" width="800"/>
