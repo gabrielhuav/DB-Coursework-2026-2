@@ -1039,6 +1039,10 @@ rdBg2yGGGR
 **GitHub:** https://github.com/jorvsk2007/jorvsk2007.github.io.git
 **LandingPage:** https://jorvsk2007.github.io/
 
+### Formas de acceder
+**Trabajador:** CHOC000101HDFRRR00  **Contraseña:** chocolate123
+**Cliente:** CHOC000101HDFRRR99 **Contraseña:** chocolate123
+
 ### Descripción del Proceso de Normalización
 Mediante nuestro proyecto buscamos implementar una automatizacion para cobros, registro de mercancias y clientes así como trabajadores mediante un portal web para agilizar el tiempo de una venta y reducir el consumo de papel y errores matemáticos.
 Con esto buscamos lograr que nuestra papeleria (papirosso) tenga un mejor control de su mercancia así como sus ventas y agregar la funcionalidad de que los clientes más frecuentes puedan acceder a una página exclusiva para realizar sus pedidos y recogerlos directo en la sucursal fisica.
