@@ -1255,7 +1255,7 @@ Sistema web para el agendado y gestión de citas medicas en un hospital
 </details>
 
 
-##🔗 Enlaces del Proyecto
+##  🔗 Enlaces del Proyecto
 Código Fuente: [Repositorio Github] (https://github.com/AugustoHFV/SistemaMedicoHOST)
 Demo en Vivo: [Sistema Medico] (https://sistemamedico-1gmy.onrender.com)
 
