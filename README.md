@@ -2056,12 +2056,19 @@ Plataforma web enfocada en la comunidad universitaria (alumnos y profesores), di
 * **Despliegue:** GitHub Pages
 
 <details>
-<summary>🖼️ Ver capturas de pantalla</summary>
-| | |
+<summary>🖼️ Ver capturas de pantalla de la plataforma</summary>
+
+| Pantalla de Inicio | Inicio de Sesión |
 |:---:|:---:|
-| <img loading="lazy" src="https://github.com/xsuik33/xsuik33.github.io/blob/main/Page.png" alt="Vista principal de la Pagina - Bibliotech" width="400"/> | <img loading="lazy" src="https://github.com/xsuik33/xsuik33.github.io/blob/main/Login.png" alt="Login - BiblioTech" width="400"/> |
-| <img loading="lazy" src="https://github.com/xsuik33/xsuik33.github.io/blob/main/Register.png" alt="Registro - BiblioTech" width="400"/> | <img loading="lazy" src="https://github.com/xsuik33/xsuik33.github.io/blob/main/Preview.png" alt="Vista Previa de la Pagina de Libro - BiblioTech" width="400"/> |
-| <img loading="lazy" src="https://github.com/xsuik33/xsuik33.github.io/blob/main/Section.png" alt="Vista de la Seccion - BiblioTech" width="400"/> | |
+| <img loading="lazy" src="https://github.com/xsuik33/xsuik33.github.io/blob/main/Imagenes/Documentacion/Page.png" alt="Vista principal" width="400"/> | <img loading="lazy" src="https://github.com/xsuik33/xsuik33.github.io/blob/main/Imagenes/Documentacion/Login.png" alt="Login" width="400"/> |
+
+| Registro de Usuario | Vista de Catálogo / Sección |
+|:---:|:---:|
+| <img loading="lazy" src="https://github.com/xsuik33/xsuik33.github.io/blob/main/Imagenes/Documentacion/Register.png" alt="Registro" width="400"/> | <img loading="lazy" src="https://github.com/xsuik33/xsuik33.github.io/blob/main/Imagenes/Documentacion/Section.png" alt="Vista de Sección" width="400"/> |
+
+| Vista Previa del Libro |
+|:---:|
+| <img loading="lazy" src="https://github.com/xsuik33/xsuik33.github.io/blob/main/Imagenes/Documentacion/Preview.png" alt="Detalle del Libro" width="400"/> |
 
 </details>
 
