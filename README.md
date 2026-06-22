@@ -1090,6 +1090,10 @@ Este proyecto consiste en un sitio web de comercio electrónico para una refacci
 * [Repositorio en GitHub](https://github.com/Nahum1802/Refaccionaria-Leo)
 * [Sitio Web en Vivo](https://nahum1802.github.io/Refaccionaria-Leo/)
 
+## Cuentas de Acceso ##
+* **Correo:** tester1@test.com
+* **COntraseña:** tester1234
+
 ## Proyecto 12: Distribuidora de Abarrotes Kafra
 
 Sistema integral para la gestión de inventario, ventas y distribuicion de abarrotes.
