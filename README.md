@@ -1233,6 +1233,9 @@ Sistema web para el agendado y gestión de citas medicas en un hospital
 ##  🔗 Enlaces del Proyecto
 Código Fuente: [Repositorio Github] (https://github.com/AugustoHFV/SistemaMedicoHOST)
 Demo en Vivo: [Sistema Medico] (https://sistemamedico-1gmy.onrender.com)
+Paginta Estatica: [Link de la pagina]  (https://warinsanomachine.github.io/sistema-medico-estatico/)
+Sesion de Administrador de la pagina estatica: admin@medico.com || Contraseña: Amdhn123
+Sesion de Medico de la pagina estatica: daniel@medico.com || Daniel123 
 
 ## Proyecto 16: Payapp+
 Payapp es un sistema gestor de servicios financieros que ayuda al cliente a tener una mejor gestion de sus finanzas, asi como tambien ofrece distintas opciones que se adecuan a las necesidades del cliente.
