@@ -1419,7 +1419,12 @@ Aplicación de laboratorio para administrar integrantes, bailes, presentaciones,
 
 - **Código Fuente:** [Repositorio en GitHub](https://github.com/avril1699/Grupo-Jaltepec-BD/tree/main)
 - **Demo en Vivo (Vercel):** [Ver proyecto](https://grupo-jaltepec-bd.vercel.app/)
+- **Página Estática:** [Ver página estática](https://paginaestaticagj.vercel.app/)
 
+### Credenciales de prueba para página estática
+
+- **Usuario:** `integrante@danza.mx`
+- **Contraseña:** `pass123`
 ## Proyecto 19: ABV Library (Sistema de Gestión de Librería)
 
 Sistema web completo de gestión para una librería/biblioteca. Permite administrar libros, empleados, clientes, proveedores, ventas, préstamos y donaciones desde una interfaz moderna tipo marketplace con tres roles de acceso.
