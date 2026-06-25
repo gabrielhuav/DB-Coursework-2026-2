@@ -64,9 +64,9 @@ Código Fuente Frontend: [Repositorio Frontend](https://github.com/Diegocstln/mi
 
 Demo en Vivo: [Booksnexus Web](https://diegocstln.github.io/mi-proyecto-bd/)
 
-Versión estática/localStorage, sin base de datos real: (https://diegocstln.github.io/mi-proyecto-bd/?mode=local). 
+Versión estática/localStorage, sin base de datos real: [Booksnexus Estatico](https://diegocstln.github.io/mi-proyecto-bd/?mode=local). 
 
-Backend/API Render: (https://booksnexus-back.onrender.com). 
+Backend/API Render: [Booksnexus API](https://booksnexus-back.onrender.com). 
 
 Para el acceso administrador con las teclas CTRL + SHIFT + A
 
