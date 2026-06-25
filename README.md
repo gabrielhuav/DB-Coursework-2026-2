@@ -43,9 +43,9 @@ Plataforma web tipo red social enfocada en lectores, donde los usuarios pueden r
 
 | |
 |---|
-| <img loading="lazy"  alt="Login" width="800" src="https://github.com/user-attachments/assets/9f8b8d01-2880-4773-ac7e-0f6ee0bae7c8"/> | 
-| <img loading = "lazy" width="800" alt="Perfil de usuario" src="https://github.com/user-attachments/assets/6e9c99e6-8039-409f-a336-74028e68fe78" /> | 
-|  <img loading ="lazy" width="800" alt="Vista principal" src="https://github.com/user-attachments/assets/1b93c8fe-d090-4b01-98a9-a35d4af7d36e" />|
+| <img loading="lazy"  alt="Login" width="800" src="https://github.com/user-attachments/assets/51a06d92-129a-455e-aa63-19f5bf40cf43"/> | 
+| <img loading = "lazy" width="800" alt="Perfil de usuario" src="https://github.com/user-attachments/assets/60492584-a657-4edb-8a8a-8891fa97d270"/> | 
+|  <img loading ="lazy" width="800" alt="Vista principal" src="https://github.com/user-attachments/assets/f892b50d-cd25-46fe-a49b-ca60ab9ef6dd" />|
 </details>
 
 ### ✨ Funcionalidades principales
@@ -63,6 +63,10 @@ Código Fuente Backend: [Repositorio Backend](https://github.com/Diegocstln/book
 Código Fuente Frontend: [Repositorio Frontend](https://github.com/Diegocstln/mi-proyecto-bd)
 
 Demo en Vivo: [Booksnexus Web](https://diegocstln.github.io/mi-proyecto-bd/)
+
+Versión estática/localStorage, sin base de datos real: (https://diegocstln.github.io/mi-proyecto-bd/?mode=local). 
+
+Backend/API Render: (https://booksnexus-back.onrender.com). 
 
 Para el acceso administrador con las teclas CTRL + SHIFT + A
 
