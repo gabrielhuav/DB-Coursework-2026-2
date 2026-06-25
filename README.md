@@ -1426,6 +1426,9 @@ https://github.com/JULIO-MILAN/mantra-backend
 **Demo en vivo:**
 https://mantra-backend-24g1.onrender.com/
 
+**Link version estatica:**
+https://julio-milan.github.io/MANTRA-ESTATICO/index.html
+
 ## Proyecto 18: Compañía de Danza — App de administración
 
 Aplicación de laboratorio para administrar integrantes, bailes, presentaciones, cuadros, observaciones e inventario. El sistema fue desarrollado con HTML, CSS y JavaScript puro, y se conecta a una base de datos Postgres en Supabase mediante una función RPC para ejecutar consultas SQL.
