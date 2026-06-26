@@ -1262,6 +1262,30 @@ Admin de prueba:EMP-0003 Contraseña 12345
 Código Fuente: [Repositorio](https://github.com/sofi-14/gitfin)
 Página web: [PáginaWeb](https://sofi-14.github.io/gitfin/)
 
+PAGINA ESTATICA 
+
+Esta versión no usa Supabase ni base de datos real. Los datos se simulan en el navegador con localStorage.
+
+ARCHIVO PRINCIPAL:
+- index.html
+
+CUENTAS DE PRUEBA:
+
+Administrador:
+- Usuario: EMP-0042
+- Contraseña: 1234
+
+Administrador alterno:
+- Usuario: EMP-0001
+- Contraseña: admin123
+
+Empleado:
+- Usuario: EMP-0002
+- Contraseña: empleado123
+
+Página estatica: https://dianalizzt.github.io/huellitas-estatico/
+Repositorio: https://github.com/dianalizzt/huellitas-estatico
+
 
 ## 😷 Proyecto 15: Sistema de Agendado de citas medicas
 Sistema web para el agendado y gestión de citas medicas en un hospital
