@@ -355,6 +355,22 @@ De manera general, puedes acceder a cada uno de los roles predispustos, pero no 
 |---|
 | <img src="https://github.com/user-attachments/assets/303c37e3-4fe9-4cfe-9b74-7f442f51541a" alt="Login" width="800"/> |
 
+### 🔗 Enlaces de versión static del proyecto: 
+A continuación, se detalla el enlace para esquemas de emulado del proyecto:
+
+- [**Entorno de Pruebas (Demo)**](https://urigc.github.io/Obras_Pub/): Interactúa con la versión en vivo del proyecto y prueba las funcionalidades.
+
+Usuarios de Prueba: 
+
+| Usuario | Contraseña | Rol |
+| :--- | :--- | :---: |
+| `director`    | `admin123`    | Director de Obras      |
+| `supervisor`  | `admin123`    | Supervisor de Obra     |
+| `proyectista` | `admin123`    | Proyectista            |
+| `secretario`  | `admin123`    | Secretaría             |
+| `supervisor2` | `admin123`    | Supervisor (adicional) |
+| `poblador1`   | `poblador123` | Ciudadano / Poblador   |
+| `poblador2`   | `poblador123` | Ciudadano / Poblador   |
 
 </details>
 ---
