@@ -1177,6 +1177,15 @@ Sistema integral para la gestión de inventario, ventas y distribuicion de abarr
 ### 🔗 Enlaces
 * **Código Fuente:** [Repositorio en GitHub](https://github.com/DerekArenas/kafra-dashboard)
 * **Demo en Vivo (Github Pages):** [Pagina Distribuidora Kafra](https://derekarenas.github.io/kafra-dashboard/)
+* **Pagina estatica:** [Pagina Distribuidora Kafra](https://sodaplanta.github.io/sitio-practica/)
+
+<details>
+<summary>🖼️ Login para pagina estatica</summary>
+User:
+admin
+Password:
+123
+</details>
 
 <details>
 <summary>🖼️ Login para consulta</summary>
