@@ -1161,6 +1161,11 @@ Este proyecto consiste en un sitio web de comercio electrónico para una refacci
 * **Correo:** tester1@test.com
 * **COntraseña:** tester1234
 
+## Pagina Estatica
+
+* [Repositorio en GitHub](https://github.com/miraanda21/Refaccionaria-Leo-Static.git)
+* [Sitio Web en Vivio](https://miraanda21.github.io/Refaccionaria-Leo-Static/)
+
 ## Proyecto 12: Distribuidora de Abarrotes Kafra
 
 Sistema integral para la gestión de inventario, ventas y distribuicion de abarrotes.
