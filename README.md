@@ -896,46 +896,46 @@ manejo de personal e informacion sobre los servicios proporcionados.
 * Panel administrativo interno para el control de la agenda y expedientes.
 
 <details>
-<summary>🖼️ Ver Imagenes del Proyecto</summary>
+<summary>🖼️ Ver Imágenes del Proyecto</summary>
 
 | Pantalla de Inicio |
 |---|
-| <img loading="lazy" src="./fotos/inicio.png" width="800"/> |
+| <img loading="lazy" src="https://raw.githubusercontent.com/Jaely19/Patitas-Sanas/main/fotos/inicio.png" width="800"/> |
 
 | Servicios |
 |---|
-| <img loading="lazy" src="./fotos/servicios.png" width="800"/> |
+| <img loading="lazy" src="https://raw.githubusercontent.com/Jaely19/Patitas-Sanas/main/fotos/servicios.png" width="800"/> |
 
 | Login |
 |---|
-| <img loading="lazy" src="./fotos/login.png" width="800"/> |
+| <img loading="lazy" src="https://raw.githubusercontent.com/Jaely19/Patitas-Sanas/main/fotos/login.png" width="800"/> |
 
 | Panel de Citas |
 |---|
-| <img loading="lazy" src="./fotos/cita-1.png" width="800"/> |
-| <img loading="lazy" src="./fotos/cita-2.png" width="800"/> |
-| <img loading="lazy" src="./fotos/cita-3.png" width="800"/> |
+| <img loading="lazy" src="https://raw.githubusercontent.com/Jaely19/Patitas-Sanas/main/fotos/cita-1.png" width="800"/> |
+| <img loading="lazy" src="https://raw.githubusercontent.com/Jaely19/Patitas-Sanas/main/fotos/cita-2.png" width="800"/> |
+| <img loading="lazy" src="https://raw.githubusercontent.com/Jaely19/Patitas-Sanas/main/fotos/cita-3.png" width="800"/> |
 
 | Clientes |
 |---|
-| <img loading="lazy" src="./fotos/cliente.png" width="800"/> |
+| <img loading="lazy" src="https://raw.githubusercontent.com/Jaely19/Patitas-Sanas/main/fotos/cliente.png" width="800"/> |
 
 | Inventario |
 |---|
-| <img loading="lazy" src="./fotos/inv.png" width="800"/> |
+| <img loading="lazy" src="https://raw.githubusercontent.com/Jaely19/Patitas-Sanas/main/fotos/inv.png" width="800"/> |
 
 | Recepcionista |
 |---|
-| <img loading="lazy" src="./fotos/rec.png" width="800"/> |
+| <img loading="lazy" src="https://raw.githubusercontent.com/Jaely19/Patitas-Sanas/main/fotos/rec.png" width="800"/> |
 
 | Administrador |
 |---|
-| <img loading="lazy" src="./fotos/admin-1.png" width="800"/> |
-| <img loading="lazy" src="./fotos/admin-2.png" width="800"/> |
+| <img loading="lazy" src="https://raw.githubusercontent.com/Jaely19/Patitas-Sanas/main/fotos/admin-1.png" width="800"/> |
+| <img loading="lazy" src="https://raw.githubusercontent.com/Jaely19/Patitas-Sanas/main/fotos/admin-2.png" width="800"/> |
 
 | Veterinario |
 |---|
-| <img loading="lazy" src="./fotos/vet.png" width="800"/> |
+| <img loading="lazy" src="https://raw.githubusercontent.com/Jaely19/Patitas-Sanas/main/fotos/vet.png" width="800"/> |
 
 </details>
 
