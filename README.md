@@ -704,11 +704,14 @@ El sistema de diseño usa variables CSS definidas en `style.css` (`--bg-surface`
 
 ---
 
-## Repositorio versión estatica:
-- **Enlace** [Repositorio](https://github.com/20gercha06-stack/VinylVibes_Local_Storage.git)
+## Repositorio Frontend versión estatica:
+- **Enlace** [Repositorio](https://github.com/20gercha06-stack/VinylVibes_Local_Front)
+
+## Repositorio Backend versión estatica:
+- **Enlace** [Repositorio](https://github.com/20gercha06-stack/VinylVibes_Local_Back-.git)
 
 ## Pagina En vivo Con base de datos local:
-- **Enlace** [Pagina web](https://20gercha06-stack.github.io/VinylVibes_Local_Storage/)
+- **Enlace** [Pagina web](https://20gercha06-stack.github.io/VinylVibes_Local_Front/)
 
 ## Despliegue
 
