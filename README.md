@@ -1624,242 +1624,85 @@ Sistema web completo de gestión para una librería/biblioteca. Permite administ
 - **Demo en Vivo (GitHub Pages):** [ABV Library](https://abelgod27.github.io/abv_library/)
 - **Demo en Vivo (Render):** [ABV Library](https://libreria-va.onrender.com)
 
-# La Casita - Mini Súper Web con Laravel
-
-## Descripción
-
-**La Casita** es una aplicación web desarrollada con **Laravel** para administrar de forma básica un mini súper. Permite gestionar productos, clientes, empleados, proveedores, sucursales, promociones, inventario, ventas y preguntas frecuentes.
-
-El proyecto incluye autenticación, registro de clientes, control de sesiones, roles de usuario y paneles diferentes para administrador, empleado y cliente.
-
+La Casita - Sistema Web para Mini Súper
+Descripción
+La Casita es un sistema web académico para administrar un mini súper. El proyecto integra el diseño de una base de datos relacional con una aplicación desarrollada en Laravel, conectada a MySQL y preparada para ejecutarse mediante Docker.
+El sistema permite gestionar productos, categorías, clientes, empleados, proveedores, sucursales, inventario, promociones, ventas y preguntas frecuentes. También incluye autenticación y control de acceso por roles.
 ---
-
-## Tecnologías utilizadas
-
-- Laravel 12
-- PHP 8.2 o superior
-- MySQL / MariaDB
-- Composer
-- Blade Templates
-- HTML, CSS y JavaScript
-- XAMPP
-- phpMyAdmin
-
+Enlaces del proyecto
+Repositorio:  
+https://github.com/DVD-BD/LaCasita
+Aplicación desplegada en Railway:  
+https://lacasita-production-560a.up.railway.app
+Versión estática en GitHub Pages:  
+https://dvd-bd.github.io/LaCasita/
 ---
-
-## Funcionalidades principales
-
-- Página pública del negocio.
-- Registro e inicio de sesión.
-- Panel de administrador, empleado y cliente.
-- Gestión de productos, categorías, clientes, empleados y proveedores.
-- Gestión de sucursales, promociones y preguntas frecuentes.
-- Consulta de inventario y ventas.
-- Catálogo e historial de compras para clientes.
-- Protección de rutas por sesión y rol.
-
----
-
-## Roles del sistema
-
-| Rol | Descripción |
-|---|---|
-| Administrador | Acceso completo a la administración del sistema. |
-| Empleado | Acceso operativo a productos, inventario y ventas. |
-| Cliente | Consulta catálogo y compras realizadas. |
-
----
-
-## Cuentas de prueba
-
-| Rol | Correo | Contraseña |
-|---|---|---|
-| Administrador | admin@lacasita.com | 123456 |
-| Empleado | empleado@lacasita.com | 123456 |
-| Cliente | cliente@lacasita.com | 123456 |
-
----
-
-## Capturas del proyecto
-
-<details>
-<summary>🖼️ Ver capturas de pantalla</summary>
-
-### Página de inicio
-
-![Página de inicio](Inicio.png)
-
----
-
-### Catálogo de productos
-
-![Catálogo de productos](CATALOGO.png)
-
----
-
-### Promociones
-
-![Promociones](Oferta.png)
-
----
-
-### Sucursales
-
-![Sucursales](Sucursales.png)
-
----
-
-### Ayuda
-
-![Ayuda](Ayuda.png)
-
----
-
-### Panel de administrador
-
-![Panel de administrador](ADMIN.png)
-
----
-
-### Panel de empleado
-
-![Panel de empleado](EMPLEADO.png)
-
----
-
-### Panel de cliente
-
-![Panel de cliente](CLIENTE.png)
-
-</details>
-
----
-
-## Estructura general
-
-```txt
-LaCasita/
-├── app/
-├── bootstrap/
-├── config/
-├── database/
-├── public/
-├── resources/
-├── routes/
-├── storage/
-├── Inicio.png
-├── CATALOGO.png
-├── Oferta.png
-├── Sucursales.png
-├── Ayuda.png
-├── ADMIN.png
-├── EMPLEADO.png
-├── CLIENTE.png
-├── artisan
-├── composer.json
-├── composer.lock
-└── README.md
-```
-
----
-
-## Instalación local
-
-1. Colocar el proyecto en:
-
-```txt
-C:\xampp\htdocs\LaCasita
-```
-
-2. Encender en XAMPP:
-
-```txt
-Apache
+Tecnologías utilizadas
+Laravel
+PHP
 MySQL
-```
-
-3. Crear en phpMyAdmin una base de datos llamada:
-
-```txt
-lacasita_laravel
-```
-
-4. Configurar el archivo `.env`:
-
-```env
-APP_NAME="La Casita"
-APP_ENV=local
-APP_DEBUG=true
-APP_URL=http://127.0.0.1:8000
-
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=lacasita_laravel
-DB_USERNAME=root
-DB_PASSWORD=
-```
-
-5. Ejecutar los comandos:
-
-```bash
-cd C:\xampp\htdocs\LaCasita
-composer install
-php artisan key:generate
-php artisan migrate:fresh --seed
-php artisan optimize:clear
-php artisan serve
-```
-
-6. Abrir en el navegador:
-
-```txt
-http://127.0.0.1:8000
-```
-
+Blade
+HTML, CSS y JavaScript
+Docker y Docker Compose
+GitHub
+Railway
+GitHub Pages
 ---
-
-## Rutas principales
-
-| Ruta | Descripción |
-|---|---|
-| `/` | Página principal |
-| `/login` | Inicio de sesión |
-| `/registro` | Registro de cliente |
-| `/dashboard` | Panel según el rol |
-| `/productos` | Gestión de productos |
-| `/inventario` | Consulta de inventario |
-| `/ventas` | Consulta de ventas |
-| `/cliente/catalogo` | Catálogo del cliente |
-| `/cliente/compras` | Compras del cliente |
-
+Prácticas integradas
+El proyecto reúne las prácticas realizadas durante la materia de Base de Datos:
+Análisis del caso de estudio: definición del mini súper, usuarios, procesos y necesidades.
+Modelo Entidad-Relación: identificación de entidades, atributos, relaciones y cardinalidades.
+Modelo Entidad-Relación Extendido: ajuste del modelo conceptual y representación de usuarios y relaciones principales.
+Modelo Relacional: transformación del modelo conceptual a tablas, llaves primarias y llaves foráneas.
+Implementación de la base de datos: creación de tablas, relaciones y datos iniciales en MySQL.
+Desarrollo del sistema web: implementación en Laravel con migraciones, seeders, controladores, vistas, roles y Docker.
 ---
-
-## Seguridad implementada
-
-- Autenticación de usuarios.
-- Protección de rutas privadas.
-- Control de acceso por rol.
-- Contraseñas cifradas con hash.
-- Protección CSRF en formularios.
-- Validaciones del lado del servidor.
-- Uso de Eloquent ORM.
-
+Funcionalidades principales
+Inicio de sesión y registro de usuarios.
+Control de acceso por roles: administrador, empleado y cliente.
+Gestión de productos, categorías, clientes, empleados, proveedores y sucursales.
+Gestión de inventario, promociones, ventas y preguntas frecuentes.
+Catálogo de productos para clientes.
+Registro de compras e historial del cliente.
+Conexión con base de datos MySQL.
+Versión estática publicada en GitHub Pages.
 ---
-
-## Notas importantes
-
-- No subir `.env` a GitHub.
-- No subir `vendor` ni `node_modules`.
-- En producción usar `APP_DEBUG=false`.
-- Las imágenes del README deben estar en la raíz del repositorio, junto al archivo `README.md`.
-
+Roles del sistema
+Rol	Funciones principales
+Administrador	Acceso completo a los módulos del sistema.
+Empleado	Consulta y gestión de información operativa.
+Cliente	Consulta de catálogo, promociones e historial de compras.
 ---
-
-## Conclusión
-
-**La Casita** es un proyecto web funcional desarrollado con Laravel y MySQL. Integra autenticación, roles, operaciones CRUD y paneles diferenciados para administrar un mini súper de manera sencilla.
-
+Cuentas de prueba
+Rol	Correo	Contraseña
+Administrador	admin@lacasita.com	123456
+Empleado	empleado@lacasita.com	123456
+Cliente	cliente@lacasita.com	123456
+---
+Capturas del sistema
+<details>
+<summary>Ver capturas</summary>
+Página de inicio
+![Página de inicio](capturas/Inicio.png)
+Catálogo
+![Catálogo de productos](capturas/CATALOGO.png)
+Promociones
+![Promociones](capturas/Oferta.png)
+Sucursales
+![Sucursales](capturas/Sucursales.png)
+Panel de administrador
+![Panel de administrador](capturas/ADMIN.png)
+Panel de empleado
+![Panel de empleado](capturas/EMPLEADO.png)
+Panel de cliente
+![Panel de cliente](capturas/CLIENTE.png)
+</details>
+---
+Estado del proyecto
+El sistema cuenta con una versión funcional en Laravel conectada a MySQL y desplegada en Railway. También se agregó una versión estática en GitHub Pages para presentar el flujo principal del sistema sin depender del servidor.
+---
+Conclusión
+La Casita integra el análisis, diseño e implementación de una base de datos relacional dentro de una aplicación web funcional. El proyecto demuestra el uso de modelos ER, EER y relacional, además de su implementación en Laravel, MySQL y Docker.
 
 ## Carniceria la Ideal 
 
