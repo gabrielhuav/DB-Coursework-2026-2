@@ -995,7 +995,7 @@ Permite administrar inventario, productos, proveedores, ventas, clientes y usuar
 | Frontend | [Repositorio Frontend](https://github.com/scynara09-hue/Scynara-Frontend) |
 | Backend | [Repositorio Backend](https://github.com/scynara09-hue/Scynara-Backend) |
 | Demo en vivo | [Ver aplicación](https://scynara-frontend.vercel.app/) |
-| Página estática | [Ver página estática](https://localstoragescynara-production.up.railway.app/) |
+| Página estática | [Ver página estática](https://saulgarcia-p.github.io/localstorage_scynara/) |
 
 ---
 
