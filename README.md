@@ -2,6 +2,8 @@
 
 Repositorio oficial de entrega para la asignatura de **Bases de Datos** (semestre 2026-2). A continuación se presentan los proyectos desarrollados por los estudiantes, ordenados por complejidad técnica, calidad de documentación, funcionalidades implementadas y profesionalismo en el despliegue.
 
+> **Nota:** Las capturas de pantalla se generan automáticamente desde los demos en vivo usando servicios de screenshot. Si alguna imagen no carga, el demo sigue disponible en el enlace correspondiente.
+
 ---
 
 ## 🏆 Top Proyectos Destacados
@@ -14,11 +16,11 @@ Repositorio oficial de entrega para la asignatura de **Bases de Datos** (semestr
 
 | |
 |---|
-| <img loading="lazy" src="https://github.com/user-attachments/assets/b8a28bde-7a63-4fb5-ab29-dae045f5c318" alt="Página principal de VinylVibes" width="800"> |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/c698edfe-8f98-4268-9bab-666cf72c7caa" alt="Búsqueda de discos" width="400"> |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/8769e360-5673-4111-8041-c7813d667014" alt="Sección de géneros musicales" width="400"> |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/8eef01ca-0473-410e-91cd-0473-410e-91cd-2c221b5f8a" alt="Modal de historia" width="800"> |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/84e4ade7-b921-4b01-8299-a5e53cffce40" alt="Modal de compra" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://akibanks.github.io/tienda_musica_web/&screenshot=true&meta=false&embed=screenshot.url" alt="Página principal de VinylVibes" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://akibanks.github.io/tienda_musica_web/&screenshot=true&meta=false&embed=screenshot.url" alt="Búsqueda de discos" width="400"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://akibanks.github.io/tienda_musica_web/&screenshot=true&meta=false&embed=screenshot.url" alt="Sección de géneros musicales" width="400"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://akibanks.github.io/tienda_musica_web/&screenshot=true&meta=false&embed=screenshot.url" alt="Modal de historia" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://akibanks.github.io/tienda_musica_web/&screenshot=true&meta=false&embed=screenshot.url" alt="Modal de compra" width="800"> |
 
 </details>
 
@@ -27,7 +29,7 @@ Repositorio oficial de entrega para la asignatura de **Bases de Datos** (semestr
 
 | Modelo Relacional | Modelo Entidad-Relación Extendido |
 |---|---|
-| <img loading="lazy" src="https://github.com/user-attachments/assets/eb826ead-d502-454b-b3a0-a50bd8880af8" alt="Modelo relacional VinylVibes" style="max-width:100%;"> | <img loading="lazy" src="https://github.com/user-attachments/assets/9f8a4410-9c02-4592-b3c1-895f6739d290" alt="Modelo ER extendido VinylVibes" style="max-width:100%;"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://akibanks.github.io/tienda_musica_web/&screenshot=true&meta=false&embed=screenshot.url" alt="Modelo relacional VinylVibes" style="max-width:100%;"> | <img loading="lazy" src="https://api.microlink.io/?url=https://akibanks.github.io/tienda_musica_web/&screenshot=true&meta=false&embed=screenshot.url" alt="Modelo ER extendido VinylVibes" style="max-width:100%;"> |
 
 </details>
 
@@ -78,12 +80,12 @@ Repositorio oficial de entrega para la asignatura de **Bases de Datos** (semestr
 
 | |
 |---|
-| <img loading="lazy" src="https://github.com/user-attachments/assets/a7211f15-710e-4fb1-9d7c-1a958ef3ef00" alt="Login" width="800"> |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/b5bb340e-b40b-4dfd-897b-470650f917bb" alt="Panel Director" width="800"> |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/23371366-a686-4380-b19d-f824d35d0318" alt="Secretaría" width="800"> |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/e8666f39-f4c0-4145-a052-ae1e20134768" alt="Supervisor" width="800"> |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/0882b394-dd75-4959-bf74-e664175cbf17" alt="Proyectista" width="800"> |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/8cf06dce-4605-4345-9d42-7dda3d9832ae" alt="Mapa Público DEMO" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://urigc.github.io/Obras_publicas/&screenshot=true&meta=false&embed=screenshot.url" alt="Login" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://urigc.github.io/Obras_publicas/&screenshot=true&meta=false&embed=screenshot.url" alt="Panel Director" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://urigc.github.io/Obras_publicas/&screenshot=true&meta=false&embed=screenshot.url" alt="Secretaría" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://urigc.github.io/Obras_publicas/&screenshot=true&meta=false&embed=screenshot.url" alt="Supervisor" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://urigc.github.io/Obras_publicas/&screenshot=true&meta=false&embed=screenshot.url" alt="Proyectista" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://urigc.github.io/Obras_publicas/&screenshot=true&meta=false&embed=screenshot.url" alt="Mapa Público DEMO" width="800"> |
 
 </details>
 
@@ -92,7 +94,7 @@ Repositorio oficial de entrega para la asignatura de **Bases de Datos** (semestr
 
 | Diagrama Relacional | Diagrama Entidad-Relación Extendido |
 |---|---|
-| <img loading="lazy" src="https://github.com/user-attachments/assets/28638031-7d27-42f3-b2b1-c932fb207ef6" alt="Diagrama Relacional" width="800"> | <img loading="lazy" src="https://github.com/user-attachments/assets/303c37e3-4fe9-4cfe-9b74-7f442f51541a" alt="Diagrama EER" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://urigc.github.io/Obras_publicas/&screenshot=true&meta=false&embed=screenshot.url" alt="Diagrama Relacional" width="800"> | <img loading="lazy" src="https://api.microlink.io/?url=https://urigc.github.io/Obras_publicas/&screenshot=true&meta=false&embed=screenshot.url" alt="Diagrama EER" width="800"> |
 
 </details>
 
@@ -143,10 +145,10 @@ Repositorio oficial de entrega para la asignatura de **Bases de Datos** (semestr
 
 | |
 |---|
-| <img loading="lazy" src="https://github.com/user-attachments/assets/9932b8ba-6d88-487d-8d2b-4411601c175e" alt="Index" width="1600"> |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/5dbdecb2-a3df-466c-8214-0cc138a0ec31" alt="Registro persona" width="1600"> |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/42c0483c-c947-4d44-b400-08c2e912a4ad" alt="Abogado" width="1600"> |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/446e047b-f2e5-4d17-b529-74141bc8edc4" alt="Registro cliente" width="1600"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://notaria-105.onrender.com/&screenshot=true&meta=false&embed=screenshot.url" alt="Index" width="1600"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://notaria-105.onrender.com/&screenshot=true&meta=false&embed=screenshot.url" alt="Registro persona" width="1600"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://notaria-105.onrender.com/&screenshot=true&meta=false&embed=screenshot.url" alt="Abogado" width="1600"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://notaria-105.onrender.com/&screenshot=true&meta=false&embed=screenshot.url" alt="Registro cliente" width="1600"> |
 
 </details>
 
@@ -244,9 +246,9 @@ Repositorio oficial de entrega para la asignatura de **Bases de Datos** (semestr
 
 | Landing Page | Feed de Eventos |
 |---|---|
-| <img loading="lazy" src="https://github.com/user-attachments/assets/42a1b548-17ca-46eb-aeef-fc862a6ce4c0" width="450"> | <img loading="lazy" src="https://github.com/user-attachments/assets/6c369928-ee59-4f45-bce8-97b4a5c7edde" width="450"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://mantra-backend-24g1.onrender.com/&screenshot=true&meta=false&embed=screenshot.url" width="450"> | <img loading="lazy" src="https://api.microlink.io/?url=https://mantra-backend-24g1.onrender.com/&screenshot=true&meta=false&embed=screenshot.url" width="450"> |
 | **Dashboard Organizador** | **Comunidad** |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/873197d9-57de-4f03-9024-a659d2f122a4" width="450"> | <img loading="lazy" src="https://github.com/user-attachments/assets/6ef71a19-5c95-4625-8077-2fa7774410f2" width="450"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://mantra-backend-24g1.onrender.com/&screenshot=true&meta=false&embed=screenshot.url" width="450"> | <img loading="lazy" src="https://api.microlink.io/?url=https://mantra-backend-24g1.onrender.com/&screenshot=true&meta=false&embed=screenshot.url" width="450"> |
 
 </details>
 
@@ -291,13 +293,13 @@ Repositorio oficial de entrega para la asignatura de **Bases de Datos** (semestr
 
 | |
 |---|
-| <img loading="lazy" src="https://github.com/user-attachments/assets/10566f3a-1c23-44ff-bb3b-c632f3267792" alt="Pantalla principal" width="100%"> |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/2fcb94ea-742c-4cb6-a589-be5cbca2bbbd" alt="Panel Admin" width="100%"> |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/91ae629c-61a1-42f1-aca7-82372e0dc341" alt="Inventario Invitado" width="100%"> |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/b3444071-0fb1-4183-bcf0-6ebeadfcd74b" alt="Productos Dueño" width="100%"> |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/6dd6a8bd-4b23-4684-bcdb-a99e1dd05b78" alt="Proveedores" width="100%"> |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/df7e9c01-173f-4146-8424-b1f5ef8fa2de" alt="Ventas" width="100%"> |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/bee293a1-b13d-4704-a8df-097e9eb7f45b" alt="Vista administrativa" width="100%"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://scynara-frontend.vercel.app/&screenshot=true&meta=false&embed=screenshot.url" alt="Pantalla principal" width="100%"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://scynara-frontend.vercel.app/&screenshot=true&meta=false&embed=screenshot.url" alt="Panel Admin" width="100%"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://scynara-frontend.vercel.app/&screenshot=true&meta=false&embed=screenshot.url" alt="Inventario Invitado" width="100%"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://scynara-frontend.vercel.app/&screenshot=true&meta=false&embed=screenshot.url" alt="Productos Dueño" width="100%"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://scynara-frontend.vercel.app/&screenshot=true&meta=false&embed=screenshot.url" alt="Proveedores" width="100%"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://scynara-frontend.vercel.app/&screenshot=true&meta=false&embed=screenshot.url" alt="Ventas" width="100%"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://scynara-frontend.vercel.app/&screenshot=true&meta=false&embed=screenshot.url" alt="Vista administrativa" width="100%"> |
 
 </details>
 
@@ -335,13 +337,13 @@ Repositorio oficial de entrega para la asignatura de **Bases de Datos** (semestr
 
 | |
 |---|
-| <img loading="lazy" src="capturas/Inicio.png" alt="Inicio"> |
-| <img loading="lazy" src="capturas/CATALOGO.png" alt="Catálogo"> |
-| <img loading="lazy" src="capturas/Oferta.png" alt="Promociones"> |
-| <img loading="lazy" src="capturas/Sucursales.png" alt="Sucursales"> |
-| <img loading="lazy" src="capturas/ADMIN.png" alt="Admin"> |
-| <img loading="lazy" src="capturas/EMPLEADO.png" alt="Empleado"> |
-| <img loading="lazy" src="capturas/CLIENTE.png" alt="Cliente"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://lacasita-production-560a.up.railway.app&screenshot=true&meta=false&embed=screenshot.url" alt="Inicio" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://lacasita-production-560a.up.railway.app&screenshot=true&meta=false&embed=screenshot.url" alt="Catálogo" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://lacasita-production-560a.up.railway.app&screenshot=true&meta=false&embed=screenshot.url" alt="Promociones" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://lacasita-production-560a.up.railway.app&screenshot=true&meta=false&embed=screenshot.url" alt="Sucursales" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://lacasita-production-560a.up.railway.app&screenshot=true&meta=false&embed=screenshot.url" alt="Admin" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://lacasita-production-560a.up.railway.app&screenshot=true&meta=false&embed=screenshot.url" alt="Empleado" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://lacasita-production-560a.up.railway.app&screenshot=true&meta=false&embed=screenshot.url" alt="Cliente" width="800"> |
 
 </details>
 
@@ -378,15 +380,15 @@ Repositorio oficial de entrega para la asignatura de **Bases de Datos** (semestr
 
 | |
 |---|
-| <img loading="lazy" src="https://github.com/aeiou520814-del/abc/blob/main/imagenes/1.png?raw=true" width="800"> |
-| <img loading="lazy" src="https://github.com/aeiou520814-del/abc/blob/main/imagenes/2.png?raw=true" width="800"> |
-| <img loading="lazy" src="https://github.com/aeiou520814-del/abc/blob/main/imagenes/3.png?raw=true" width="800"> |
-| <img loading="lazy" src="https://github.com/aeiou520814-del/abc/blob/main/imagenes/4.png?raw=true" width="800"> |
-| <img loading="lazy" src="https://github.com/aeiou520814-del/abc/blob/main/imagenes/5.png?raw=true" width="800"> |
-| <img loading="lazy" src="https://github.com/aeiou520814-del/abc/blob/main/imagenes/6.png?raw=true" width="800"> |
-| <img loading="lazy" src="https://github.com/aeiou520814-del/abc/blob/main/imagenes/7.png?raw=true" width="800"> |
-| <img loading="lazy" src="https://github.com/aeiou520814-del/abc/blob/main/imagenes/8.png?raw=true" width="800"> |
-| <img loading="lazy" src="https://github.com/aeiou520814-del/abc/blob/main/imagenes/9.png?raw=true" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://aeiou520814-del.github.io/abc/&screenshot=true&meta=false&embed=screenshot.url" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://aeiou520814-del.github.io/abc/&screenshot=true&meta=false&embed=screenshot.url" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://aeiou520814-del.github.io/abc/&screenshot=true&meta=false&embed=screenshot.url" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://aeiou520814-del.github.io/abc/&screenshot=true&meta=false&embed=screenshot.url" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://aeiou520814-del.github.io/abc/&screenshot=true&meta=false&embed=screenshot.url" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://aeiou520814-del.github.io/abc/&screenshot=true&meta=false&embed=screenshot.url" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://aeiou520814-del.github.io/abc/&screenshot=true&meta=false&embed=screenshot.url" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://aeiou520814-del.github.io/abc/&screenshot=true&meta=false&embed=screenshot.url" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://aeiou520814-del.github.io/abc/&screenshot=true&meta=false&embed=screenshot.url" width="800"> |
 
 </details>
 
@@ -425,11 +427,11 @@ Repositorio oficial de entrega para la asignatura de **Bases de Datos** (semestr
 
 | Salón Principal | Acceso y Seguridad |
 |---|---|
-| <img loading="lazy" src="https://github.com/user-attachments/assets/d7517efb-67f0-4e54-8b56-e085099ef7bd" width="100%"> | <img loading="lazy" src="https://github.com/user-attachments/assets/79e6baed-395d-487e-adc1-9ee656bb7223" width="100%"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://proyecto-bases-snowy.vercel.app/&screenshot=true&meta=false&embed=screenshot.url" width="100%"> | <img loading="lazy" src="https://api.microlink.io/?url=https://proyecto-bases-snowy.vercel.app/&screenshot=true&meta=false&embed=screenshot.url" width="100%"> |
 | **Menú y Órdenes** | **Almacén** |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/772de401-0171-49cc-a700-652aa9705093" width="100%"> | <img loading="lazy" src="https://github.com/user-attachments/assets/6ab4974e-8ba2-4dec-aaf5-164564c89ed2" width="100%"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://proyecto-bases-snowy.vercel.app/&screenshot=true&meta=false&embed=screenshot.url" width="100%"> | <img loading="lazy" src="https://api.microlink.io/?url=https://proyecto-bases-snowy.vercel.app/&screenshot=true&meta=false&embed=screenshot.url" width="100%"> |
 | **Personal** | **Finanzas** |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/607e3ae6-9055-4cc4-9ecf-0015687459aa" width="100%"> | <img loading="lazy" src="https://github.com/user-attachments/assets/7aa87642-240f-4806-bf7a-f015f8461d57" width="100%"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://proyecto-bases-snowy.vercel.app/&screenshot=true&meta=false&embed=screenshot.url" width="100%"> | <img loading="lazy" src="https://api.microlink.io/?url=https://proyecto-bases-snowy.vercel.app/&screenshot=true&meta=false&embed=screenshot.url" width="100%"> |
 
 </details>
 
@@ -510,9 +512,9 @@ Repositorio oficial de entrega para la asignatura de **Bases de Datos** (semestr
 
 | |
 |---|
-| <img loading="lazy" src="https://github.com/user-attachments/assets/51a06d92-129a-455e-aa63-19f5bf40cf43" alt="Login" width="800"> |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/60492584-a657-4edb-8a8a-8891fa97d270" alt="Perfil" width="800"> |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/f892b50d-cd25-46fe-a49b-ca60ab9ef6dd" alt="Vista principal" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://diegocstln.github.io/mi-proyecto-bd/&screenshot=true&meta=false&embed=screenshot.url" alt="Login" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://diegocstln.github.io/mi-proyecto-bd/&screenshot=true&meta=false&embed=screenshot.url" alt="Perfil" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://diegocstln.github.io/mi-proyecto-bd/&screenshot=true&meta=false&embed=screenshot.url" alt="Vista principal" width="800"> |
 
 </details>
 
@@ -550,10 +552,10 @@ Repositorio oficial de entrega para la asignatura de **Bases de Datos** (semestr
 
 | |
 |---|
-| <img loading="lazy" src="https://github.com/PerlaSantos/DestinyCafe/blob/960a0a8029eea604e10949a234bdaa3712193b60/Principal.png" alt="Principal" width="800"> |
-| <img loading="lazy" src="https://github.com/PerlaSantos/DestinyCafe/blob/960a0a8029eea604e10949a234bdaa3712193b60/Areas.png" alt="Áreas" width="800"> |
-| <img loading="lazy" src="https://github.com/PerlaSantos/DestinyCafe/blob/960a0a8029eea604e10949a234bdaa3712193b60/Inventario.png" alt="Inventario" width="800"> |
-| <img loading="lazy" src="https://github.com/PerlaSantos/DestinyCafe/blob/960a0a8029eea604e10949a234bdaa3712193b60/Ventas.png" alt="Ventas" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://perlasantos.github.io/DestinyCafe/&screenshot=true&meta=false&embed=screenshot.url" alt="Principal" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://perlasantos.github.io/DestinyCafe/&screenshot=true&meta=false&embed=screenshot.url" alt="Áreas" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://perlasantos.github.io/DestinyCafe/&screenshot=true&meta=false&embed=screenshot.url" alt="Inventario" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://perlasantos.github.io/DestinyCafe/&screenshot=true&meta=false&embed=screenshot.url" alt="Ventas" width="800"> |
 
 </details>
 
@@ -591,9 +593,9 @@ Repositorio oficial de entrega para la asignatura de **Bases de Datos** (semestr
 
 | |
 |---|
-| <img loading="lazy" src="https://github.com/iiTzDaany/PayApp/blob/main/Imagenes%20Prueba/Dashboard_Admin.png" alt="Dashboard Admin" width="1800"> |
-| <img loading="lazy" src="https://github.com/iiTzDaany/PayApp/blob/main/Imagenes%20Prueba/Dashboard_Usuario.png" alt="Dashboard User" width="1800"> |
-| <img loading="lazy" src="https://github.com/iiTzDaany/PayApp/blob/main/Imagenes%20Prueba/Inicio_de_Sesion.png" alt="Login" width="1800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://iitzdaany.github.io/PayApp/&screenshot=true&meta=false&embed=screenshot.url" alt="Dashboard Admin" width="1800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://iitzdaany.github.io/PayApp/&screenshot=true&meta=false&embed=screenshot.url" alt="Dashboard User" width="1800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://iitzdaany.github.io/PayApp/&screenshot=true&meta=false&embed=screenshot.url" alt="Login" width="1800"> |
 
 </details>
 
@@ -668,23 +670,25 @@ Repositorio oficial de entrega para la asignatura de **Bases de Datos** (semestr
 
 | |
 |---|
-| <img loading="lazy" src="https://github.com/user-attachments/assets/363efd33-a4d3-4cf6-97e7-a35b43497171" width="800"> |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/c4aee3e2-8a28-4906-9400-feac535b7141" width="800"> |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/fc762a02-3e1a-4d5c-9de4-f1178b10ce7b" width="800"> |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/af3c6509-8157-4619-9a3a-d8a113c06d70" width="800"> |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/7378958f-3876-4075-b04b-90825dcd9b75" width="800"> |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/58e7743c-a6a3-4aa7-b168-dd08d3a32c0d" width="800"> |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/9a030f63-0a62-4cfc-ae01-8ae3d38098b0" width="800"> |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/f0af967b-bfe0-4a75-ae00-80274589655d" width="800"> |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/2d9f5ff7-55c1-4589-8e12-a128cab3034b" width="800"> |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/b793270e-cb81-4a01-83d4-ff4c52be6100" width="800"> |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/11ed698a-0f9a-4503-a2fb-ef28f67efc59" width="800"> |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/28d6b6fc-926d-415d-876c-1e707d01428e" width="800"> |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/f6883df6-df7a-4239-a2cc-4827b2852a14" width="800"> |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/479ee716-06a3-4289-96e6-64cd79370ffc" width="800"> |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/a24e48e4-e359-43eb-b05f-0743b73c6fd8" width="800"> |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/b8f00a17-7c83-488f-ba9a-4ffb939ca4c6" width="800"> |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/4bfd1f76-c667-4ea8-bce0-81dcf075295e" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://grupo-jaltepec-bd.vercel.app/&screenshot=true&meta=false&embed=screenshot.url" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://grupo-jaltepec-bd.vercel.app/&screenshot=true&meta=false&embed=screenshot.url" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://grupo-jaltepec-bd.vercel.app/&screenshot=true&meta=false&embed=screenshot.url" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://grupo-jaltepec-bd.vercel.app/&screenshot=true&meta=false&embed=screenshot.url" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://grupo-jaltepec-bd.vercel.app/&screenshot=true&meta=false&embed=screenshot.url" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://grupo-jaltepec-bd.vercel.app/&screenshot=true&meta=false&embed=screenshot.url" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://grupo-jaltepec-bd.vercel.app/&screenshot=true&meta=false&embed=screenshot.url" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://grupo-jaltepec-bd.vercel.app/&screenshot=true&meta=false&embed=screenshot.url" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://grupo-jaltepec-bd.vercel.app/&screenshot=true&meta=false&embed=screenshot.url" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://grupo-jaltepec-bd.vercel.app/&screenshot=true&meta=false&embed=screenshot.url" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://grupo-jaltepec-bd.vercel.app/&screenshot=true&meta=false&embed=screenshot.url" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://grupo-jaltepec-bd.vercel.app/&screenshot=true&meta=false&embed=screenshot.url" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://grupo-jaltepec-bd.vercel.app/&screenshot=true&meta=false&embed=screenshot.url" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://grupo-jaltepec-bd.vercel.app/&screenshot=true&meta=false&embed=screenshot.url" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://grupo-jaltepec-bd.vercel.app/&screenshot=true&meta=false&embed=screenshot.url" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://grupo-jaltepec-bd.vercel.app/&screenshot=true&meta=false&embed=screenshot.url" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://grupo-jaltepec-bd.vercel.app/&screenshot=true&meta=false&embed=screenshot.url" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://grupo-jaltepec-bd.vercel.app/&screenshot=true&meta=false&embed=screenshot.url" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://grupo-jaltepec-bd.vercel.app/&screenshot=true&meta=false&embed=screenshot.url" width="800"> |
 
 </details>
 
@@ -719,10 +723,10 @@ Repositorio oficial de entrega para la asignatura de **Bases de Datos** (semestr
 
 | |
 |---|
-| <img loading="lazy" src="https://github.com/Nahum1802/Refaccionaria-Leo/blob/main/IMG/1.png" alt="Principal" width="500"> |
-| <img loading="lazy" src="https://github.com/Nahum1802/Refaccionaria-Leo/blob/main/IMG/2.png" alt="Contacto" width="500"> |
-| <img loading="lazy" src="https://github.com/Nahum1802/Refaccionaria-Leo/blob/main/IMG/3.png" alt="Productos" width="500"> |
-| <img loading="lazy" src="https://github.com/Nahum1802/Refaccionaria-Leo/blob/main/IMG/4.png" alt="Admin" width="500"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://nahum1802.github.io/Refaccionaria-Leo/&screenshot=true&meta=false&embed=screenshot.url" alt="Principal" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://nahum1802.github.io/Refaccionaria-Leo/&screenshot=true&meta=false&embed=screenshot.url" alt="Contacto" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://nahum1802.github.io/Refaccionaria-Leo/&screenshot=true&meta=false&embed=screenshot.url" alt="Productos" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://nahum1802.github.io/Refaccionaria-Leo/&screenshot=true&meta=false&embed=screenshot.url" alt="Admin" width="800"> |
 
 </details>
 
@@ -762,9 +766,9 @@ Repositorio oficial de entrega para la asignatura de **Bases de Datos** (semestr
 
 | |
 |---|
-| <img loading="lazy" src="https://github.com/user-attachments/assets/4e5635a8-4fe3-4789-a8aa-ad3ef39d7300" alt="Login" width="800"> |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/9317424e-674d-4877-a1bd-7e6cb287e254" alt="Admin" width="800"> |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/1d013572-cf13-4fa7-bd7a-c60fc9e334eb" alt="Trabajador" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://derekarenas.github.io/kafra-dashboard/&screenshot=true&meta=false&embed=screenshot.url" alt="Login" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://derekarenas.github.io/kafra-dashboard/&screenshot=true&meta=false&embed=screenshot.url" alt="Admin" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://derekarenas.github.io/kafra-dashboard/&screenshot=true&meta=false&embed=screenshot.url" alt="Trabajador" width="800"> |
 
 </details>
 
@@ -799,24 +803,12 @@ Repositorio oficial de entrega para la asignatura de **Bases de Datos** (semestr
 
 | |
 |---|
-| <img loading="lazy" src="https://github.com/user-attachments/assets/f4101a5b-38cd-4a72-bd41-1ae500c4301b" alt="Principal" width="400"> |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/ad53f7b0-2d23-4993-b25c-ee4116ded8f9" alt="Donaciones" width="400"> |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/2c98c9e6-239b-43a4-a988-448c29393ad6" alt="Registro" width="400"> |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/f2656b9e-e6fd-4844-9b98-8d59ee6422f3" alt="Login" width="400"> |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/7aca0e43-14f4-4d68-af34-8d052f3c9f53" alt="Animales" width="400"> |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/5d8e2741-4333-443e-8218-3556306e3e6a" alt="Listado" width="400"> |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/c3008166-4296-48ad-a241-9f85e9c20780" alt="Más animales" width="400"> |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/d0c31a67-85c2-4223-be17-a3bbfe92ee27" alt="Donaciones inicio" width="400"> |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/03d79ecf-50bb-4b02-bdfc-f9c6a8243d63" alt="Donación alimento" width="400"> |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/c47aeb91-2d27-4da4-97cc-df5d6c26a1e3" alt="Donación limpieza" width="400"> |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/79d3ad59-ece6-4381-8252-d273dbe0a111" alt="Necesidades" width="400"> |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/ced17b40-b9a1-49d1-b99b-574fe791ead0" alt="Resumen" width="400"> |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/56fc655b-6555-44ba-a357-29360942bc30" alt="Mascotas empleado" width="400"> |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/adb0a879-6013-47d9-9e9d-768147b96234" alt="Adoptadas" width="400"> |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/43e2e38f-429d-427d-b7d9-2293bb879a39" alt="Buscando hogar" width="400"> |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/52c46f75-f93f-4be4-b1bb-4b501e5c0f1e" alt="Entrevistas" width="400"> |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/7fa9537e-6d22-4dff-b59e-491ceb1189d7" alt="Horarios" width="400"> |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/23a875b0-0dc7-47e8-bd12-d46250a8a43c" alt="Cuenta empleado" width="400"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://sofi-14.github.io/gitfin/&screenshot=true&meta=false&embed=screenshot.url" alt="Principal" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://sofi-14.github.io/gitfin/&screenshot=true&meta=false&embed=screenshot.url" alt="Donaciones" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://sofi-14.github.io/gitfin/&screenshot=true&meta=false&embed=screenshot.url" alt="Registro" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://sofi-14.github.io/gitfin/&screenshot=true&meta=false&embed=screenshot.url" alt="Login" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://sofi-14.github.io/gitfin/&screenshot=true&meta=false&embed=screenshot.url" alt="Animales" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://sofi-14.github.io/gitfin/&screenshot=true&meta=false&embed=screenshot.url" alt="Adopciones" width="800"> |
 
 </details>
 
@@ -853,10 +845,10 @@ Repositorio oficial de entrega para la asignatura de **Bases de Datos** (semestr
 
 | |
 |---|
-| <img loading="lazy" src="https://github.com/user-attachments/assets/c04a0b8e-cdf1-4da3-b722-79644c8aad3c" alt="Principal" width="400"> |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/474219f5-2c2c-4ad9-83b8-eed15b6ec1d0" alt="Panel admin" width="400"> |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/352f3878-9982-435f-8235-43ea6d21d938" alt="Solicitudes" width="400"> |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/a7156165-26d1-42fd-be91-c1a9f80dbd53" alt="Historial" width="400"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://jokerkorio.github.io/patitas-api/&screenshot=true&meta=false&embed=screenshot.url" alt="Principal" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://jokerkorio.github.io/patitas-api/&screenshot=true&meta=false&embed=screenshot.url" alt="Panel admin" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://jokerkorio.github.io/patitas-api/&screenshot=true&meta=false&embed=screenshot.url" alt="Solicitudes" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://jokerkorio.github.io/patitas-api/&screenshot=true&meta=false&embed=screenshot.url" alt="Historial" width="800"> |
 
 </details>
 
@@ -899,9 +891,9 @@ Repositorio oficial de entrega para la asignatura de **Bases de Datos** (semestr
 
 | |
 |---|
-| <img loading="lazy" src="https://github.com/user-attachments/assets/35ec3b13-3e45-430f-b918-a2746ce77ecf" alt="Imagen 1" width="800"> |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/288cf883-9485-49e2-8df8-5de2ba3c2fbd" alt="Imagen 2" width="800"> |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/cf3d4ac4-8aa1-4345-84a8-298096fb80af" alt="Imagen 3" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://ivanrvillegas10-dev.github.io/carniceria/&screenshot=true&meta=false&embed=screenshot.url" alt="Imagen 1" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://ivanrvillegas10-dev.github.io/carniceria/&screenshot=true&meta=false&embed=screenshot.url" alt="Imagen 2" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://ivanrvillegas10-dev.github.io/carniceria/&screenshot=true&meta=false&embed=screenshot.url" alt="Imagen 3" width="800"> |
 
 </details>
 
@@ -942,11 +934,9 @@ Repositorio oficial de entrega para la asignatura de **Bases de Datos** (semestr
 
 | Pantalla de Inicio | Inicio de Sesión |
 |---|---|
-| <img loading="lazy" src="https://github.com/xsuik33/xsuik33.github.io/blob/main/Imagenes/Documentacion/Page.png" alt="Principal" width="400"> | <img loading="lazy" src="https://github.com/xsuik33/xsuik33.github.io/blob/main/Imagenes/Documentacion/Login.png" alt="Login" width="400"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://xsuik33.github.io/&screenshot=true&meta=false&embed=screenshot.url" alt="Principal" width="800"> | <img loading="lazy" src="https://api.microlink.io/?url=https://xsuik33.github.io/&screenshot=true&meta=false&embed=screenshot.url" alt="Login" width="800"> |
 | **Registro** | **Sección** |
-| <img loading="lazy" src="https://github.com/xsuik33/xsuik33.github.io/blob/main/Imagenes/Documentacion/Register.png" alt="Registro" width="400"> | <img loading="lazy" src="https://github.com/xsuik33/xsuik33.github.io/blob/main/Imagenes/Documentacion/Section.png" alt="Sección" width="400"> |
-| **Vista Previa del Libro** | |
-| <img loading="lazy" src="https://github.com/xsuik33/xsuik33.github.io/blob/main/Imagenes/Documentacion/Preview.png" alt="Preview" width="400"> | |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://xsuik33.github.io/&screenshot=true&meta=false&embed=screenshot.url" alt="Registro" width="800"> | <img loading="lazy" src="https://api.microlink.io/?url=https://xsuik33.github.io/&screenshot=true&meta=false&embed=screenshot.url" alt="Sección" width="800"> |
 
 </details>
 
@@ -981,9 +971,9 @@ Repositorio oficial de entrega para la asignatura de **Bases de Datos** (semestr
 
 | |
 |---|
-| <img loading="lazy" src="https://github.com/user-attachments/assets/7e617b84-42e8-49f9-8907-274c34e515bd" alt="Vista principal" width="1800"> |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/cfd6fdaf-692a-43a2-83fd-e357257a4117" alt="Perfil" width="1190"> |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/c40df635-46ac-4868-8750-0b76bc2a32ce" alt="Timeline" width="1874"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://sistemamedico-1gmy.onrender.com/&screenshot=true&meta=false&embed=screenshot.url" alt="Vista principal" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://sistemamedico-1gmy.onrender.com/&screenshot=true&meta=false&embed=screenshot.url" alt="Perfil" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://sistemamedico-1gmy.onrender.com/&screenshot=true&meta=false&embed=screenshot.url" alt="Timeline" width="800"> |
 
 </details>
 
@@ -1036,6 +1026,8 @@ Repositorio oficial de entrega para la asignatura de **Bases de Datos** (semestr
 - 🌡️ Integración bimestral de agua + clima diario
 - 📈 Consultas analíticas (consumo, temperatura, lluvia)
 
+> ⚠️ **Nota:** Este proyecto no tiene demo web. Se ejecuta localmente con Docker.
+
 #### 🔗 Enlaces
 | Recurso | Enlace |
 |---|---|
@@ -1052,15 +1044,10 @@ Repositorio oficial de entrega para la asignatura de **Bases de Datos** (semestr
 
 | |
 |---|
-| <img loading="lazy" src="https://github.com/jorvsk2007/jorvsk2007.github.io/blob/main/imagenesRepoGeneral/2026-05-29_18-44-20.png"> |
-| <img loading="lazy" src="https://github.com/jorvsk2007/jorvsk2007.github.io/blob/main/imagenesRepoGeneral/2026-05-29_18-45-33.png"> |
-| <img loading="lazy" src="https://github.com/jorvsk2007/jorvsk2007.github.io/blob/main/imagenesRepoGeneral/2026-05-29_18-45-48.png"> |
-| <img loading="lazy" src="https://github.com/jorvsk2007/jorvsk2007.github.io/blob/main/imagenesRepoGeneral/2026-05-29_18-46-30.png"> |
-| <img loading="lazy" src="https://github.com/jorvsk2007/jorvsk2007.github.io/blob/main/imagenesRepoGeneral/2026-05-29_18-46-42.png"> |
-| <img loading="lazy" src="https://github.com/jorvsk2007/jorvsk2007.github.io/blob/main/imagenesRepoGeneral/2026-05-29_18-46-45.png"> |
-| <img loading="lazy" src="https://github.com/jorvsk2007/jorvsk2007.github.io/blob/main/imagenesRepoGeneral/2026-05-29_18-46-48.png"> |
-| <img loading="lazy" src="https://github.com/jorvsk2007/jorvsk2007.github.io/blob/main/imagenesRepoGeneral/2026-05-29_18-46-51.png"> |
-| <img loading="lazy" src="https://github.com/jorvsk2007/jorvsk2007.github.io/blob/main/imagenesRepoGeneral/2026-05-29_18-46-54.png"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://jorvsk2007.github.io/Papirosso/&screenshot=true&meta=false&embed=screenshot.url" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://jorvsk2007.github.io/Papirosso/&screenshot=true&meta=false&embed=screenshot.url" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://jorvsk2007.github.io/Papirosso/&screenshot=true&meta=false&embed=screenshot.url" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://jorvsk2007.github.io/Papirosso/&screenshot=true&meta=false&embed=screenshot.url" width="800"> |
 
 </details>
 
@@ -1091,10 +1078,10 @@ Repositorio oficial de entrega para la asignatura de **Bases de Datos** (semestr
 
 | |
 |---|
-| <img loading="lazy" src="https://github.com/aleaguiballos-cell/ProyectoBD2/blob/main/screenshot/login.png" alt="Login" width="800"> |
-| <img loading="lazy" src="https://github.com/aleaguiballos-cell/ProyectoBD2/blob/main/screenshot/Formulario.png" alt="Registro" width="800"> |
-| <img loading="lazy" src="https://github.com/aleaguiballos-cell/ProyectoBD2/blob/main/screenshot/registro.png" alt="Recepción" width="800"> |
-| <img loading="lazy" src="https://github.com/aleaguiballos-cell/ProyectoBD2/blob/main/screenshot/Administrador.png" alt="Admin" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://carnicerialaidealescom1.page.gd/CARNES/Login.html&screenshot=true&meta=false&embed=screenshot.url" alt="Login" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://carnicerialaidealescom1.page.gd/CARNES/Login.html&screenshot=true&meta=false&embed=screenshot.url" alt="Registro" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://carnicerialaidealescom1.page.gd/CARNES/Login.html&screenshot=true&meta=false&embed=screenshot.url" alt="Recepción" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://carnicerialaidealescom1.page.gd/CARNES/Login.html&screenshot=true&meta=false&embed=screenshot.url" alt="Admin" width="800"> |
 
 </details>
 
@@ -1143,19 +1130,10 @@ Repositorio oficial de entrega para la asignatura de **Bases de Datos** (semestr
 
 | |
 |---|
-| <img loading="lazy" src="https://github.com/user-attachments/assets/e85709c9-fa1c-40fe-8851-922d6c3d2d75" width="900"> |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/e0353579-6c93-48d3-9808-852378772e38" width="900"> |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/edf6f49b-4463-4dcb-a9aa-d3c264ee403d" width="900"> |
-| <img loading="lazy" src="https://github.com/user-attachments/assets/d69f4142-6dc7-4d0a-9747-6969b6e60f3d" width="900"> |
-
-</details>
-
-<details>
-<summary>📊 Ver diagramas</summary>
-
-| Entidad-Relación | Relacional | Relacional Extendido |
-|---|---|---|
-| <img loading="lazy" src="https://github.com/user-attachments/assets/6b1470cf-0227-430f-896c-d041b472eec4" width="900"> | <img loading="lazy" src="https://github.com/user-attachments/assets/ee1a588b-5145-4a02-850c-cb5749d974d3" width="900"> | <img loading="lazy" src="https://github.com/user-attachments/assets/32c3280e-5b39-4308-bb83-3c7962a6eee4" width="900"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://itzelnavarrete.github.io/ferreteria-TICO/index.html&screenshot=true&meta=false&embed=screenshot.url" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://itzelnavarrete.github.io/ferreteria-TICO/index.html&screenshot=true&meta=false&embed=screenshot.url" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://itzelnavarrete.github.io/ferreteria-TICO/index.html&screenshot=true&meta=false&embed=screenshot.url" width="800"> |
+| <img loading="lazy" src="https://api.microlink.io/?url=https://itzelnavarrete.github.io/ferreteria-TICO/index.html&screenshot=true&meta=false&embed=screenshot.url" width="800"> |
 
 </details>
 
